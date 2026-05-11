@@ -1,0 +1,105 @@
+name: Cleanup incident screenshots
+
+on:
+  schedule:
+    # GitHub uses UTC. This runs once per hour and deletes images older than 24 hours.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Delete images older than 24 hours
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          import subprocess
+          import time
+          import urllib.parse
+          import urllib.request
+
+          target_dir = "incidents"
+          retention_seconds = 24 * 60 * 60
+          image_exts = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
+
+          now = int(time.time())
+          repo = os.environ.get("GITHUB_REPOSITORY", "")
+          branch = os.environ.get("GITHUB_REF_NAME", "main")
+          deleted = []
+
+          def last_commit_time(path):
+              try:
+                  output = subprocess.check_output(
+                      ["git", "log", "-1", "--format=%ct", "--", path],
+                      text=True,
+                  ).strip()
+                  return int(output) if output else 0
+              except Exception:
+                  return 0
+
+          if os.path.isdir(target_dir):
+              for root, _, files in os.walk(target_dir):
+                  for name in files:
+                      ext = os.path.splitext(name)[1].lower()
+                      if ext not in image_exts:
+                          continue
+
+                      path = os.path.join(root, name).replace(os.sep, "/")
+                      ts = last_commit_time(path)
+                      if ts and now - ts > retention_seconds:
+                          os.remove(path)
+                          deleted.append(path)
+
+              for root, dirs, files in os.walk(target_dir, topdown=False):
+                  if root == target_dir:
+                      continue
+                  if not dirs and not files:
+                      try:
+                          os.rmdir(root)
+                      except OSError:
+                          pass
+
+          for path in deleted:
+              if not repo:
+                  continue
+
+              encoded_path = "/".join(urllib.parse.quote(part) for part in path.split("/"))
+              purge_url = "https://purge.jsdelivr.net/gh/{0}@{1}/{2}".format(repo, branch, encoded_path)
+              try:
+                  urllib.request.urlopen(purge_url, timeout=10).read()
+                  print("Purged CDN:", purge_url)
+              except Exception as exc:
+                  print("CDN purge skipped:", purge_url, exc)
+
+          if deleted:
+              print("Deleted files:")
+              for path in deleted:
+                  print(" -", path)
+          else:
+              print("No expired incident screenshots.")
+          PY
+
+      - name: Commit cleanup
+        shell: bash
+        run: |
+          if git diff --quiet -- incidents; then
+            echo "No cleanup changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A incidents
+          git commit -m "cleanup incident screenshots older than 24 hours"
+          git push
