@@ -2,8 +2,8 @@ name: Cleanup incident screenshots
 
 on:
   schedule:
-    # GitHub uses UTC. This runs once per hour and deletes images older than 5 days.
-    - cron: "17 * * * *"
+    # GitHub uses UTC. This runs every day at 00:00 Beijing time and deletes images older than 24 hours.
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Delete images older than 5 days
+      - name: Delete images older than 24 hours
         shell: bash
         run: |
           python - <<'PY'
@@ -30,7 +30,7 @@ jobs:
           import urllib.request
 
           target_dir = "incidents"
-          retention_seconds = 5 * 24 * 60 * 60
+          retention_seconds = 24 * 60 * 60
           image_exts = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 
           now = int(time.time())
@@ -101,5 +101,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A incidents
-          git commit -m "cleanup incident screenshots older than 5 days"
+          git commit -m "cleanup incident screenshots older than 24 hours"
           git push
