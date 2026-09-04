@@ -1,0 +1,41 @@
+name: Compact repository history
+
+on:
+  schedule:
+    # GitHub uses UTC. This runs every 3 days at 00:30 Beijing time.
+    - cron: "30 16 */3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compact:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compact git history
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          branch="${GITHUB_REF_NAME:-main}"
+
+          git checkout --orphan compact-temp
+
+          git add -A
+          git commit -m "compact repository history"
+
+          git branch -D "$branch" || true
+          git branch -m "$branch"
+
+          git reflog expire --expire=now --all
+          git gc --prune=now --aggressive
+
+          git push origin "$branch" --force
