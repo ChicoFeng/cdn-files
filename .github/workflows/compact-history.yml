@@ -1,13 +1,15 @@
 name: Compact repository history
 
 on:
-  schedule:
-    # GitHub uses UTC. This runs every 3 days at 00:30 Beijing time.
-    - cron: "30 16 */3 * *"
+  # Manual only: rewriting history resets timestamps used by cleanup.
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: repository-maintenance-main
+  cancel-in-progress: false
 
 jobs:
   compact:
