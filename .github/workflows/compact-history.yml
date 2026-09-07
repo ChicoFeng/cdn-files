@@ -1,8 +1,15 @@
 name: Compact repository history
 
 on:
-  # Manual only: rewriting history resets timestamps used by cleanup.
+  schedule:
+    # Sunday 16:30 UTC = Monday 00:30 Asia/Shanghai; runs may be delayed.
+    - cron: "30 16 * * 0"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview cleanup and compaction without changing the repository"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -13,31 +20,66 @@ concurrency:
 
 jobs:
   compact:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-
+    timeout-minutes: 15
+    env:
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+
+      - name: Delete uploaded files older than 24 hours
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          import subprocess
+          import time
+
+          retention_seconds = 24 * 60 * 60
+          now = int(time.time())
+          dry_run = os.environ.get("DRY_RUN", "true").lower() == "true"
+          # Only tracked uploads; repository configuration and README are excluded.
+          paths = subprocess.check_output(
+              ["git", "ls-files", "-z", "--", "eventarchive/", "incidents/"]
+          ).decode("utf-8").split("\0")
+          expired = []
+          for path in sorted(filter(None, paths)):
+              output = subprocess.check_output(
+                  ["git", "--literal-pathspecs", "log", "-1", "--format=%ct", "--", path],
+                  text=True,
+              ).strip()
+              if not output:
+                  raise RuntimeError("Missing Git timestamp: " + path)
+              if now - int(output) > retention_seconds:
+                  expired.append(path)
+          # Complete timestamp validation before changing any files.
+          for path in expired:
+              print(("Would delete: " if dry_run else "Deleting: ") + path)
+              if not dry_run:
+                  os.unlink(path)
+          print("Expired files: {}; dry_run={}".format(len(expired), str(dry_run).lower()))
+          PY
 
       - name: Compact git history
         shell: bash
         run: |
+          set -euo pipefail
+          expected=$(git rev-parse HEAD)
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "Preview only: would replace main history after cleanup; no push."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          branch="${GITHUB_REF_NAME:-main}"
-
-          git checkout --orphan compact-temp
-
-          git add -A
-          git commit -m "compact repository history"
-
-          git branch -D "$branch" || true
-          git branch -m "$branch"
-
-          git reflog expire --expire=now --all
-          git gc --prune=now --aggressive
-
-          git push origin "$branch" --force
+          git add -u
+          tree=$(git write-tree)
+          # No parent: retain current files, but not the old commit history.
+          compact=$(git commit-tree "$tree" -m "weekly cleanup and compact repository history")
+          # Reject if any upload or other commit changed main since checkout.
+          git push --force-with-lease="refs/heads/main:$expected" origin "$compact:refs/heads/main"
+          echo "Compacted main to $compact"
