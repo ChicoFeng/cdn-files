@@ -45,10 +45,10 @@ jobs:
           dry_run = os.environ.get("DRY_RUN", "true").lower() == "true"
           # Only tracked uploads; repository configuration and README are excluded.
           paths = subprocess.check_output(
-              ["git", "ls-files", "-z", "--", "eventarchive/", "incidents/"]
+              ["git", "ls-files", "-z", "--", "eventarchive/", "incidents/", "exceptions/", "target-rank/", "overview/"]
           ).decode("utf-8").split("\0")
           expired = []
-          for path in sorted(filter(None, paths)):
+          for path in sorted(path for path in paths if path and not path.endswith("/.gitkeep")):
               output = subprocess.check_output(
                   ["git", "--literal-pathspecs", "log", "-1", "--format=%ct", "--", path],
                   text=True,
