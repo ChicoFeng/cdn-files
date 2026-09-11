@@ -1,0 +1,24 @@
+{
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-09-11T08:52:30.065296+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u8FDE\u63A5\u5F02\u5E38\uFF1A\u7089\u77F3\u6CE8\u5165\u7EC4\u4EF6\u542F\u52A8\u5931\u8D25\uFF0C\u7089\u77F3\u4FDD\u6301\u8FD0\u884C\uFF0C\u8BF7\u91CD\u542F\u7089\u77F3\u540E\u91CD\u8BD5",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
