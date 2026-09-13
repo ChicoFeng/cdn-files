@@ -1,0 +1,19 @@
+{
+  "eventName": "LIVE_BOXHOOK_ERROR",
+  "timestampUtc": "2026-09-13T06:47:15.6789725+00:00",
+  "summary": "[\u9519\u8BEF]  \u76D2\u5B50\u63A8\u8350\u8FDE\u63A5\u5931\u8D25\uFF1A\u76D2\u5B50\u8FDB\u7A0B\u4E2D\u7684\u7F51\u7EDC\u51FD\u6570\u4E0E\u5B89\u88C5\u6587\u4EF6\u4E0D\u4E00\u81F4\uFF0C\u8BF7\u91CD\u542F\u7089\u77F3\u4F20\u8BF4\u76D2\u5B50\u540E\u91CD\u8BD5",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
