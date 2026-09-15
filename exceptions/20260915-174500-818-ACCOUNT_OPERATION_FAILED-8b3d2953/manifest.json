@@ -1,0 +1,24 @@
+{
+  "eventName": "ACCOUNT_OPERATION_FAILED",
+  "timestampUtc": "2026-09-15T09:45:00.8182166+00:00",
+  "summary": "\u7B49\u5F85 Battle.net \u65B0\u8D26\u53F7\u767B\u5F55\u8D85\u65F6\uFF0C\u8D26\u53F7\u5C1A\u672A\u6355\u83B7\u3002\u5DF2\u6062\u590D\u539F Battle.net \u8D26\u53F7",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
