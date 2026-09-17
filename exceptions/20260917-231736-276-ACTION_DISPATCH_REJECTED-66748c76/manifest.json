@@ -1,0 +1,19 @@
+{
+  "eventName": "ACTION_DISPATCH_REJECTED",
+  "timestampUtc": "2026-09-17T15:17:36.2761591+00:00",
+  "summary": "[\u9519\u8BEF]  \u52A8\u4F5C\u63D0\u4EA4\u88AB\u62D2\u7EDD\uFF1A\u52A8\u4F5C\u6765\u6E90\u5DF2\u505C\u6B62",
+  "turn": 23,
+  "actionId": 613,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
