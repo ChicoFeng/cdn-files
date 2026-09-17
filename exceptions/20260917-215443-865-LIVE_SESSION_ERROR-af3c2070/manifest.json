@@ -1,0 +1,19 @@
+{
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-09-17T13:54:43.865055+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u8FDE\u63A5\u5F02\u5E38\uFF1A\u6B63\u5728\u91CD\u65B0\u8FDE\u63A5",
+  "turn": -1,
+  "actionId": 702,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
