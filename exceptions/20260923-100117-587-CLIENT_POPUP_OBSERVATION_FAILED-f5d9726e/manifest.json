@@ -1,0 +1,24 @@
+{
+  "eventName": "CLIENT_POPUP_OBSERVATION_FAILED",
+  "timestampUtc": "2026-09-23T02:01:17.5878205+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u5F39\u7A97\u68C0\u6D4B\u5931\u8D25\uFF0C\u81EA\u52A8\u64CD\u4F5C\u5DF2\u6682\u505C",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
