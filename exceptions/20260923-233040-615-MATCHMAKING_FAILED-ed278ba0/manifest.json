@@ -1,0 +1,19 @@
+{
+  "eventName": "MATCHMAKING_FAILED",
+  "timestampUtc": "2026-09-23T15:30:40.6158963+00:00",
+  "summary": "[\u9519\u8BEF]  \u5339\u914D\u5931\u8D25\uFF1A\u7089\u77F3\u5339\u914D\u8FD4\u56DE\u5931\u8D25\u72B6\u6001\uFF1ACLIENT_CANCELED",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
