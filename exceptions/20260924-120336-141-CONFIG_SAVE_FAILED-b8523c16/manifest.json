@@ -1,0 +1,24 @@
+{
+  "eventName": "CONFIG_SAVE_FAILED",
+  "timestampUtc": "2026-09-24T04:03:36.1416267+00:00",
+  "summary": "\u914D\u7F6E\u4FDD\u5B58\u5931\u8D25\uFF0C\u539F\u914D\u7F6E\u4FDD\u7559\u3002",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
