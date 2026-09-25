@@ -1,0 +1,24 @@
+{
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-09-25T07:49:11.402462+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u8FDE\u63A5\u5F02\u5E38\uFF1A\u6B63\u5728\u91CD\u65B0\u8FDE\u63A5",
+  "turn": -1,
+  "actionId": 940,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "AggregateException: One or more errors occurred. (\u622A\u56FE\u6240\u5C5E\u7089\u77F3\u8FDE\u63A5\u5DF2\u53D8\u5316\u3002) (manual_dispatch_rejected)"
+    },
+    {
+      "name": "box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
