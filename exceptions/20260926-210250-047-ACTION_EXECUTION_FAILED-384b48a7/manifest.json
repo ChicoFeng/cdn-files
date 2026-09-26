@@ -1,0 +1,19 @@
+{
+  "eventName": "ACTION_EXECUTION_FAILED",
+  "timestampUtc": "2026-09-26T13:02:50.0474109+00:00",
+  "summary": "[\u5931\u8D25]  \u653B\u51FB [3]\u751F\u547D\u7684\u7F1A\u8A93\u8005\u827E\u6B27\u5A1C\u5C14 \u27A3 [\u82F1\u96C4]\u661F\u754C\u96EA\u6012 \u2718 \u539F\u56E0=\u7089\u77F3\u539F\u751F\u64CD\u4F5C\u672A\u5B8C\u6210\uFF0C\u672C\u6B21\u64CD\u4F5C\u5DF2\u505C\u6B62",
+  "turn": 15,
+  "actionId": 1875,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
