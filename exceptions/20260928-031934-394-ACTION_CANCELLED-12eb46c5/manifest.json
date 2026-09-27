@@ -1,0 +1,24 @@
+{
+  "eventName": "ACTION_CANCELLED",
+  "timestampUtc": "2026-09-27T19:19:34.394497+00:00",
+  "summary": "[\u8B66\u544A]  \u52A8\u4F5C\u5DF2\u53D6\u6D88\uFF1A\u8FDE\u63A5\u4E2D\u65AD\uFF0C\u65E0\u6CD5\u786E\u8BA4\u52A8\u4F5C\u7ED3\u679C",
+  "turn": 11,
+  "actionId": 92,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}

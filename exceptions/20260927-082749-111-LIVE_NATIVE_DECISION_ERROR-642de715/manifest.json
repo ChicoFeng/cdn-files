@@ -1,0 +1,24 @@
+{
+  "eventName": "LIVE_NATIVE_DECISION_ERROR",
+  "timestampUtc": "2026-09-27T00:27:49.1114438+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\uFF1A\u539F\u751F\u6570\u636E\u91C7\u96C6\u5F02\u5E38\uFF08\uFF09\uFF1Anative_copy_failed:InvalidOperationException:native_copy_limit",
+  "turn": 31,
+  "actionId": 90,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "AggregateException: One or more errors occurred. (manual_command_busy) (native_screenshot_owner_rejected)"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
