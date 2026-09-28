@@ -1,0 +1,24 @@
+{
+  "eventName": "LIVE_DIRECT_STATUS",
+  "timestampUtc": "2026-09-28T15:44:53.1781705+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u8BF7\u6C42\u672A\u53D1\u9001\uFF1A\u8BF7\u6C42\u6570\u636E\u6821\u9A8C\u5931\u8D25\uFF08required_group_missing:opp_hero\uFF09",
+  "turn": 14,
+  "actionId": 1109,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
