@@ -1,0 +1,13 @@
+capturedAtUtc=2026-09-30T09:10:15.2382036+00:00
+eventName=ACCOUNT_OPERATION_FAILED
+summary=当前 Battle.net 登录身份与所选账号不一致，未更新登录状态
+technicalDetail=account_mismatch
+turn=-1
+actionId=0
+--- launcher log tail ---
+[2026-09-30 17:09:22.113] #000001 INFO DRAG_TIMING_CONFIG_LOADED message="[17:09:22]  [功能]  已读取保存的设置"
+[2026-09-30 17:09:22.120] #000002 INFO RANDOM_INTERACTION_CONFIG_LOADED message="[17:09:22]  [功能]  已读取保存的随机交互设置"
+[2026-09-30 17:09:22.504] #000003 INFO HOST_STARTING message="[17:09:22]  [系统]  后台服务已启动，正在等待炉石"
+[2026-09-30 17:09:22.530] #000004 INFO CONTEXT session="2180875d-a80d-4e2d-918b-c11e0a067c01" gameEpoch="58934c3d-4ffa-4498-b3ea-791b74bc8b0b"
+[2026-09-30 17:09:22.530] #000005 INFO LIVE_SUPERVISOR_START state={"session":"Starting>WaitingForComponents"} data={"phase":"WaitingForGame","automationEnabled":false,"automationEpoch":"ec585c6b-57e4-463c-aa44-e6a0eb0ba5fc","recommendationSource":"direct"}
+[2026-09-30 17:09:22.553] #000006 INFO LIVE_SUPERVISOR_WAITING message="[系统]  正在等待炉石启动" data={"reason":"automation_disabled"}
