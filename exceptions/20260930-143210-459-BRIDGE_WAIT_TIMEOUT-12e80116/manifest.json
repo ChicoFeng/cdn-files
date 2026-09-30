@@ -1,0 +1,24 @@
+{
+  "eventName": "BRIDGE_WAIT_TIMEOUT",
+  "timestampUtc": "2026-09-30T06:32:10.4590434+00:00",
+  "summary": "[\u8B66\u544A]  \u5DF2\u7B49\u5F85\u7089\u77F3\u8FDE\u63A5 15 \u79D2\uFF0C\u8BF7\u786E\u8BA4\u6E38\u620F\u5DF2\u542F\u52A8\u5E76\u5B8C\u6210\u8F7D\u5165",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "AggregateException: One or more errors occurred. (\u7089\u77F3\u8FDE\u63A5\u5C1A\u672A\u5C31\u7EEA\u6216\u6B63\u5728\u542F\u505C\u3002) (\u7089\u77F3\u8FDE\u63A5\u5C1A\u672A\u5C31\u7EEA\u6216\u6B63\u5728\u542F\u505C\u3002)"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
