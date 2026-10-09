@@ -1,0 +1,71 @@
+capturedAtUtc=2026-10-09T04:44:42.4596564+00:00
+eventName=LIVE_SESSION_ERROR
+summary=[错误]  炉石连接异常：炉石注入组件启动失败，炉石保持运行，请重启炉石后重试
+technicalDetail=System.AggregateException: Bridge attach failed and cleanup did not complete. (Bridge Start failed: HSLaunchBootstrapStartBridgeW returned Win32 status 5023; parameter memory released=True.; startupDiagnostic=D:\HearthPilot\Logs\Bootstrap\startup-9c5fe69aac1d4b95837c3a9ca5ad2a15-672adc872cbe479189e08cab272eb0e0-40384-b8d3baa0942d45e1b2cd79916bd885cc.json; nativeStatus={
+  "schemaVersion": 1,
+  "component": "HSLaunch.NativeBootstrap",
+  "state": "Faulted",
+  "processId": 40384,
+  "workerThreadId": 0,
+  "lastCallThreadId": 42112,
+  "win32Error": 5023,
+  "monoModulePresent": true,
+  "threadAttached": false,
+  "threadDetached": false,
+  "rootDomain": "0x0",
+  "currentDomainBeforeAttach": "0x0",
+  "currentDomainAfterAttach": "0x0",
+  "attachedThread": "0x0",
+  "runtimeBuildInfo": "",
+  "bridgeStarted": false,
+  "unityProbeRequested": false,
+  "bridgePath": "D:\\HearthPilot\\src\\HearthstoneBridge\\bin\\Release\\net472\\HearthstoneBridge.V15.dll",
+  "bridgeResult": "",
+  "lastError": "mono_get_root_domain returned null."
+}
+) (bridge_stop_failed: HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True.)
+ ---> System.InvalidOperationException: Bridge Start failed: HSLaunchBootstrapStartBridgeW returned Win32 status 5023; parameter memory released=True.; startupDiagnostic=D:\HearthPilot\Logs\Bootstrap\startup-9c5fe69aac1d4b95837c3a9ca5ad2a15-672adc872cbe479189e08cab272eb0e0-40384-b8d3baa0942d45e1b2cd79916bd885cc.json; nativeStatus={
+  "schemaVersion": 1,
+  "component": "HSLaunch.NativeBootstrap",
+  "state": "Faulted",
+  "processId": 40384,
+  "workerThreadId": 0,
+  "lastCallThreadId": 42112,
+  "win32Error": 5023,
+  "monoModulePresent": true,
+  "threadAttached": false,
+  "threadDetached": false,
+  "rootDomain": "0x0",
+  "currentDomainBeforeAttach": "0x0",
+  "currentDomainAfterAttach": "0x0",
+  "attachedThread": "0x0",
+  "runtimeBuildInfo": "",
+  "bridgeStarted": false,
+  "unityProbeRequested": false,
+  "bridgePath": "D:\\HearthPilot\\src\\HearthstoneBridge\\bin\\Release\\net472\\HearthstoneBridge.V15.dll",
+  "bridgeResult": "",
+  "lastError": "mono_get_root_domain returned null."
+}
+
+   at HSLaunch.Mvp.BridgeStartupDiagnostics.Start(Func`3 invoke, Int32 processId, String bridgePath, String configurationDirectory, Guid sessionId, Guid gameEpoch)
+   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func`2 cleanupEventSink)
+   --- End of inner exception stack trace ---
+   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func`2 cleanupEventSink)
+   at HSLaunch.Mvp.Program.RunLiveSupervisorAsync(MvpConfiguration config, Boolean autoExecute, Boolean stdinControl, TextReader controlInput, CancellationToken cancellation, Action`1 deferredCleanupObserver, Func`2 cleanupEventSink, Func`1 findGame)
+ ---> (Inner Exception #1) System.InvalidOperationException: bridge_stop_failed: HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True.<---
+
+turn=-1
+actionId=0
+--- launcher log tail ---
+[2026-10-09 12:44:41.652] #000001 INFO DRAG_TIMING_CONFIG_LOADED message="[12:44:41]  [功能]  已读取保存的设置"
+[2026-10-09 12:44:41.659] #000002 INFO RANDOM_INTERACTION_CONFIG_LOADED message="[12:44:41]  [功能]  已读取保存的随机交互设置"
+[2026-10-09 12:44:42.032] #000003 INFO HOST_STARTING message="[12:44:42]  [系统]  后台服务已启动，正在等待炉石"
+[2026-10-09 12:44:42.047] #000004 INFO CONTEXT session="9c5fe69a-ac1d-4b95-837c-3a9ca5ad2a15" gameEpoch="88d752c2-df8b-4848-a501-9ec6d2504d9b"
+[2026-10-09 12:44:42.047] #000005 INFO LIVE_SUPERVISOR_START state={"session":"Starting>WaitingForComponents"} data={"phase":"WaitingForGame","automationEnabled":false,"automationEpoch":"95e2bd7c-49ac-4ffb-b5f3-e2a1b6d881ca","recommendationSource":"direct"}
+[2026-10-09 12:44:42.064] #000006 INFO CONTEXT pid=40384 session="9c5fe69a-ac1d-4b95-837c-3a9ca5ad2a15" gameEpoch="672adc87-2cbe-4791-89e0-8cab272eb0e0"
+[2026-10-09 12:44:42.064] #000007 INFO LIVE_GAME_FOUND pid=40384 state={"hearthstone":"Disconnected>Connected","bridge":"Disconnected>Starting"} message="[系统]  已检测到炉石，正在连接" data={"phase":"Injecting","gameEpoch":"672adc87-2cbe-4791-89e0-8cab272eb0e0"}
+[2026-10-09 12:44:42.258] #000008 ERROR LIVE_SESSION_ERROR pid=40384 state={"session":"WaitingForComponents>Error"} message="[错误]  炉石连接异常：炉石注入组件启动失败，炉石保持运行，请重启炉石后重试" data={"kind":"ComponentFault","component":"attachment","code":null,"normal":false,"detail":"System.AggregateException: Bridge attach failed and cleanup did not complete. (Bridge Start failed: HSLaunchBootstrapStartBridgeW returned Win32 status 5023; parameter memory released=True.; startupDiagnostic=D:\\HearthPilot\\Logs\\Bootstrap\\startup-9c5fe69aac1d4b95837c3a9ca5ad2a15-672adc872cbe479189e08cab272eb0e0-40384-b8d3baa0942d45e1b2cd79916bd885cc.json; nativeStatus={\n  \"schemaVersion\": 1,\n  \"component\": \"HSLaunch.NativeBootstrap\",\n  \"state\": \"Faulted\",\n  \"processId\": 40384,\n  \"workerThreadId\": 0,\n  \"lastCallThreadId\": 42112,\n  \"win32Error\": 5023,\n  \"monoModulePresent\": true,\n  \"threadAttached\": false,\n  \"threadDetached\": false,\n  \"rootDomain\": \"0x0\",\n  \"currentDomainBeforeAttach\": \"0x0\",\n  \"currentDomainAfterAttach\": \"0x0\",\n  \"attachedThread\": \"0x0\",\n  \"runtimeBuildInfo\": \"\",\n  \"bridgeStarted\": false,\n  \"unityProbeRequested\": false,\n  \"bridgePath\": \"D:\\\\HearthPilot\\\\src\\\\HearthstoneBridge\\\\bin\\\\Release\\\\net472\\\\HearthstoneBridge.V15.dll\",\n  \"bridgeResult\": \"\",\n  \"lastError\": \"mono_get_root_domain returned null.\"\n}\n) (bridge_stop_failed: HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True.)\r\n ---> System.InvalidOperationException: Bridge Start failed: HSLaunchBootstrapStartBridgeW returned Win32 status 5023; parameter memory released=True.; startupDiagnostic=D:\\HearthPilot\\Logs\\Bootstrap\\startup-9c5fe69aac1d4b95837c3a9ca5ad2a15-672adc872cbe479189e08cab272eb0e0-40384-b8d3baa0942d45e1b2cd79916bd885cc.json; nativeStatus={\n  \"schemaVersion\": 1,\n  \"component\": \"HSLaunch.NativeBootstrap\",\n  \"state\": \"Faulted\",\n  \"processId\": 40384,\n  \"workerThreadId\": 0,\n  \"lastCallThreadId\": 42112,\n  \"win32Error\": 5023,\n  \"monoModulePresent\": true,\n  \"threadAttached\": false,\n  \"threadDetached\": false,\n  \"rootDomain\": \"0x0\",\n  \"currentDomainBeforeAttach\": \"0x0\",\n  \"currentDomainAfterAttach\": \"0x0\",\n  \"attachedThread\": \"0x0\",\n  \"runtimeBuildInfo\": \"\",\n  \"bridgeStarted\": false,\n  \"unityProbeRequested\": false,\n  \"bridgePath\": \"D:\\\\HearthPilot\\\\src\\\\HearthstoneBridge\\\\bin\\\\Release\\\\net472\\\\HearthstoneBridge.V15.dll\",\n  \"bridgeResult\": \"\",\n  \"lastError\": \"mono_get_root_domain returned null.\"\n}\n\r\n   at HSLaunch.Mvp.BridgeStartupDiagnostics.Start(Func`3 invoke, Int32 processId, String bridgePath, String configurationDirectory, Guid sessionId, Guid gameEpoch)\r\n   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func`2 cleanupEventSink)\r\n   --- End of inner exception stack trace ---\r\n   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func`2 cleanupEventSink)\r\n   at HSLaunch.Mvp.Program.RunLiveSupervisorAsync(MvpConfiguration config, Boolean autoExecute, Boolean stdinControl, TextReader controlInput, CancellationToken cancellation, Action`1 deferredCleanupObserver, Func`2 cleanupEventSink, Func`1 findGame)\r\n ---> (Inner Exception #1) System.InvalidOperationException: bridge_stop_failed: HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True.<---\r\n"}
+[2026-10-09 12:44:42.259] #000009 INFO CONTEXT pid=40384 session="9c5fe69a-ac1d-4b95-837c-3a9ca5ad2a15" gameEpoch="8729ff99-70c7-4754-a3f7-4124539f0f83"
+[2026-10-09 12:44:42.259] #000010 INFO LIVE_GAME_RECOVERY pid=40384 message="炉石连接失败，已保留炉石；请重启炉石后重试" data={"phase":"process_preserved","pid":40384,"recovery":"awaiting_process_restart","detail":"Hearthstone connection failed; the game process remains running and must be restarted before another attachment."}
+[2026-10-09 12:44:42.260] #000011 WARN LIVE_GAME_LOST pid=40384 state={"session":"Error>WaitingForComponents","hearthstone":"Connected>Disconnected","bridge":"Starting>Disconnected"} message="[警告]  炉石连接已断开，正在自动重连" data={"component":"attachment","code":"","detail":"System.AggregateException: Bridge attach failed and cleanup did not complete. (Bridge Start failed: HSLaunchBootstrapStartBridgeW returned Win32 status 5023; parameter memory released=True.; startupDiagnostic=D:\\HearthPilot\\Logs\\Bootstrap\\startup-9c5fe69aac1d4b95837c3a9ca5ad2a15-672adc872cbe479189e08cab272eb0e0-40384-b8d3baa0942d45e1b2cd79916bd885cc.json; nativeStatus={\n  \"schemaVersion\": 1,\n  \"component\": \"HSLaunch.NativeBootstrap\",\n  \"state\": \"Faulted\",\n  \"processId\": 40384,\n  \"workerThreadId\": 0,\n  \"lastCallThreadId\": 42112,\n  \"win32Error\": 5023,\n  \"monoModulePresent\": true,\n  \"threadAttached\": false,\n  \"threadDetached\": false,\n  \"rootDomain\": \"0x0\",\n  \"currentDomainBeforeAttach\": \"0x0\",\n  \"currentDomainAfterAttach\": \"0x0\",\n  \"attachedThread\": \"0x0\",\n  \"runtimeBuildInfo\": \"\",\n  \"bridgeStarted\": false,\n  \"unityProbeRequested\": false,\n  \"bridgePath\": \"D:\\\\HearthPilot\\\\src\\\\HearthstoneBridge\\\\bin\\\\Release\\\\net472\\\\HearthstoneBridge.V15.dll\",\n  \"bridgeResult\": \"\",\n  \"lastError\": \"mono_get_root_domain returned null.\"\n}\n) (bridge_stop_failed: HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True.)\r\n ---> System.InvalidOperationException: Bridge Start failed: HSLaunchBootstrapStartBridgeW returned Win32 status 5023; parameter memory released=True.; startupDiagnostic=D:\\HearthPilot\\Logs\\Bootstrap\\startup-9c5fe69aac1d4b95837c3a9ca5ad2a15-672adc872cbe479189e08cab272eb0e0-40384-b8d3baa0942d45e1b2cd79916bd885cc.json; nativeStatus={\n  \"schemaVersion\": 1,\n  \"component\": \"HSLaunch.NativeBootstrap\",\n  \"state\": \"Faulted\",\n  \"processId\": 40384,\n  \"workerThreadId\": 0,\n  \"lastCallThreadId\": 42112,\n  \"win32Error\": 5023,\n  \"monoModulePresent\": true,\n  \"threadAttached\": false,\n  \"threadDetached\": false,\n  \"rootDomain\": \"0x0\",\n  \"currentDomainBeforeAttach\": \"0x0\",\n  \"currentDomainAfterAttach\": \"0x0\",\n  \"attachedThread\": \"0x0\",\n  \"runtimeBuildInfo\": \"\",\n  \"bridgeStarted\": false,\n  \"unityProbeRequested\": false,\n  \"bridgePath\": \"D:\\\\HearthPilot\\\\src\\\\HearthstoneBridge\\\\bin\\\\Release\\\\net472\\\\HearthstoneBridge.V15.dll\",\n  \"bridgeResult\": \"\",\n  \"lastError\": \"mono_get_root_domain returned null.\"\n}\n\r\n   at HSLaunch.Mvp.BridgeStartupDiagnostics.Start(Func`3 invoke, Int32 processId, String bridgePath, String configurationDirectory, Guid sessionId, Guid gameEpoch)\r\n   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func`2 cleanupEventSink)\r\n   --- End of inner exception stack trace ---\r\n   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func`2 cleanupEventSink)\r\n   at HSLaunch.Mvp.Program.RunLiveSupervisorAsync(MvpConfiguration config, Boolean autoExecute, Boolean stdinControl, TextReader controlInput, CancellationToken cancellation, Action`1 deferredCleanupObserver, Func`2 cleanupEventSink, Func`1 findGame)\r\n ---> (Inner Exception #1) System.InvalidOperationException: bridge_stop_failed: HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True.<---\r\n","recovery":"awaiting_process_restart","silent":false}
+[2026-10-09 12:44:42.261] #000012 WARN LIVE_RECONNECTING pid=40384 message="[警告]  炉石连接已断开，正在自动重连" data={"phase":"Reconnecting","component":"attachment","code":"","recovery":"awaiting_process_restart","silent":false}
