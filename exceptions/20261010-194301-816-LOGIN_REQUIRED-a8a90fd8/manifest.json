@@ -1,0 +1,24 @@
+{
+  "eventName": "LOGIN_REQUIRED",
+  "timestampUtc": "2026-10-10T11:43:01.8166216+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u767B\u5F55\u5931\u8D25\uFF0C\u5DF2\u6682\u505C\u81EA\u52A8\u6062\u590D\uFF1B\u51ED\u636E\u4FDD\u7559\uFF0C\u8BF7\u68C0\u67E5\u8FDE\u63A5\u6216\u901A\u8FC7\u6218\u7F51\u91CD\u65B0\u767B\u5F55",
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "TimeoutException: The operation has timed out."
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": ""
+    }
+  ]
+}
