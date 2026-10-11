@@ -1,0 +1,19 @@
+capturedAtUtc=2026-10-11T03:20:11.5929388+00:00
+eventName=ACCOUNT_OPERATION_FAILED
+summary=账号操作已取消
+technicalDetail=canceled
+turn=-1
+actionId=0
+--- launcher log tail ---
+[2026-10-11 11:13:15.572] #000001 INFO DRAG_TIMING_CONFIG_LOADED message="[11:13:15]  [诊断]  已读取保存的设置"
+[2026-10-11 11:13:15.581] #000002 INFO RANDOM_INTERACTION_CONFIG_LOADED message="[11:13:15]  [诊断]  已读取保存的随机交互设置"
+[2026-10-11 11:13:15.881] #000003 INFO HOST_STARTING message="[11:13:15]  [系统]  后台服务已启动，正在等待炉石"
+[2026-10-11 11:13:15.898] #000004 INFO CONTEXT session="ecabcb0a-e1df-49cf-90ae-db32d05f4fbc" gameEpoch="c3b7c345-92f7-4f25-bb42-c90ccbc61703"
+[2026-10-11 11:13:15.898] #000005 INFO LIVE_SUPERVISOR_START state={"session":"Starting>WaitingForComponents"} data={"phase":"WaitingForGame","automationEnabled":false,"automationEpoch":"1f26a3be-3be6-4244-8abd-588a76cdae2e","recommendationSource":"direct"}
+[2026-10-11 11:13:15.907] #000006 INFO LIVE_SUPERVISOR_WAITING message="[系统]  正在等待炉石启动" data={"reason":"automation_disabled"}
+[2026-10-11 11:13:19.778] #000007 INFO ACCOUNT_OPERATION_PROGRESS message="[11:13:19]  [系统]  正在准备炉石账号授权" detail="authorizing"
+[2026-10-11 11:13:47.683] #000008 ERROR ACCOUNT_OPERATION_FAILED message="[11:13:47]  [错误]  账号操作已取消" detail="canceled"
+[2026-10-11 11:13:48.773] #000009 INFO FEATURE_EXCEPTION_ARTIFACT_CAPTURED message="[11:13:48]  [功能]  异常现场已归档" detail="directory=artifacts/evidence/exceptions/20261011-111347-682-ACCOUNT_OPERATION_FAILED-48ae80b7; files=3; images=1"
+[2026-10-11 11:13:50.304] #000010 INFO ACCOUNT_OPERATION_PROGRESS message="[11:13:50]  [系统]  正在准备炉石账号授权" detail="authorizing"
+[2026-10-11 11:14:08.538] #000011 INFO FEATURE_PUSH_SENT message="[11:14:08]  [功能]  异常推送已发送" detail="ACCOUNT_OPERATION_FAILED"
+[2026-10-11 11:20:11.217] #000012 ERROR ACCOUNT_OPERATION_FAILED message="[11:20:11]  [错误]  账号操作已取消" detail="canceled"
