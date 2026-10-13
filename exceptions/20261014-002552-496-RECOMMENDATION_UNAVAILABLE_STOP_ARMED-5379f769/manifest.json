@@ -1,0 +1,25 @@
+{
+  "eventName": "RECOMMENDATION_UNAVAILABLE_STOP_ARMED",
+  "timestampUtc": "2026-10-13T16:25:52.4969027+00:00",
+  "summary": "[\u9519\u8BEF]  \u672C\u5C40\u59CB\u7EC8\u672A\u53D6\u5F97\u6709\u6548\u884C\u52A8\u63A8\u8350\uFF0C\u5C06\u5728\u7ED3\u7B97\u540E\u505C\u6B62\u81EA\u52A8\u5339\u914D",
+  "turn": 1,
+  "actionId": 2562,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
