@@ -1,0 +1,15 @@
+capturedAtUtc=2026-10-18T03:35:52.2846108+00:00
+eventName=ACCOUNT_OPERATION_FAILED
+summary=当前 Battle.net 登录身份与所选账号不一致，未更新登录状态
+technicalDetail=account_mismatch
+turn=-1
+actionId=0
+--- launcher log tail ---
+[2026-10-18 11:35:40.112] #000001 INFO DRAG_TIMING_CONFIG_LOADED message="[11:35:40]  [诊断]  已读取保存的设置"
+[2026-10-18 11:35:40.140] #000002 INFO RANDOM_INTERACTION_CONFIG_LOADED message="[11:35:40]  [诊断]  已读取保存的随机交互设置"
+[2026-10-18 11:35:40.756] #000003 INFO HOST_STARTING message="[11:35:40]  [系统]  后台服务已启动，正在等待炉石"
+[2026-10-18 11:35:40.776] #000004 INFO CONTEXT session="173cfc4a-1a56-435d-8613-3a6a2edc7a26" gameEpoch="cec672bb-3c2f-4e1b-ac51-9d2ab2d32424"
+[2026-10-18 11:35:40.776] #000005 INFO LIVE_SUPERVISOR_START state={"session":"Starting>WaitingForComponents"} data={"phase":"WaitingForGame","automationEnabled":false,"automationEpoch":"34d58da5-1d75-43ce-acf7-7bb2805f8c02","recommendationSource":"direct"}
+[2026-10-18 11:35:40.804] #000006 INFO LIVE_SUPERVISOR_WAITING message="[系统]  正在等待炉石启动" data={"reason":"automation_disabled"}
+[2026-10-18 11:35:46.207] #000007 INFO ACCOUNT_DELETED message="[11:35:46]  [成功]  账号“皮特格里芬#5818”已删除"
+[2026-10-18 11:35:52.146] #000008 ERROR ACCOUNT_OPERATION_FAILED message="[11:35:52]  [错误]  当前 Battle.net 登录身份与所选账号不一致，未更新登录状态" detail="account_mismatch"
