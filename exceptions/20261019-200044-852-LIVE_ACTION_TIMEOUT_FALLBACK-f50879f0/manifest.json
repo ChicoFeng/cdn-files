@@ -1,0 +1,20 @@
+{
+  "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+  "timestampUtc": "2026-10-19T12:00:44.852976+00:00",
+  "summary": "[\u9519\u8BEF]  \u6211\u65B9\u56DE\u5408\u8D85\u8FC710\u79D2\u672A\u54CD\u5E94\uFF0C\u81EA\u52A8\u7ED3\u675F\u56DE\u5408",
+  "turn": 23,
+  "actionId": 867,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
