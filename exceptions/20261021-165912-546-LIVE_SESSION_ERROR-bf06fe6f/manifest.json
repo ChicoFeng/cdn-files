@@ -1,0 +1,46 @@
+{
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-10-21T08:59:12.5467256+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u91CD\u8FDE\u8D85\u65F6\uFF0C\u6B63\u5728\u5173\u95ED\u5E76\u91CD\u65B0\u542F\u52A8",
+  "processId": 66992,
+  "sessionId": "9d11633d-1a69-498c-b063-e4729f70d776",
+  "gameEpoch": "1ebf3c94-d168-4df9-a052-430e0be7555d",
+  "automationEpoch": "4c0c3970-03d1-4bd8-aab5-0c1794b25b90",
+  "eventPayload": {
+    "kind": "ClientSessionFault",
+    "component": "game_session",
+    "code": "client_reconnect_timeout",
+    "normal": false,
+    "detail": "client_reconnect_timeout",
+    "sessionEvidence": {
+      "id": "dfce53a3-23b5-43d2-bffd-1d032e2e7bce",
+      "relativeDirectory": "20261021-165910-982-SESSION_FAULT-dfce53a323b543d2bffd1d032e2e7bce",
+      "processId": 66992,
+      "sessionId": "9d11633d-1a69-498c-b063-e4729f70d776",
+      "gameEpoch": "1ebf3c94-d168-4df9-a052-430e0be7555d",
+      "automationEpoch": "4c0c3970-03d1-4bd8-aab5-0c1794b25b90",
+      "faultedAtUtc": "2026-10-21T08:59:10.9829513\u002B00:00"
+    },
+    "evidenceError": null
+  },
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "before_cleanup; pid=66992; gameEpoch=1ebf3c94-d168-4df9-a052-430e0be7555d; faultedAtUtc=2026-10-21T08:59:10.9829513\u002B00:00"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
