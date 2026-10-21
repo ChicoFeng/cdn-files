@@ -1,0 +1,30 @@
+{
+  "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+  "timestampUtc": "2026-10-21T07:24:17.8827887+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF08request_timeout\uFF09\uFF0C\u6B63\u5728\u6267\u884C\u5408\u6CD5\u9636\u6BB5\u515C\u5E95",
+  "processId": 75296,
+  "sessionId": "efb183ac-0cbd-4d1d-9b7c-f1aa1643eb7e",
+  "gameEpoch": "1d7646ef-ddcf-4886-bad2-0002185a0405",
+  "automationEpoch": "3e71f115-8d77-4607-bb7b-d52262532447",
+  "eventPayload": null,
+  "turn": 10,
+  "actionId": 35,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "AggregateException: One or more errors occurred. (manual_command_busy) (native_screenshot_owner_rejected)"
+    },
+    {
+      "name": "box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
