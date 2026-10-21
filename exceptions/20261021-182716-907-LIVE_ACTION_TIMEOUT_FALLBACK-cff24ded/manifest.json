@@ -1,0 +1,30 @@
+{
+  "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+  "timestampUtc": "2026-10-21T10:27:16.9078521+00:00",
+  "summary": "[\u9519\u8BEF]  \u7559\u724C\u9636\u6BB5\u8D85\u8FC710\u79D2\u672A\u54CD\u5E94\uFF0C\u81EA\u52A8\u786E\u8BA4\u7559\u724C",
+  "processId": 77088,
+  "sessionId": "51aa84fe-61b8-4b37-a11d-0ed35527d771",
+  "gameEpoch": "cb1e1288-8e9b-442f-a9e9-5b7f34222e25",
+  "automationEpoch": "19138115-deee-4d53-923c-3d2a02f2e0b3",
+  "eventPayload": null,
+  "turn": 1,
+  "actionId": 1,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=77088"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
