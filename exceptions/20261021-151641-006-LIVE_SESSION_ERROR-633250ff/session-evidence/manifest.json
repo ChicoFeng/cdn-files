@@ -1,0 +1,29 @@
+{
+  "eventName": "SESSION_FAULT",
+  "timestampUtc": "2026-10-21T07:16:40.2179765+00:00",
+  "evidence": {
+    "id": "d5546eab-9711-4b3b-af5c-e0113c0316d8",
+    "relativeDirectory": "20261021-151640-217-SESSION_FAULT-d5546eab97114b3baf5ce0113c0316d8",
+    "processId": 78752,
+    "sessionId": "efb183ac-0cbd-4d1d-9b7c-f1aa1643eb7e",
+    "gameEpoch": "2c35906a-f4c0-4f8c-aef4-2102abeaed52",
+    "automationEpoch": "3e71f115-8d77-4607-bb7b-d52262532447",
+    "faultedAtUtc": "2026-10-21T07:16:40.2179765+00:00"
+  },
+  "termination": {
+    "kind": 3,
+    "component": "bridge",
+    "detail": "bridge_pipe_eof",
+    "code": "",
+    "isNormal": false,
+    "evidence": null,
+    "evidenceError": null
+  },
+  "snapshotMissing": false,
+  "screenshot": {
+    "outcome": "native_channel_unavailable",
+    "detail": "BridgeDisconnected: bridge_pipe_eof",
+    "captured": false
+  },
+  "logs": "client-logs.json"
+}
