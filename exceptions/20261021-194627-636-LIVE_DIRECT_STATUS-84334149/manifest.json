@@ -1,0 +1,52 @@
+{
+  "eventName": "LIVE_DIRECT_STATUS",
+  "timestampUtc": "2026-10-21T11:46:27.6364285+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u8BF7\u6C42\u8D85\u65F6\uFF08request_timeout\uFF09",
+  "processId": 27052,
+  "sessionId": "708f289f-3d92-41ba-b6e4-815248419421",
+  "gameEpoch": "04f6def2-8105-4da8-a8e3-0903b0355170",
+  "automationEpoch": "2e6a2000-4753-48b1-8c86-ea9ed4685e86",
+  "eventPayload": {
+    "context": {
+      "captureId": "e77f66be-69cf-4409-aa15-77ba3bc730af",
+      "gameIdentity": "746fc576-cd3a-4e15-b999-4e7bc694340d",
+      "decisionKey": "FCB11DBB45AF6E367621A76E05381E8D647D5A1199B1DB603C2B934AD1FE689B",
+      "historyWatermark": 62,
+      "sessionGeneration": 1
+    },
+    "decisionOrigin": "service",
+    "requestStage": "PostStarted",
+    "networkSuccess": false,
+    "businessSuccess": false,
+    "structureSuccess": false,
+    "sceneBindingSuccess": false,
+    "actionsSupported": false,
+    "actionCount": 0,
+    "recommendationActionCount": 0,
+    "payloadFailureDetail": "transportError=5; httpStatus=unavailable; coreError=AI\u8BA1\u7B97\u5F02\u5E38\uFF0C\u6682\u65E0\u53EF\u7528\u63A8\u8350\u3002error:-1",
+    "unsupportedMechanisms": [],
+    "serviceMessage": null,
+    "automationEpoch": "2e6a2000-4753-48b1-8c86-ea9ed4685e86",
+    "executionAuthorized": false
+  },
+  "turn": 11,
+  "actionId": 14,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=27052"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
