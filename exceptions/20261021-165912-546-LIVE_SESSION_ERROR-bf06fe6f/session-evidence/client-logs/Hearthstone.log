@@ -1,0 +1,124 @@
+I 16:57:50.7257216 Application paused: False
+I 16:57:52.7664505 Current working dir=D:\Battle.net\Hearthstone
+I 16:57:52.7664505 SetLocale: zhCN
+I 16:57:52.7664505 [Jobs Fallback logger]: [JobQueue.QueueJob] Job (DeeplinkService.PostFullLoginJobs(ID:1)) QUEUED
+I 16:57:52.7664505 [Jobs Fallback logger]: [JobQueue.QueueJob] Dependency (WaitForFullLoginFlowComplete) added for queued job (DeeplinkService.PostFullLoginJobs(ID:1))
+I 16:57:52.7664505 Command Line: -launch -uid hs_beta
+W 16:57:52.7664505 UberText LoadCachedData() failed: The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+I 16:57:53.8377914 Main thread: True
+I 16:57:53.8377914 System Info:
+I 16:57:53.8377914 SystemInfo - Device Name: DESKTOP-TAC9UTB
+I 16:57:53.8377914 SystemInfo - Device Model: JIGUANG Series (MECHREVO)
+I 16:57:53.8377914 SystemInfo - OS: Windows 11  (10.0.26200)
+I 16:57:53.8377914 SystemInfo - CPU Type: 13th Gen Intel(R) Core(TM) i7-13700HX
+I 16:57:53.8377914 SystemInfo - CPU Cores: 24
+I 16:57:53.8377914 SystemInfo - System Memory: 16095
+I 16:57:53.8377914 SystemInfo - Screen Resolution: 2560x1600
+I 16:57:53.8377914 SystemInfo - Screen DPI: 144
+I 16:57:53.8377914 SystemInfo - GPU ID: 11545
+I 16:57:53.8377914 SystemInfo - GPU Name: NVIDIA GeForce RTX 5060 Laptop GPU
+I 16:57:53.8377914 SystemInfo - GPU Vendor: NVIDIA
+I 16:57:53.8377914 SystemInfo - GPU Memory: 7899
+I 16:57:53.8377914 SystemInfo - GPU Shader Level: 50
+I 16:57:53.8377914 SystemInfo - GPU NPOT Support: Full
+I 16:57:53.8377914 SystemInfo - Graphics API (version): Direct3D 11.0 [level 11.1]
+I 16:57:53.8377914 SystemInfo - Graphics API (type): Direct3D11
+I 16:57:53.8377914 SystemInfo - Graphics Supported Render Target Count: 8
+I 16:57:53.8377914 SystemInfo - Graphics Supports 3D Textures: True
+I 16:57:53.8377914 SystemInfo - Graphics Supports Compute Shaders: True
+I 16:57:53.8377914 SystemInfo - Graphics Supports Shadows: True
+I 16:57:53.8377914 SystemInfo - Graphics Supports Sparse Textures: True
+I 16:57:53.8377914 SystemInfo - Graphics RenderTextureFormat.ARGBHalf: True
+I 16:57:53.8377914 SystemInfo - Graphics Metal Support: False
+I 16:57:54.0795950 [Downloader] *** Loading DBF
+I 16:57:54.6109441 [Startup] Startup stage Start
+E 16:57:54.7746837 BLACK_MARKET_ITEM_REFRESH_EVENT DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 16:57:54.7746837 BLACK_MARKET_ITEM_REFRESH_EVENT_POOL DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 16:57:54.7746837 BLACK_MARKET_LIVE_MESSAGE DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 16:57:55.9667742 GAME_SAVE_SUBKEY DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 16:57:55.9677740 GLOBAL DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 16:57:56.1205419 STAT_VALIDATORS DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+I 16:57:56.3741989 *** BattleNet version: Product = 37.0.0.0, Data = 37002
+I 16:57:56.5597372 [Login] Beginning processing login challenges
+I 16:57:56.5597372 [Startup] Startup stage ConnectingToBattlenet
+I 16:57:56.5597372 CPU Benchmark Result (Average Frame Time): 126ms
+I 16:57:56.6716975 GPU Benchmark Result (Average Frame Time): 32ms
+I 16:57:58.0929926 [Login] We are now logged in, stopping processing challenges
+I 16:57:58.0929926 Region: CN
+I 16:57:58.0929926 Braze is supported  for this build: False
+I 16:57:58.0929926 [Startup] Startup stage ConnectingToHearthstone
+W 16:58:00.2197401 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 16:58:00.2197401 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 16:58:02.4201849 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 16:58:02.4201849 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 16:58:02.4201849 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 16:58:02.4201849 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+I 16:58:02.4201849 [Startup] Startup stage LaunchGame
+I 16:58:02.4201849 RegisterScreenBox tempGuardianVars=NetCache+NetCacheFeatures
+I 16:58:02.6197901 [Spj] JournalButton: Created and bound journal metadata to the button widget.
+I 16:58:06.2428052 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 16:58:06.2428052 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:06.2428052 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:06.2428052 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:06.2428052 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:06.2428052 Hiding notification HelpTooltip_Tutorial because something else is being shown.
+I 16:58:13.1065062 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:58:13.1065062 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:13.1065062 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:13.1065062 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:13.1065062 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:13.1065062 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:58:13.1065062 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:58:19.8117080 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:58:19.8117080 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:19.8117080 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:19.8117080 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:19.8117080 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:19.8117080 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:58:19.8117080 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:58:26.5389322 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:58:26.5389322 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:26.5389322 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:26.5389322 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:26.5389322 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:26.5389322 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:58:26.5389322 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:58:33.2706868 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:58:33.2706868 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:33.2706868 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:33.2706868 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:33.2706868 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:33.2706868 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:58:33.2706868 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:58:39.9589038 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:58:39.9589038 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:39.9589038 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:39.9589038 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:39.9589038 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:39.9589038 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:58:39.9589038 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:58:46.6679379 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:58:46.6679379 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:46.6679379 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:46.6679379 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:46.6679379 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:46.6679379 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:58:46.6679379 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:58:53.3803872 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:58:53.3803872 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:58:53.3803872 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:58:53.3803872 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:58:53.3803872 TcpConnection - possible ip address: 121.40.182.168
+I 16:58:53.3803872 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:58:53.3803872 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:59:00.1219142 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: SERVER_GAME_CONNECTING
+I 16:59:00.1219142 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: CLIENT_STARTED
+I 16:59:00.1219142 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 16:59:00.1219142 [GameNetLogger] Network.GotoGameServe() - address= 121.40.182.168:1119, game=3566, client=139231576, spectateKey= reconnecting=True
+I 16:59:00.1219142 TcpConnection - possible ip address: 121.40.182.168
+I 16:59:00.1219142 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_RPC_INVALID_ADDRESS
+I 16:59:00.1219142 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: HostNotFound, Message: Could not connect to any of the provided addresses. Addresses count = 1, Last connect attempt:
+I 16:59:04.7046761 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 16:59:04.7046761 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 16:59:04.7046761 [GameNetLogger] Network.SendGameServerHandshake()
