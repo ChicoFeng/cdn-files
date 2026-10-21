@@ -1,0 +1,47 @@
+{
+  "eventName": "LIVE_DIRECT_STATUS",
+  "timestampUtc": "2026-10-21T13:52:21.7344663+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u65E0\u6CD5\u751F\u6210\u6709\u6548\u52A8\u4F5C\uFF08traditional_recommendation_rejected\uFF09",
+  "processId": 54728,
+  "sessionId": "64697c35-e1f3-4d25-bc11-b95f6c64e627",
+  "gameEpoch": "21a22472-8066-4613-82d4-83c2cc0e6189",
+  "automationEpoch": "0231cc4d-f547-44d6-8ffa-9a643b6f2123",
+  "eventPayload": {
+    "context": {
+      "captureId": "4fe3cc04-19f5-4bd9-aa6c-59f3e89ad7cd",
+      "gameIdentity": "3c270ec7-a80e-4307-aac9-45a3e3c8c1da",
+      "decisionKey": "8D48DD3E07C92F4554DD19DAE505016900BA2AFEFB74CED66216118EAEA305EC",
+      "historyWatermark": 13,
+      "sessionGeneration": 1
+    },
+    "decisionOrigin": "service",
+    "requestStage": "PostStarted",
+    "networkSuccess": false,
+    "businessSuccess": false,
+    "structureSuccess": false,
+    "sceneBindingSuccess": false,
+    "actionsSupported": false,
+    "actionCount": 0,
+    "recommendationActionCount": 0,
+    "payloadFailureDetail": "AI\u8BA1\u7B97\u5F02\u5E38\uFF0C\u6682\u65E0\u53EF\u7528\u63A8\u8350\u3002error:-1",
+    "unsupportedMechanisms": [],
+    "serviceMessage": null,
+    "automationEpoch": "0231cc4d-f547-44d6-8ffa-9a643b6f2123",
+    "executionAuthorized": false
+  },
+  "turn": 2,
+  "actionId": 2,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
