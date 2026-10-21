@@ -1,0 +1,29 @@
+{
+  "eventName": "MATCHMAKING_FAILED",
+  "timestampUtc": "2026-10-21T23:25:45.036535+00:00",
+  "summary": "[\u9519\u8BEF]  \u5339\u914D\u5931\u8D25\uFF1A\u7089\u77F3\u5339\u914D\u8FD4\u56DE\u5931\u8D25\u72B6\u6001\uFF1ABNET_QUEUE_CANCELED",
+  "technicalDetail": "\u7089\u77F3\u5339\u914D\u8FD4\u56DE\u5931\u8D25\u72B6\u6001\uFF1ABNET_QUEUE_CANCELED",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 61376,
+  "sessionId": "60e50b6b-2008-4b89-a344-8eec0ff45b74",
+  "gameEpoch": "038fcdcf-7ffd-428b-b6ec-38cf9c965931",
+  "automationEpoch": "918667fd-bc3b-4d80-bd02-6e6c8523dd30",
+  "eventPayload": null,
+  "turn": -1,
+  "actionId": 3162,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
