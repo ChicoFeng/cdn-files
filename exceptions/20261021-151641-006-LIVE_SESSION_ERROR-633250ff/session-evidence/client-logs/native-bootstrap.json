@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "component": "HSLaunch.NativeBootstrap",
+  "state": "Faulted",
+  "processId": 78752,
+  "workerThreadId": 0,
+  "lastCallThreadId": 4760,
+  "win32Error": 1114,
+  "monoModulePresent": true,
+  "threadAttached": true,
+  "threadDetached": true,
+  "rootDomain": "0x2C2055F2D20",
+  "currentDomainBeforeAttach": "0x0",
+  "currentDomainAfterAttach": "0x2C2055F2D20",
+  "attachedThread": "0x2C39B0ADD20",
+  "runtimeBuildInfo": "6.13.0 (Visual Studio built mono)",
+  "bridgeStarted": true,
+  "unityProbeRequested": true,
+  "bridgePath": "D:\\HearthPilot\\src\\Bridge\\bin\\Release\\net472\\HearthstoneBridge.V15.dll",
+  "bridgeResult": "{\"state\":\"Active\",\"bridgeIdentity\":\"HearthstoneBridge.V15, Version=0.15.0.0\",\"message\":\"Bridge is not ready for Unity scheduling.\",\"revision\":6,\"startupScreenStatus\":\"waiting\",\"startupScreenDetail\":\"waiting for the Hearthstone ratings start screen\",\"postGameStatus\":\"Idle\",\"postGameDetail\":\"等待对局结束。\",\"postGameObservation\":\"not_observed\",\"clientPopupGate\":\"Clear\",\"clientPopupStatus\":\"WaitingForPopup\",\"clientPopupDetail\":\"等待任务弹窗。\",\"taskPopupStatus\":\"WaitingForPopup\",\"taskPopupDetail\":\"等待任务弹窗。\",\"clientInactivityStatus\":\"not_requested\",\"clientInactivityDetail\":\"Bridge 尚未附着，未修改炉石本地 inactivity 检查。\",\"matchmakingState\":\"idle\",\"matchmakingStage\":\"Idle\",\"matchmakingFindGameState\":\"\",\"matchmakingDetail\":\"\"}",
+  "lastError": "Managed Bridge method StartStage2PipeReadOnly returned an unexpected state. Result={\"state\":\"Active\",\"bridgeIdentity\":\"HearthstoneBridge.V15, Version=0.15.0.0\",\"message\":\"Bridge is not ready for Unity scheduling.\",\"revision\":6,\"startupScreenStatus\":\"waiting\",\"startupScreenDetail\":\"waiting for the Hearthstone ratings start screen\",\"postGameStatus\":\"Idle\",\"postGameDetail\":\"等待对局结束。\",\"postGameObservation\":\"not_observed\",\"clientPopupGate\":\"Clear\",\"clientPopupStatus\":\"WaitingForPopup\",\"clientPopupDetail\":\"等待任务弹窗。\",\"taskPopupStatus\":\"WaitingForPopup\",\"taskPopupDetail\":\"等待任务弹窗。\",\"clientInactivityStatus\":\"not_requested\",\"clientInactivityDetail\":\"Bridge 尚未附着，未修改炉石本地 inactivity 检查。\",\"matchmakingState\":\"idle\",\"matchmakingStage\":\"Idle\",\"matchmakingFindGameState\":\"\",\"matchmakingDetail\":\"\"}"
+}
