@@ -1,0 +1,36 @@
+{
+  "exceptionIncidentId": "7970e797-618e-4335-8968-29191213d716",
+  "recordedAtUtc": "2026-10-22T03:06:04.9171734+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-22T03:06:04.6160636+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF08traditional_recommendation_rejected\uFF09\uFF0C\u6B63\u5728\u6267\u884C\u5408\u6CD5\u9636\u6BB5\u515C\u5E95",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=turn; timeoutMs=10000; elapsedMs=0; snapshotRevision=10011; snapshotFingerprint=56F691947816B5290CE38098B85086A3A4CA251D1B3404F6AEF38823CEA8A46F; choiceId=-1; choiceType=; requestResultReason=traditional_recommendation_rejected; requestStage=PostStarted; requestUuid=20261022_155e5885-4af7-4987-9616-e97cc9a4407b; exceptionIncidentId=7970e797618e4335896829191213d716; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=33a59833-c715-40f7-a060-5bebb9977967",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 249,
+    "payloadJson": "",
+    "matchId": "",
+    "recoveryIncidentId": ""
+  },
+  "state": {
+    "battleTag": "\u827A\u80FD\u4EBA\u91D1\u5E7F\u53D1#5314",
+    "turn": 16,
+    "actionId": 249,
+    "processId": 3732,
+    "sessionId": "cb6bc7cd-da27-4002-9e27-8758f0e51dc0",
+    "gameEpoch": "be165b3f-6a7f-46c0-a641-f522010fb910",
+    "automationEpoch": "33a59833-c715-40f7-a060-5bebb9977967",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "currentRank": "\u94BB\u77F34[4]-3\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9544865071,
+    "deckName": "\u4EBA\u673AK",
+    "deckCode": "AAEBAYPPBgSoigTX5QbtnwessAcNhuQEkOQEkeQEhfYEh/YEsvcEs/cErqEF0J4G1J4G1uUG4OUGpJIHAAA=",
+    "opponentClass": "WARLOCK"
+  }
+}
