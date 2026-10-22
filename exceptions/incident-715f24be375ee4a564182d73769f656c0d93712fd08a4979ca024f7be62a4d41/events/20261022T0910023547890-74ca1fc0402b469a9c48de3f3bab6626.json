@@ -1,0 +1,36 @@
+{
+  "exceptionIncidentId": "b53279d8-785a-4416-8689-091189840e9e",
+  "recordedAtUtc": "2026-10-22T09:10:02.3834765+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-22T09:10:02.354789+00:00",
+    "eventName": "LIVE_DIRECT_STATUS",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u65E0\u6CD5\u751F\u6210\u6709\u6548\u52A8\u4F5C\uFF08traditional_recommendation_rejected\uFF09",
+    "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u002272399c23-5516-43ff-8bbe-d0c4c42d1a6d\u0022,\u0022gameIdentity\u0022:\u0022d77cc407-c106-48a6-946d-daeebe6258da\u0022,\u0022decisionKey\u0022:\u0022CF1D70626F5A42B69C04CD07DA97A31EF49964CCB54986907B0A7C807F54961F\u0022,\u0022historyWatermark\u0022:6,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022b53279d8-785a-4416-8689-091189840e9e\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=5534.2,headers=false,failure=connect:attempt_timeout,connectAttempts=3,connectTimeouts=3\u0022,\u0022unsupportedMechanisms\u0022:[],\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u0022605fb49d-2c4d-4807-8d1d-8ddd5483466f\u0022,\u0022executionAuthorized\u0022:false}",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 0,
+    "payloadJson": "{\u0022context\u0022:{\u0022captureId\u0022:\u002272399c23-5516-43ff-8bbe-d0c4c42d1a6d\u0022,\u0022gameIdentity\u0022:\u0022d77cc407-c106-48a6-946d-daeebe6258da\u0022,\u0022decisionKey\u0022:\u0022CF1D70626F5A42B69C04CD07DA97A31EF49964CCB54986907B0A7C807F54961F\u0022,\u0022historyWatermark\u0022:6,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022b53279d8-785a-4416-8689-091189840e9e\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=5534.2,headers=false,failure=connect:attempt_timeout,connectAttempts=3,connectTimeouts=3\u0022,\u0022unsupportedMechanisms\u0022:[],\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u0022605fb49d-2c4d-4807-8d1d-8ddd5483466f\u0022,\u0022executionAuthorized\u0022:false}",
+    "matchId": "",
+    "recoveryIncidentId": ""
+  },
+  "state": {
+    "battleTag": "\u827A\u80FD\u4EBA\u91D1\u5E7F\u53D1#5314",
+    "turn": 1,
+    "actionId": 124,
+    "processId": 20312,
+    "sessionId": "3efdc41e-0d83-46dc-971a-65ec96724c5c",
+    "gameEpoch": "8247d8c0-e930-4108-9580-72aef9d228fe",
+    "automationEpoch": "605fb49d-2c4d-4807-8d1d-8ddd5483466f",
+    "matchState": "Mulligan",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "currentRank": "\u4F20\u8BF4 - \u6392\u540D 66241",
+    "gameMode": "standard",
+    "deckId": 9543855506,
+    "deckName": "\u810F\u7267",
+    "deckCode": "AAECAZH9BgT8qQeAqgeEqgfn2AcI8J8EoPsGw/8GhYYHna0Hr8kHqtkHrNkHAAA=",
+    "opponentClass": "ROGUE"
+  }
+}
