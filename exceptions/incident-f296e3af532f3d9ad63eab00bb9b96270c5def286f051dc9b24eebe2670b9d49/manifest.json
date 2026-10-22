@@ -1,0 +1,52 @@
+{
+  "eventName": "LIVE_DIRECT_STATUS",
+  "timestampUtc": "2026-10-22T11:13:44.3135914+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u65E0\u6CD5\u751F\u6210\u6709\u6548\u52A8\u4F5C\uFF08traditional_recommendation_rejected\uFF09",
+  "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u0022ae5c014b-3013-4db8-b613-95e3d3481f95\u0022,\u0022gameIdentity\u0022:\u00227287f9e6-d2bf-41f1-9239-3987ba4b3537\u0022,\u0022decisionKey\u0022:\u00223CA9DE34D506C2E8120C4985DD3A12BBA577690B91F29C5725777A7571AD8AE7\u0022,\u0022historyWatermark\u0022:87,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022e849987c-14cf-4dbc-8507-bb0d4de14e14\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=0,headers=false,failure=deadline:reuse,connectAttempts=0,connectTimeouts=0\u0022,\u0022unsupportedMechanisms\u0022:[],\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u0022599e87b2-b747-43d3-aa70-a7f40617b49f\u0022,\u0022executionAuthorized\u0022:false}",
+  "exceptionIncidentId": "e849987c-14cf-4dbc-8507-bb0d4de14e14",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "processId": 30260,
+  "sessionId": "56588a4d-a294-4d3c-9809-609d36b6a7db",
+  "gameEpoch": "4ae6d2a6-e0bd-4475-b6dd-4f72d5cb8169",
+  "automationEpoch": "599e87b2-b747-43d3-aa70-a7f40617b49f",
+  "eventPayload": {
+    "context": {
+      "captureId": "ae5c014b-3013-4db8-b613-95e3d3481f95",
+      "gameIdentity": "7287f9e6-d2bf-41f1-9239-3987ba4b3537",
+      "decisionKey": "3CA9DE34D506C2E8120C4985DD3A12BBA577690B91F29C5725777A7571AD8AE7",
+      "historyWatermark": 87,
+      "sessionGeneration": 1
+    },
+    "decisionOrigin": "service",
+    "exceptionIncidentId": "e849987c-14cf-4dbc-8507-bb0d4de14e14",
+    "requestStage": "PostStarted",
+    "networkSuccess": false,
+    "businessSuccess": false,
+    "structureSuccess": false,
+    "sceneBindingSuccess": false,
+    "actionsSupported": false,
+    "actionCount": 0,
+    "recommendationActionCount": 0,
+    "payloadFailureDetail": "AI\u8BA1\u7B97\u5F02\u5E38\uFF0C\u6682\u65E0\u53EF\u7528\u63A8\u8350\u3002error:-1; transport=attempts=1,connectMs=0,headers=false,failure=deadline:reuse,connectAttempts=0,connectTimeouts=0",
+    "unsupportedMechanisms": [],
+    "serviceMessage": null,
+    "automationEpoch": "599e87b2-b747-43d3-aa70-a7f40617b49f",
+    "executionAuthorized": false
+  },
+  "turn": 12,
+  "actionId": 22,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
