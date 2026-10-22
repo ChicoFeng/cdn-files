@@ -1,0 +1,36 @@
+{
+  "exceptionIncidentId": "f895fd21-8e18-429a-9989-adebc633c08f",
+  "recordedAtUtc": "2026-10-22T12:16:19.7308587+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-22T12:16:19.7191475+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u7B49\u5F85\u670D\u52A1\u54CD\u5E94\u8D85\u65F6\uFF0C\u672A\u6536\u5230 HTTP \u54CD\u5E94\u5934\uFF1B\u672C\u6B21\u672A\u65B0\u5EFA\u8FDE\u63A5\uFF0C\u8FDE\u63A5\u6C60\u6216\u590D\u7528\u94FE\u8DEF\u72B6\u6001\u672A\u786E\u5B9A\uFF1B\u81EA\u52A8\u786E\u8BA4\u7559\u724C",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=mulligan; timeoutMs=10000; elapsedMs=0; snapshotRevision=245; snapshotFingerprint=2FC3AA0EFA961C4F174144C76E70FA91300AAE6D93B1D4A86CF659C31585B99A; choiceId=1; choiceType=MULLIGAN; requestResultReason=traditional_recommendation_rejected; requestStage=PostStarted; requestTransportFailure=deadline:reuse; requestTransportHeaders=False; requestHttpStatus=; requestUuid=20261022_a55e5870-a4b4-4a0f-864a-aacc1fdfb71b; exceptionIncidentId=f895fd218e18429a9989adebc633c08f; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=6d61ec45-8f4a-47e1-83fa-1730c30dfa25",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 1,
+    "payloadJson": "",
+    "matchId": "",
+    "recoveryIncidentId": ""
+  },
+  "state": {
+    "battleTag": "\u827A\u80FD\u4EBA\u91D1\u5E7F\u53D1#5314",
+    "turn": 1,
+    "actionId": 1,
+    "processId": 15552,
+    "sessionId": "8629c9bf-403e-478b-9d3f-95ff3bf11784",
+    "gameEpoch": "d314e347-d1e8-4c77-b9da-69c6e333ee8f",
+    "automationEpoch": "6d61ec45-8f4a-47e1-83fa-1730c30dfa25",
+    "matchState": "Mulligan",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "currentRank": "\u4F20\u8BF4 - \u6392\u540D 67678",
+    "gameMode": "standard",
+    "deckId": 9544864515,
+    "deckName": "\u5907\u9635\u8428",
+    "deckCode": "AAECAdHJBgivnwT5nwT9nwTslgfQvweC1Aeb1AeI3QcL5pYH9awHsbAHvLEHj74Hw8AHxsAHycAH98AH9sEH5v0HAAA=",
+    "opponentClass": "WARLOCK"
+  }
+}
