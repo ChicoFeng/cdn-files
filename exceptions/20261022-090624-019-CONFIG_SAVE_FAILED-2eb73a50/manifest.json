@@ -1,0 +1,34 @@
+{
+  "eventName": "CONFIG_SAVE_FAILED",
+  "timestampUtc": "2026-10-22T01:06:24.019898+00:00",
+  "summary": "\u914D\u7F6E\u4FDD\u5B58\u5931\u8D25\uFF0C\u5DF2\u786E\u8BA4\u539F\u914D\u7F6E\u4FDD\u7559\u3002",
+  "technicalDetail": "System.IO.IOException: \u65E0\u6CD5\u5220\u9664\u8981\u88AB\u66FF\u6362\u7684\u6587\u4EF6\u3002\r\n   at System.IO.FileSystem.ReplaceFile(String sourceFullPath, String destFullPath, String destBackupFullPath, Boolean ignoreMetadataErrors)\r\n   at HSLaunch.Installation.CoreConfigurationFile.Update(String path, Action\u00601 update)\r\n   at HSLaunch.MvpLauncher.MvpConfigStore.SaveSelectionCore(IReadOnlyList\u00601 selectedDeckNames, HearthstoneGameMode gameMode, Nullable\u00601 targetRank, Boolean updateTargetRank)\r\n   at HSLaunch.MvpLauncher.MvpConfigStore.SaveSelection(IReadOnlyList\u00601 selectedDeckNames, HearthstoneGameMode gameMode, Nullable\u00601 targetRank)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.\u003C\u003Ec__DisplayClass138_0.\u003CStartAsync\u003Eb__1()\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SaveConfiguration(Action save, Boolean emitFailure)\r\nconfig.stage=replace; config.hresult=0x80070497; config.path=D:\\HearthPilot\\config\\mvp.json; config.originalState=unchanged; config.exists=True; config.attributes=Archive; config.storageDiagnostics={\u0022schema\u0022:1,\u0022observedAtUtc\u0022:\u00222026-10-22T01:06:23.9835332\u002B00:00\u0022,\u0022process\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:{\u0022pid\u0022:13540,\u0022name\u0022:\u0022POWERPNT\u0022,\u0022path\u0022:\u0022D:\\\\HearthPilot\\\\artifacts\\\\temp\\\\run-BEmAZ0AHHmKGlzUaKIvR\\\\POWERPNT.EXE\u0022,\u0022startedAtUtc\u0022:\u00222026-10-22T01:04:48.1925542Z\u0022,\u0022runtimePath\u0022:\u0022D:\\\\HearthPilot\\\\artifacts\\\\temp\\\\run-BEmAZ0AHHmKGlzUaKIvR\\\\HearthPilot.Runtime.dll\u0022,\u0022runtimeMvid\u0022:\u0022f536c579-09c1-4422-8f63-5b5c773d9a06\u0022,\u0022os\u0022:\u0022Microsoft Windows 10.0.26300\u0022,\u0022framework\u0022:\u0022.NET 8.0.31\u0022}},\u0022target\u0022:{\u0022path\u0022:\u0022D:\\\\HearthPilot\\\\config\\\\mvp.json\u0022,\u0022metadata\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:{\u0022length\u0022:3414,\u0022attributes\u0022:\u0022Archive\u0022,\u0022createdAtUtc\u0022:\u00222026-08-18T10:11:26.2909729Z\u0022,\u0022writtenAtUtc\u0022:\u00222026-10-21T23:38:21.5189462Z\u0022}},\u0022security\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:\u0022O:BAD:AI(A;;FA;;;BA)(A;ID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1009)(A;ID;0x1301bf;;;S-1-5-21-309157420-2337036290-834418903-562870178)(A;ID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1006)(A;ID;0x1301bf;;;S-1-5-21-1112702472-294033110-943793086-1202962067)(A;ID;0x110156;;;S-1-4-293348679-251070228)(A;ID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1003)(A;ID;0x1301bf;;;S-1-5-21-994816172-3973745014-2537952669-4065088193)(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1301bf;;;AU)(A;ID;0x1200a9;;;BU)\u0022}},\u0022candidate\u0022:{\u0022path\u0022:\u0022D:\\\\HearthPilot\\\\config\\\\mvp.json.ed77d6043ce54966a5e8e343de0e5064.tmp\u0022,\u0022metadata\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:{\u0022length\u0022:3414,\u0022attributes\u0022:\u0022Archive\u0022,\u0022createdAtUtc\u0022:\u00222026-08-18T10:11:26.2909729Z\u0022,\u0022writtenAtUtc\u0022:\u00222026-10-22T01:06:23.9790811Z\u0022}},\u0022security\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:\u0022O:BAD:AI(A;;FA;;;BA)(A;ID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1009)(A;ID;0x1301bf;;;S-1-5-21-309157420-2337036290-834418903-562870178)(A;ID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1006)(A;ID;0x1301bf;;;S-1-5-21-1112702472-294033110-943793086-1202962067)(A;ID;0x110156;;;S-1-4-293348679-251070228)(A;ID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1003)(A;ID;0x1301bf;;;S-1-5-21-994816172-3973745014-2537952669-4065088193)(A;ID;FA;;;BA)(A;ID;FA;;;SY)(A;ID;0x1301bf;;;AU)(A;ID;0x1200a9;;;BU)\u0022}},\u0022directorySecurity\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:\u0022O:S-1-5-21-4289986086-1019036309-384907593-1001D:AI(A;OICIID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1009)(A;OICIID;0x1301bf;;;S-1-5-21-309157420-2337036290-834418903-562870178)(A;OICIID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1006)(A;OICIID;0x1301bf;;;S-1-5-21-1112702472-294033110-943793086-1202962067)(A;OICIID;0x110156;;;S-1-4-293348679-251070228)(A;OICIID;0x1301bf;;;S-1-5-21-4289986086-1019036309-384907593-1003)(A;OICIID;0x1301bf;;;S-1-5-21-994816172-3973745014-2537952669-4065088193)(A;ID;FA;;;BA)(A;OICIIOID;GA;;;BA)(A;ID;FA;;;SY)(A;OICIIOID;GA;;;SY)(A;ID;0x1301bf;;;AU)(A;OICIIOID;SDGXGWGR;;;AU)(A;ID;0x1200a9;;;BU)(A;OICIIOID;GXGR;;;BU)\u0022},\u0022token\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:{\u0022userSid\u0022:\u0022S-1-5-21-4289986086-1019036309-384907593-1001\u0022,\u0022impersonation\u0022:\u0022None\u0022,\u0022elevated\u0022:true,\u0022elevationError\u0022:0}},\u0022access\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:{\u0022read\u0022:{\u0022opened\u0022:true,\u0022win32Error\u0022:0},\u0022write\u0022:{\u0022opened\u0022:true,\u0022win32Error\u0022:0},\u0022delete\u0022:{\u0022opened\u0022:true,\u0022win32Error\u0022:0},\u0022readControl\u0022:{\u0022opened\u0022:true,\u0022win32Error\u0022:0}}},\u0022holders\u0022:{\u0022status\u0022:\u0022ok\u0022,\u0022value\u0022:{\u0022result\u0022:{\u0022stage\u0022:\u0022list\u0022,\u0022win32Error\u0022:0,\u0022needed\u0022:0,\u0022rebootReasons\u0022:0,\u0022processes\u0022:[]},\u0022endSessionError\u0022:0}},\u0022elapsedMilliseconds\u0022:19}; config.temporaryExists=False",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 9540,
+  "sessionId": "4c6ecead-71c1-48a5-8958-1a296a504fc1",
+  "gameEpoch": "5df92888-0c8c-4ce7-ab09-f9eda30bb9eb",
+  "automationEpoch": "",
+  "eventPayload": null,
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=9540"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
