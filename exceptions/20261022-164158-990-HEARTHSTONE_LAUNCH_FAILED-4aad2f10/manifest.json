@@ -1,0 +1,34 @@
+{
+  "eventName": "HEARTHSTONE_LAUNCH_FAILED",
+  "timestampUtc": "2026-10-22T08:41:58.990684+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u542F\u52A8\u5931\u8D25\uFF1A\u6218\u7F51\u5DF2\u63A5\u5230\u542F\u52A8\u8BF7\u6C42\uFF0C\u4F46\u672A\u53D1\u73B0\u7089\u77F3\u8FDB\u7A0B\uFF1B\u5DF2\u505C\u6B62\u81EA\u52A8\u6062\u590D",
+  "technicalDetail": "BattleNetLaunchException; exceptionDetail={\u0022exception\u0022:\u0022HSLaunch.Mvp.BattleNetLaunchException: \\u6218\\u7F51\\u5DF2\\u63A5\\u5230\\u542F\\u52A8\\u8BF7\\u6C42\\uFF0C\\u4F46\\u672A\\u53D1\\u73B0\\u7089\\u77F3\\u8FDB\\u7A0B\\uFF1B\\u5DF2\\u505C\\u6B62\\u81EA\\u52A8\\u6062\\u590D\\u3002\\r\\n   at HSLaunch.Mvp.BattleNetGameLauncher.Launch(CancellationToken cancellation, Action\\u00601 progress)\\r\\n   at HSLaunch.Mvp.BattleNetGameLauncher.\\u003C\\u003Ec__DisplayClass10_0.\\u003CLaunchAsync\\u003Eb__0()\\r\\n   at System.Threading.Exe\u2026",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 0,
+  "sessionId": "cc766e49-5466-4a5d-b47b-2d0d7b07dabb",
+  "gameEpoch": "c51ac31e-e46c-4038-82a7-da74de3e1583",
+  "automationEpoch": "",
+  "eventPayload": null,
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
