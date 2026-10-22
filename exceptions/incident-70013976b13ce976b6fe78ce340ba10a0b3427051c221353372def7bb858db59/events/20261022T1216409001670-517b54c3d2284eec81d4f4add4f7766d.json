@@ -1,0 +1,36 @@
+{
+  "exceptionIncidentId": "6d793922-ec30-4fa3-9152-5319acb9ab79",
+  "recordedAtUtc": "2026-10-22T12:16:40.9042177+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-22T12:16:40.900167+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u7B49\u5F85\u670D\u52A1\u54CD\u5E94\u8D85\u65F6\uFF0CTCP \u5DF2\u8FDE\u63A5\u4F46\u672A\u6536\u5230 HTTP \u54CD\u5E94\u5934\uFF1B\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF1B\u81EA\u52A8\u7ED3\u675F\u56DE\u5408",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=turn; timeoutMs=10000; elapsedMs=401; snapshotRevision=347; snapshotFingerprint=A88C71539B27E933E02B36AA84A4F2ABF494B3F779DA8C13DDBFEB30E4010C15; choiceId=-1; choiceType=; requestResultReason=traditional_recommendation_rejected; requestStage=PostStarted; requestTransportFailure=deadline:response; requestTransportHeaders=False; requestHttpStatus=; requestUuid=20261022_a55e5870-a4b4-4a0f-864a-aacc1fdfb71b; exceptionIncidentId=6d793922ec304fa391525319acb9ab79; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=6d61ec45-8f4a-47e1-83fa-1730c30dfa25",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 2,
+    "payloadJson": "",
+    "matchId": "",
+    "recoveryIncidentId": ""
+  },
+  "state": {
+    "battleTag": "\u827A\u80FD\u4EBA\u91D1\u5E7F\u53D1#5314",
+    "turn": 1,
+    "actionId": 2,
+    "processId": 15552,
+    "sessionId": "8629c9bf-403e-478b-9d3f-95ff3bf11784",
+    "gameEpoch": "d314e347-d1e8-4c77-b9da-69c6e333ee8f",
+    "automationEpoch": "6d61ec45-8f4a-47e1-83fa-1730c30dfa25",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "currentRank": "\u4F20\u8BF4 - \u6392\u540D 67678",
+    "gameMode": "standard",
+    "deckId": 9544864515,
+    "deckName": "\u5907\u9635\u8428",
+    "deckCode": "AAECAdHJBgivnwT5nwT9nwTslgfQvweC1Aeb1AeI3QcL5pYH9awHsbAHvLEHj74Hw8AHxsAHycAH98AH9sEH5v0HAAA=",
+    "opponentClass": "WARLOCK"
+  }
+}
