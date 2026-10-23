@@ -1,0 +1,61 @@
+{
+  "byteLimitPerFile": 262144,
+  "files": [
+    {
+      "name": "client-logs/Hearthstone.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_23_12_47_09\\Hearthstone.log",
+      "captured": true,
+      "originalBytes": 5058,
+      "offset": 0,
+      "copiedBytes": 5058,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-23T04:47:18.9522578Z"
+    },
+    {
+      "name": "client-logs/GameNetLogger.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_23_12_47_09\\GameNetLogger.log",
+      "captured": false,
+      "detail": "source_missing"
+    },
+    {
+      "name": "client-logs/Login.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_23_12_47_09\\Login.log",
+      "captured": true,
+      "originalBytes": 131,
+      "offset": 0,
+      "copiedBytes": 131,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-23T04:47:16.3790744Z"
+    },
+    {
+      "name": "client-logs/ExceptionReporter.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_23_12_47_09\\ExceptionReporter.log",
+      "captured": true,
+      "originalBytes": 258,
+      "offset": 0,
+      "copiedBytes": 258,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-23T04:47:13.4259672Z"
+    },
+    {
+      "name": "client-logs/Player.log",
+      "source": "C:\\Users\\zhaof\\AppData\\LocalLow\\Blizzard Entertainment\\Hearthstone\\Player.log",
+      "captured": true,
+      "originalBytes": 6372,
+      "offset": 0,
+      "copiedBytes": 6372,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-23T04:47:18.9522578Z"
+    },
+    {
+      "name": "client-logs/native-bootstrap.json",
+      "source": "D:\\HearthPilot\\artifacts\\logs\\bootstrap\\native-bootstrap-37236.json",
+      "captured": true,
+      "originalBytes": 1572,
+      "offset": 0,
+      "copiedBytes": 1572,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-23T04:47:14.1334586Z"
+    }
+  ]
+}
