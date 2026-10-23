@@ -1,0 +1,14 @@
+{
+  "evidence": {
+    "id": "cf66c148-2d00-479f-9eff-da2722e2e06f",
+    "relativeDirectory": "20261023-124613-166-SESSION_FAULT-cf66c1482d00479f9effda2722e2e06f",
+    "processId": 19620,
+    "sessionId": "a94c2171-92fa-40fa-a7ba-f467e994c720",
+    "gameEpoch": "e20a102e-24d9-431a-9c41-cf0eb617b2b6",
+    "automationEpoch": "e4c3e97d-ea79-4453-81e6-1edd439bc6cd",
+    "faultedAtUtc": "2026-10-23T04:46:13.166744+00:00"
+  },
+  "outcome": "screenshot_timeout",
+  "detail": "System.Threading.Tasks.TaskCanceledException: A task was canceled.\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline)",
+  "completedAtUtc": "2026-10-23T04:46:18.2372238+00:00"
+}
