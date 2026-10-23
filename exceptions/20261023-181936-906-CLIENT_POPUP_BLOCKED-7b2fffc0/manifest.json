@@ -1,0 +1,29 @@
+{
+  "eventName": "CLIENT_POPUP_BLOCKED",
+  "timestampUtc": "2026-10-23T10:19:36.9064702+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u7A97\u53E3\u65E0\u6CD5\u81EA\u52A8\u5904\u7406\uFF0C\u81EA\u52A8\u64CD\u4F5C\u5DF2\u6682\u505C\uFF1B\u539F\u56E0\uFF1A\u672A\u627E\u5230\u9876\u5C42\u5F39\u7A97\u7684\u539F\u751F\u5904\u7406\u5165\u53E3\uFF0C\u81EA\u52A8\u64CD\u4F5C\u5DF2\u6682\u505C",
+  "technicalDetail": "CLIENT_POPUP_BLOCKED: \u672A\u627E\u5230\u9876\u5C42\u5F39\u7A97\u7684\u539F\u751F\u5904\u7406\u5165\u53E3\uFF0C\u81EA\u52A8\u64CD\u4F5C\u5DF2\u6682\u505C\u3002",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 33620,
+  "sessionId": "259689a9-ee3d-41cc-b2af-c32b076e08bd",
+  "gameEpoch": "389372a6-b35f-4f1c-9f8c-227f745710ee",
+  "automationEpoch": "ffb3b567-a2de-4039-ba63-b3a72df7d0b5",
+  "eventPayload": null,
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
