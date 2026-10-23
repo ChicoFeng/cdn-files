@@ -1,0 +1,39 @@
+{
+  "exceptionIncidentId": "627b05f9-465f-4169-aa8f-47024d517d7a",
+  "recordedAtUtc": "2026-10-23T11:55:06.0640178+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-23T11:55:06.009733+00:00",
+    "eventName": "LIVE_DIRECT_STATUS",
+    "summary": "[\u9519\u8BEF]  \u63A8\u8350\u670D\u52A1\u8FD4\u56DE HTTP 502\uFF1A\u670D\u52A1\u7AEF\u6216\u7F51\u5173\u8FD4\u56DE\u9519\u8BEF",
+    "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u0022ba51aa4b-644c-4fc2-a5e2-3209a43d2c4b\u0022,\u0022gameIdentity\u0022:\u00224086ce3a-c3d5-495b-8120-04cdb4885752\u0022,\u0022decisionKey\u0022:\u0022247EB61CB94CBE145590E9ADBD830E1C08F4F0FC5920436B7CA34F0A2EB2B55A\u0022,\u0022historyWatermark\u0022:258,\u0022sessionGeneration\u0022:3},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022627b05f9-465f-4169-aa8f-47024d517d7a\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=0,headers=true,failure=none,connectAttempts=0,connectTimeouts=0\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:0,\u0022responseHeaders\u0022:true,\u0022failure\u0022:null,\u0022connectAttempts\u0022:0,\u0022connectTimeouts\u0022:0,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:502},\u0022unsupportedMechanisms\u0022:[],\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u002219e54670-5751-4ea4-80bf-b59d34a5a7a8\u0022,\u0022executionAuthorized\u0022:false}",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 0,
+    "payloadJson": "{\u0022context\u0022:{\u0022captureId\u0022:\u0022ba51aa4b-644c-4fc2-a5e2-3209a43d2c4b\u0022,\u0022gameIdentity\u0022:\u00224086ce3a-c3d5-495b-8120-04cdb4885752\u0022,\u0022decisionKey\u0022:\u0022247EB61CB94CBE145590E9ADBD830E1C08F4F0FC5920436B7CA34F0A2EB2B55A\u0022,\u0022historyWatermark\u0022:258,\u0022sessionGeneration\u0022:3},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022627b05f9-465f-4169-aa8f-47024d517d7a\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=0,headers=true,failure=none,connectAttempts=0,connectTimeouts=0\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:0,\u0022responseHeaders\u0022:true,\u0022failure\u0022:null,\u0022connectAttempts\u0022:0,\u0022connectTimeouts\u0022:0,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:502},\u0022unsupportedMechanisms\u0022:[],\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u002219e54670-5751-4ea4-80bf-b59d34a5a7a8\u0022,\u0022executionAuthorized\u0022:false}",
+    "matchId": "97fce1330fbc4ceaa803917c007c4028:3",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-53fdab1c755e1d7a3258b2ae1830d03ed34765efa5c7162fcb17260d139ce531",
+    "matchSequence": 3
+  },
+  "state": {
+    "battleTag": "\u5B59\u7B11\u5DDD#51360",
+    "turn": 25,
+    "actionId": 214,
+    "processId": 33720,
+    "sessionId": "dee142fb-1470-49fe-81ae-43d5c06016f1",
+    "gameEpoch": "12101bdf-9557-4449-a94d-c3b5f1e42af4",
+    "automationEpoch": "19e54670-5751-4ea4-80bf-b59d34a5a7a8",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "currentRank": "",
+    "gameMode": "arena",
+    "deckId": 9551561545,
+    "deckName": "",
+    "deckCode": "",
+    "deckHeroClass": "",
+    "opponentClass": "DRUID"
+  }
+}
