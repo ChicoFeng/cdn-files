@@ -1,0 +1,35 @@
+{
+  "evidence": {
+    "id": "649e09f7-5263-44f9-9cb3-3962a328ad12",
+    "relativeDirectory": "20261023-124751-628-SESSION_FAULT-649e09f7526344f99cb33962a328ad12",
+    "processId": 35312,
+    "sessionId": "a94c2171-92fa-40fa-a7ba-f467e994c720",
+    "gameEpoch": "d1fde7d9-e614-4dc2-8f7b-30ab79d3e838",
+    "automationEpoch": "e4c3e97d-ea79-4453-81e6-1edd439bc6cd",
+    "faultedAtUtc": "2026-10-23T04:47:51.6286149+00:00"
+  },
+  "termination": {
+    "kind": 3,
+    "component": "bridge",
+    "detail": "{\u0022type\u0022:\u0022BRIDGE_DIAGNOSTIC\u0022,\u0022diagnostic\u0022:{\u0022state\u0022:\u0022Faulted\u0022,\u0022bridgeIdentity\u0022:\u0022HearthstoneBridge.V15, Version=0.15.0.0\u0022,\u0022message\u0022:\u0022Unity callback failed: System.ArgumentException: Unsupported Hearthstone game mode.\\r\\nParameter name: value\\r\\n  at HSLaunch.Shared.GameModeContract.Validate (System.String value) [0x0001a] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:27 \\r\\n  at HSLaunch.Shared.GameModeContract.IsArena (System.String mode) [0x00000] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:32 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.MaintenanceDiagnosticKey () [0x00006] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:1409 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.OnUnityMainThread (System.Object state) [0x009f7] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:627 \u0022,\u0022revision\u0022:25,\u0022startupScreenStatus\u0022:\u0022waiting_callback\u0022,\u0022startupScreenDetail\u0022:\u0022RatingsPopupControl is visible; waiting for OnUserStartPressed to be attached.\u0022,\u0022postGameStatus\u0022:\u0022Idle\u0022,\u0022postGameDetail\u0022:\u0022\u81EA\u52A8\u64CD\u4F5C\u672A\u5F00\u542F\uFF0C\u8D5B\u540E\u7ED3\u7B97\u4FDD\u6301\u4E0D\u52A8\u3002\u0022,\u0022postGameObservation\u0022:\u0022not_observed\u0022,\u0022clientPopupGate\u0022:\u0022Clear\u0022,\u0022clientPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022clientPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022taskPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022taskPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022clientInactivityStatus\u0022:\u0022enabled\u0022,\u0022clientInactivityDetail\u0022:\u0022\u5DF2\u5728 Unity \u4E3B\u7EBF\u7A0B\u6062\u590D\u7089\u77F3\u672C\u5730 inactivity \u68C0\u67E5\u3002\u0022,\u0022matchmakingState\u0022:\u0022idle\u0022,\u0022matchmakingStage\u0022:\u0022Idle\u0022,\u0022matchmakingFindGameState\u0022:\u0022\u0022,\u0022matchmakingDetail\u0022:\u0022\u0022}}",
+    "code": "bridge_runtime_fault",
+    "isNormal": false,
+    "evidence": null,
+    "evidenceError": null
+  },
+  "process": {
+    "phase": "fault_evidence_before_cleanup",
+    "kind": "BridgeDisconnected",
+    "component": "bridge",
+    "code": "bridge_runtime_fault",
+    "detail": "{\u0022type\u0022:\u0022BRIDGE_DIAGNOSTIC\u0022,\u0022diagnostic\u0022:{\u0022state\u0022:\u0022Faulted\u0022,\u0022bridgeIdentity\u0022:\u0022HearthstoneBridge.V15, Version=0.15.0.0\u0022,\u0022message\u0022:\u0022Unity callback failed: System.ArgumentException: Unsupported Hearthstone game mode.\\r\\nParameter name: value\\r\\n  at HSLaunch.Shared.GameModeContract.Validate (System.String value) [0x0001a] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:27 \\r\\n  at HSLaunch.Shared.GameModeContract.IsArena (System.String mode) [0x00000] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:32 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.MaintenanceDiagnosticKey () [0x00006] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:1409 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.OnUnityMainThread (System.Object state) [0x009f7] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:627 \u0022,\u0022revision\u0022:25,\u0022startupScreenStatus\u0022:\u0022waiting_callback\u0022,\u0022startupScreenDetail\u0022:\u0022RatingsPopupControl is visible; waiting for OnUserStartPressed to be attached.\u0022,\u0022postGameStatus\u0022:\u0022Idle\u0022,\u0022postGameDetail\u0022:\u0022\u81EA\u52A8\u64CD\u4F5C\u672A\u5F00\u542F\uFF0C\u8D5B\u540E\u7ED3\u7B97\u4FDD\u6301\u4E0D\u52A8\u3002\u0022,\u0022postGameObservation\u0022:\u0022not_observed\u0022,\u0022clientPopupGate\u0022:\u0022Clear\u0022,\u0022clientPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022clientPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022taskPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022taskPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022clientInactivityStatus\u0022:\u0022enabled\u0022,\u0022clientInactivityDetail\u0022:\u0022\u5DF2\u5728 Unity \u4E3B\u7EBF\u7A0B\u6062\u590D\u7089\u77F3\u672C\u5730 inactivity \u68C0\u67E5\u3002\u0022,\u0022matchmakingState\u0022:\u0022idle\u0022,\u0022matchmakingStage\u0022:\u0022Idle\u0022,\u0022matchmakingFindGameState\u0022:\u0022\u0022,\u0022matchmakingDetail\u0022:\u0022\u0022}}",
+    "closeMethod": "",
+    "processState": {
+      "exited": false,
+      "exitCode": null,
+      "exitCodeHex": null,
+      "error": ""
+    }
+  },
+  "snapshotMissing": false
+}
