@@ -1,0 +1,39 @@
+{
+  "exceptionIncidentId": "627b05f9-465f-4169-aa8f-47024d517d7a",
+  "recordedAtUtc": "2026-10-23T11:55:07.4079376+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-23T11:55:07.4005149+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u670D\u52A1\u8FD4\u56DE HTTP 502\uFF1A\u670D\u52A1\u7AEF\u6216\u7F51\u5173\u8FD4\u56DE\u9519\u8BEF\uFF1B\u81EA\u52A8\u7ED3\u675F\u56DE\u5408",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=turn; timeoutMs=10000; elapsedMs=0; snapshotRevision=10996; snapshotFingerprint=EC448FC7DD31B0EF8124D61805D7E9879F0C83F108EF57A3F731CD1EAE8D87CB; choiceId=-1; choiceType=; requestResultReason=traditional_recommendation_rejected; requestStage=PostStarted; requestTransportFailure=; requestTransportHeaders=True; requestHttpStatus=502; requestUuid=20261023_0aeb3a18-88f7-4741-ad3d-67adabbf0f78; exceptionIncidentId=627b05f9465f4169aa8f47024d517d7a; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=19e54670-5751-4ea4-80bf-b59d34a5a7a8",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 215,
+    "payloadJson": "",
+    "matchId": "97fce1330fbc4ceaa803917c007c4028:3",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-53fdab1c755e1d7a3258b2ae1830d03ed34765efa5c7162fcb17260d139ce531",
+    "matchSequence": 3
+  },
+  "state": {
+    "battleTag": "\u5B59\u7B11\u5DDD#51360",
+    "turn": 25,
+    "actionId": 215,
+    "processId": 33720,
+    "sessionId": "dee142fb-1470-49fe-81ae-43d5c06016f1",
+    "gameEpoch": "12101bdf-9557-4449-a94d-c3b5f1e42af4",
+    "automationEpoch": "19e54670-5751-4ea4-80bf-b59d34a5a7a8",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "currentRank": "",
+    "gameMode": "arena",
+    "deckId": 9551561545,
+    "deckName": "",
+    "deckCode": "",
+    "deckHeroClass": "",
+    "opponentClass": "DRUID"
+  }
+}
