@@ -1,0 +1,52 @@
+{
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-10-23T04:46:18.3752578+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u8FDE\u63A5\u5F02\u5E38\uFF1A\u5185\u90E8\u64CD\u4F5C\u5F02\u5E38\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF08{\u0022type\u0022:\u0022BRIDGE_DIAGNOSTIC\u0022,\u0022diagnostic\u0022:{\u0022state\u0022:\u0022Faulted\u0022,\u0022bridgeIdentity\u0022:\u0022HearthstoneBridge.V15, Version=0.15.0.0\u0022,\u0022message\u0022:\u0022Unity callback failed: System.\u2026\uFF09",
+  "technicalDetail": "{\u0022type\u0022:\u0022BRIDGE_DIAGNOSTIC\u0022,\u0022diagnostic\u0022:{\u0022state\u0022:\u0022Faulted\u0022,\u0022bridgeIdentity\u0022:\u0022HearthstoneBridge.V15, Version=0.15.0.0\u0022,\u0022message\u0022:\u0022Unity callback failed: System.ArgumentException: Unsupported Hearthstone game mode.\\r\\nParameter name: value\\r\\n  at HSLaunch.Shared.GameModeContract.Validate (System.String value) [0x0001a] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:27 \\r\\n  at HSLaunch.Shared.GameModeContract.IsArena (System.String mode) [0x00000] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:32 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.MaintenanceDiagnosticKey () [0x00006] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:1409 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.OnUnityMainThread (System.Object state) [0x009f7] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:627 \u0022,\u0022revision\u0022:23,\u0022startupScreenStatus\u0022:\u0022waiting\u0022,\u0022startupScreenDetail\u0022:\u0022waiting for the Hearthstone ratings start screen; candidates=0; active=0; waitingForUser=0; callbacks=0\u0022,\u0022postGameStatus\u0022:\u0022Idle\u0022,\u0022postGameDetail\u0022:\u0022\u81EA\u52A8\u64CD\u4F5C\u672A\u5F00\u542F\uFF0C\u8D5B\u540E\u7ED3\u7B97\u4FDD\u6301\u4E0D\u52A8\u3002\u0022,\u0022postGameObservation\u0022:\u0022not_observed\u0022,\u0022clientPopupGate\u0022:\u0022Clear\u0022,\u0022clientPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022clientPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022taskPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022taskPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022clientInactivityStatus\u0022:\u0022enabled\u0022,\u0022clientInactivityDetail\u0022:\u0022\u5DF2\u5728 Unity \u4E3B\u7EBF\u7A0B\u6062\u590D\u7089\u77F3\u672C\u5730 inactivity \u68C0\u67E5\u3002\u0022,\u0022matchmakingState\u0022:\u0022idle\u0022,\u0022matchmakingStage\u0022:\u0022Idle\u0022,\u0022matchmakingFindGameState\u0022:\u0022\u0022,\u0022matchmakingDetail\u0022:\u0022\u0022}}",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 19620,
+  "sessionId": "a94c2171-92fa-40fa-a7ba-f467e994c720",
+  "gameEpoch": "e20a102e-24d9-431a-9c41-cf0eb617b2b6",
+  "automationEpoch": "",
+  "eventPayload": {
+    "kind": "BridgeDisconnected",
+    "component": "bridge",
+    "code": "bridge_runtime_fault",
+    "normal": false,
+    "detail": "{\u0022type\u0022:\u0022BRIDGE_DIAGNOSTIC\u0022,\u0022diagnostic\u0022:{\u0022state\u0022:\u0022Faulted\u0022,\u0022bridgeIdentity\u0022:\u0022HearthstoneBridge.V15, Version=0.15.0.0\u0022,\u0022message\u0022:\u0022Unity callback failed: System.ArgumentException: Unsupported Hearthstone game mode.\\r\\nParameter name: value\\r\\n  at HSLaunch.Shared.GameModeContract.Validate (System.String value) [0x0001a] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:27 \\r\\n  at HSLaunch.Shared.GameModeContract.IsArena (System.String mode) [0x00000] in D:\\\\HearthPilot\\\\src\\\\Shared\\\\Contracts\\\\GameModeContract.cs:32 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.MaintenanceDiagnosticKey () [0x00006] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:1409 \\r\\n  at HSLaunch.Bridge.StageOneBridgeEntry.OnUnityMainThread (System.Object state) [0x009f7] in D:\\\\HearthPilot\\\\src\\\\Bridge\\\\Lifecycle\\\\StageOneBridgeEntry.cs:627 \u0022,\u0022revision\u0022:23,\u0022startupScreenStatus\u0022:\u0022waiting\u0022,\u0022startupScreenDetail\u0022:\u0022waiting for the Hearthstone ratings start screen; candidates=0; active=0; waitingForUser=0; callbacks=0\u0022,\u0022postGameStatus\u0022:\u0022Idle\u0022,\u0022postGameDetail\u0022:\u0022\u81EA\u52A8\u64CD\u4F5C\u672A\u5F00\u542F\uFF0C\u8D5B\u540E\u7ED3\u7B97\u4FDD\u6301\u4E0D\u52A8\u3002\u0022,\u0022postGameObservation\u0022:\u0022not_observed\u0022,\u0022clientPopupGate\u0022:\u0022Clear\u0022,\u0022clientPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022clientPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022taskPopupStatus\u0022:\u0022WaitingForPopup\u0022,\u0022taskPopupDetail\u0022:\u0022\u7B49\u5F85\u4EFB\u52A1\u5F39\u7A97\u3002\u0022,\u0022clientInactivityStatus\u0022:\u0022enabled\u0022,\u0022clientInactivityDetail\u0022:\u0022\u5DF2\u5728 Unity \u4E3B\u7EBF\u7A0B\u6062\u590D\u7089\u77F3\u672C\u5730 inactivity \u68C0\u67E5\u3002\u0022,\u0022matchmakingState\u0022:\u0022idle\u0022,\u0022matchmakingStage\u0022:\u0022Idle\u0022,\u0022matchmakingFindGameState\u0022:\u0022\u0022,\u0022matchmakingDetail\u0022:\u0022\u0022}}",
+    "sessionEvidence": {
+      "id": "cf66c148-2d00-479f-9eff-da2722e2e06f",
+      "relativeDirectory": "20261023-124613-166-SESSION_FAULT-cf66c1482d00479f9effda2722e2e06f",
+      "processId": 19620,
+      "sessionId": "a94c2171-92fa-40fa-a7ba-f467e994c720",
+      "gameEpoch": "e20a102e-24d9-431a-9c41-cf0eb617b2b6",
+      "automationEpoch": "e4c3e97d-ea79-4453-81e6-1edd439bc6cd",
+      "faultedAtUtc": "2026-10-23T04:46:13.166744\u002B00:00"
+    },
+    "evidenceError": null
+  },
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "System.InvalidOperationException: screenshot_timeout: System.Threading.Tasks.TaskCanceledException: A task was canceled.\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline)\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ImportSessionEvidence(String directory, FeatureRuntimeEvent value, Boolean captureImages, List\u00601 screenshots, List\u00601 images, List\u00601 diagnostics)"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": [
+    "\u6E05\u7406\u524D\u73B0\u573A\u5BFC\u5165\u5931\u8D25\uFF1ASystem.InvalidOperationException: screenshot_timeout: System.Threading.Tasks.TaskCanceledException: A task was canceled.\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline)\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ImportSessionEvidence(String directory, FeatureRuntimeEvent value, Boolean captureImages, List\u00601 screenshots, List\u00601 images, List\u00601 diagnostics)"
+  ]
+}
