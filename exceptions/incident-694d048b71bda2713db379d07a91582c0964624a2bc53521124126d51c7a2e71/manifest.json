@@ -1,0 +1,48 @@
+{
+  "eventName": "LIVE_MODE_ERROR",
+  "timestampUtc": "2026-10-24T12:02:13.4743938+00:00",
+  "summary": "[\u9519\u8BEF]  \u6218\u68CB\u63A8\u8350\u53D7\u963B\uFF1A\u5185\u90E8\u64CD\u4F5C\u5F02\u5E38\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF08System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=F\u2026\uFF09",
+  "technicalDetail": "System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False; exceptionDetail=System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False\r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.ValidatePhase (System.Int32 initialTurn, System.String initialPhase, System.Boolean sameState, System.Boolean isOver, System.Int32 turn, System.String phase) [0x000bf] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:129 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime\u002B\u003C\u003Ec__DisplayClass17_0.\u003CCreateNativeDriver\u003Eg__Phase|0 () [0x00000] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:108 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00058] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:36 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00056] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:77 ; nativeSideEffectStarted=true",
+  "exceptionIncidentId": "a0f55b34-40cc-96e1-cbbb-e8ce78457ba0",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "processId": 51240,
+  "sessionId": "0bc72996-ce1d-40d0-9ad7-722860212af4",
+  "gameEpoch": "2f7f39c5-48ab-4d09-84fc-47b21887a0f6",
+  "automationEpoch": "6d55a18e-bc13-46c1-96ad-2d375ec5febe",
+  "eventPayload": {
+    "mode": "battlegrounds",
+    "status": "failed",
+    "display": "System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False; exceptionDetail=System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False\r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.ValidatePhase (System.Int32 initialTurn, System.String initialPhase, System.Boolean sameState, System.Boolean isOver, System.Int32 turn, System.String phase) [0x000bf] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:129 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime\u002B\u003C\u003Ec__DisplayClass17_0.\u003CCreateNativeDriver\u003Eg__Phase|0 () [0x00000] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:108 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00058] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:36 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00056] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:77 ; nativeSideEffectStarted=true",
+    "automationEpoch": "6d55a18e-bc13-46c1-96ad-2d375ec5febe",
+    "detail": {
+      "exceptionIncidentId": "a0f55b34-40cc-96e1-cbbb-e8ce78457ba0",
+      "actionId": 88,
+      "outcome": "failed",
+      "reason": "System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False; exceptionDetail=System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False\r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.ValidatePhase (System.Int32 initialTurn, System.String initialPhase, System.Boolean sameState, System.Boolean isOver, System.Int32 turn, System.String phase) [0x000bf] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:129 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime\u002B\u003C\u003Ec__DisplayClass17_0.\u003CCreateNativeDriver\u003Eg__Phase|0 () [0x00000] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:108 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00058] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:36 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00056] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:77 ; nativeSideEffectStarted=true",
+      "evidence": {
+        "type": "ACTION_RESULT",
+        "status": "failed",
+        "actionId": 88,
+        "automationEpoch": "6d55a18e-bc13-46c1-96ad-2d375ec5febe",
+        "reason": "System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False; exceptionDetail=System.InvalidOperationException: battlegrounds_sequence_phase_changed; initialTurn=9; turn=10; initialPhase=recruitment; phase=combat; sameState=True; isOver=False\r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.ValidatePhase (System.Int32 initialTurn, System.String initialPhase, System.Boolean sameState, System.Boolean isOver, System.Int32 turn, System.String phase) [0x000bf] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:129 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime\u002B\u003C\u003Ec__DisplayClass17_0.\u003CCreateNativeDriver\u003Eg__Phase|0 () [0x00000] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:108 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00058] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:36 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00056] in C:\\Users\\zhaof\\.codex\\worktrees\\bg-hero-choice-verification\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:77 ; nativeSideEffectStarted=true",
+        "request": "{\u0022operation\u0022:\u0022end_turn\u0022,\u0022optionsId\u0022:19,\u0022choicesId\u0022:-1,\u0022sourceEntityId\u0022:0,\u0022target\u0022:null,\u0022powerTarget\u0022:null,\u0022subOption\u0022:null,\u0022position\u0022:null,\u0022preAdjustPosition\u0022:[{\u0022entityId\u0022:1960,\u0022position\u0022:1},{\u0022entityId\u0022:1962,\u0022position\u0022:2},{\u0022entityId\u0022:1961,\u0022position\u0022:3}],\u0022recommendationIndex\u0022:0,\u0022followingActions\u0022:[],\u0022type\u0022:\u0022ACTION\u0022,\u0022kind\u0022:\u0022battlegrounds_action\u0022,\u0022actionId\u0022:88,\u0022automationEpoch\u0022:\u00226d55a18e-bc13-46c1-96ad-2d375ec5febe\u0022,\u0022captureId\u0022:\u002228df7394-7275-4357-9117-191ae3d36dd7\u0022,\u0022captureGeneration\u0022:3,\u0022gameIdentity\u0022:\u0022ec53b17f-64e5-4c94-9117-7a88fbaf46fc\u0022,\u0022nativePacketSequence\u0022:316,\u0022nativePrintOrder\u0022:315,\u0022dragTiming\u0022:{\u0022minimumMs\u0022:200,\u0022maximumMs\u0022:500,\u0022randomMinimum\u0022:0.9,\u0022randomMaximum\u0022:1.1,\u0022targetAdjustmentPercent\u0022:0,\u0022handAdjustmentPercent\u0022:15,\u0022selectionDelayMinimumMs\u0022:500,\u0022selectionDelayMaximumMs\u0022:1500,\u0022sourceHoverMinimumMs\u0022:50,\u0022sourceHoverMaximumMs\u0022:100,\u0022targetHoverMinimumMs\u0022:50,\u0022targetHoverMaximumMs\u0022:100,\u0022pressMinimumMs\u0022:50,\u0022pressMaximumMs\u0022:100,\u0022maximumCurveAngleDegrees\u0022:10,\u0022fallbackTimeoutSeconds\u0022:12}}"
+      }
+    }
+  },
+  "turn": 9,
+  "actionId": 88,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
