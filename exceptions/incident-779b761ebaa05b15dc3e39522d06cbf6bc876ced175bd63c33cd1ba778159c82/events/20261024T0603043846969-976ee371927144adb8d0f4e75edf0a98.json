@@ -1,0 +1,39 @@
+{
+  "exceptionIncidentId": "72e95be9-4d97-5964-8853-ba9e66ddf11a",
+  "recordedAtUtc": "2026-10-24T06:03:04.3915845+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-24T06:03:04.3846969+00:00",
+    "eventName": "LIVE_MODE_ERROR",
+    "summary": "[\u9519\u8BEF]  \u6218\u68CB\u63A8\u8350\u53D7\u963B\uFF1A\u539F\u56E0\u672A\u786E\u5B9A\uFF08\u539F\u56E0\u7801\uFF1Abattlegrounds_action_unknown:choice\uFF09",
+    "technicalDetail": "battlegrounds_action_unknown:choice; index=0",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 0,
+    "payloadJson": "{\u0022mode\u0022:\u0022battlegrounds\u0022,\u0022status\u0022:\u0022failed\u0022,\u0022display\u0022:\u0022battlegrounds_action_unknown:choice; index=0\u0022,\u0022automationEpoch\u0022:\u002237581af2-ed2b-408d-95e9-6c624bca5660\u0022,\u0022detail\u0022:{\u0022exceptionIncidentId\u0022:\u002272e95be9-4d97-5964-8853-ba9e66ddf11a\u0022,\u0022actionId\u0022:0,\u0022outcome\u0022:\u0022rejected\u0022,\u0022reason\u0022:\u0022battlegrounds_action_unknown:choice; index=0\u0022,\u0022evidence\u0022:{\u0022context\u0022:{\u0022captureId\u0022:\u0022fd340838-3bbb-4ea8-8d88-538a4aaa257c\u0022,\u0022gameIdentity\u0022:\u0022a1c80c3f-c680-4204-93a9-15582175efd6\u0022,\u0022decisionKey\u0022:\u0022\u0022,\u0022historyWatermark\u0022:101,\u0022sessionGeneration\u0022:2},\u0022requestUuid\u0022:null,\u0022stage\u0022:\u0022battlegrounds_action\u0022,\u0022outcome\u0022:\u0022rejected\u0022,\u0022reason\u0022:\u0022battlegrounds_action_unknown:choice; index=0\u0022,\u0022timestampUtc\u0022:\u00222026-10-24T06:03:04.3844358\u002B00:00\u0022,\u0022elapsedMs\u0022:0,\u0022actionId\u0022:null,\u0022automationEpoch\u0022:\u002237581af2-ed2b-408d-95e9-6c624bca5660\u0022,\u0022requestId\u0022:null,\u0022winrateOnly\u0022:false,\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022requestPayload\u0022:null,\u0022nativeOptions\u0022:null,\u0022rawResponse\u0022:null,\u0022resultReason\u0022:null,\u0022transportAttempts\u0022:null,\u0022transportConnectAttempts\u0022:null,\u0022transportConnectTimeouts\u0022:null,\u0022transportConnectMs\u0022:null,\u0022transportResponseHeaders\u0022:null,\u0022transportFailure\u0022:null,\u0022evidenceOmission\u0022:null,\u0022nativeFrameSequence\u0022:710,\u0022diagnosticDetail\u0022:null,\u0022diagnosticDeliveryFailures\u0022:0,\u0022diagnosticDeliveryError\u0022:null}}}",
+    "matchId": "9643205961404bb7af5ca6b624fa2fe4:2",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-779b761ebaa05b15dc3e39522d06cbf6bc876ced175bd63c33cd1ba778159c82",
+    "matchSequence": 2
+  },
+  "state": {
+    "battleTag": "\u827A\u80FD\u4EBA\u91D1\u5E7F\u53D1#5314",
+    "turn": 1,
+    "actionId": 0,
+    "processId": 54444,
+    "sessionId": "d2092aa1-5a67-4450-bb7a-f01445045f55",
+    "gameEpoch": "2fde2d9f-07cb-436d-b8b0-2d92889519e4",
+    "automationEpoch": "37581af2-ed2b-408d-95e9-6c624bca5660",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "currentRank": "",
+    "gameMode": "battlegrounds",
+    "deckId": 0,
+    "deckName": "",
+    "deckCode": "",
+    "deckHeroClass": "",
+    "opponentClass": "NEUTRAL"
+  }
+}
