@@ -1,0 +1,53 @@
+{
+  "eventName": "ACTION_EXECUTION_FAILED",
+  "timestampUtc": "2026-10-24T11:06:40.9060367+00:00",
+  "summary": "[\u5931\u8D25]  \u786E\u8BA4\u7559\u724C \u2718 \u539F\u56E0=\u52A8\u4F5C\u6765\u6E90\u5DF2\u505C\u6B62",
+  "technicalDetail": "bridge_action_source_terminated; recommendationHash=; snapshotRevision=1487; action={\u0022Kind\u0022:\u0022mulligan_confirm\u0022,\u0022SourceEntityId\u0022:null,\u0022TargetEntityId\u0022:null,\u0022Position\u0022:null,\u0022SourceCardName\u0022:\u0022\u0022,\u0022SourceCardId\u0022:\u0022\u0022,\u0022TargetCardName\u0022:\u0022\u0022,\u0022TargetCardId\u0022:\u0022\u0022,\u0022SourcePosition\u0022:null,\u0022TargetPosition\u0022:null,\u0022SourceZone\u0022:\u0022\u0022,\u0022TargetZone\u0022:\u0022\u0022,\u0022SourceCardType\u0022:\u0022\u0022,\u0022TargetCardType\u0022:\u0022\u0022,\u0022SubOptionIndex\u0022:null,\u0022SubOptionEntityId\u0022:null,\u0022SubOptionCardId\u0022:null,\u0022SubOptionPosition\u0022:null,\u0022TargetSnapshotPosition\u0022:null,\u0022SubOptionCardName\u0022:null,\u0022ChoiceId\u0022:null,\u0022ChosenEntityIds\u0022:null,\u0022IsMagnetic\u0022:false}; automationEpoch=85bb8b95-4ebb-4acd-b490-40828b087d67; phase=unknown; phaseTrace=unknown; actionElapsedMs=unknown; nativeSideEffectStarted=unknown; gameEpoch=f31c6741-1ccb-46ef-88b1-9f335d5fdd1e; actionKind=mulligan_confirm; stableReason=bridge_action_source_terminated",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 25916,
+  "sessionId": "804b55e1-cead-41a6-95c5-ff8fbae6da31",
+  "gameEpoch": "f31c6741-1ccb-46ef-88b1-9f335d5fdd1e",
+  "automationEpoch": "85bb8b95-4ebb-4acd-b490-40828b087d67",
+  "eventPayload": {
+    "kind": "mulligan_confirm",
+    "sourceEntityId": null,
+    "targetEntityId": null,
+    "position": null,
+    "sourceCardName": "",
+    "sourceCardId": "",
+    "targetCardName": "",
+    "targetCardId": "",
+    "sourcePosition": null,
+    "targetPosition": null,
+    "sourceZone": "",
+    "targetZone": "",
+    "sourceCardType": "",
+    "targetCardType": "",
+    "subOptionIndex": null,
+    "subOptionEntityId": null,
+    "subOptionCardId": null,
+    "subOptionPosition": null,
+    "targetSnapshotPosition": null,
+    "subOptionCardName": null,
+    "choiceId": null,
+    "chosenEntityIds": null,
+    "isMagnetic": false
+  },
+  "turn": 1,
+  "actionId": 46,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
