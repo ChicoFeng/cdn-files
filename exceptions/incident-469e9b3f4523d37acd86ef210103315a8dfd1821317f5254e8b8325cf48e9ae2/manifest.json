@@ -1,0 +1,48 @@
+{
+  "eventName": "LIVE_MODE_ERROR",
+  "timestampUtc": "2026-10-24T13:36:48.4991665+00:00",
+  "summary": "[\u9519\u8BEF]  \u6218\u68CB\u63A8\u8350\u53D7\u963B\uFF1A\u5185\u90E8\u64CD\u4F5C\u5F02\u5E38\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF08System.InvalidOperationException: battlegrounds_native_slot_changed; exceptionDetail=System.InvalidOperationException: battlegrounds_native_slot_changed\uFF09",
+  "technicalDetail": "System.InvalidOperationException: battlegrounds_native_slot_changed; exceptionDetail=System.InvalidOperationException: battlegrounds_native_slot_changed\r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Drag (Entity entity, System.Int32 position, System.Boolean move) [0x00324] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:212 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Move (Entity entity, System.Int32 position) [0x00090] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:172 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x0053b] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:109 \r\n  at HSLaunch.Bridge.NativeBattlegroundsPositionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x001f4] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsPositionDriver.cs:56 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00108] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:48 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00059] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:87 ; nativeSideEffectStarted=true",
+  "exceptionIncidentId": "e0bbd1da-eac2-507e-f0fb-8f38d8bd9589",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "processId": 57576,
+  "sessionId": "bbb908ae-1217-474f-8284-5ebb4538268a",
+  "gameEpoch": "3a733d38-ea0a-450c-8683-cd2622b72ef8",
+  "automationEpoch": "15ff68a1-f2d4-429d-abb9-12a39d02264b",
+  "eventPayload": {
+    "mode": "battlegrounds",
+    "status": "failed",
+    "display": "System.InvalidOperationException: battlegrounds_native_slot_changed; exceptionDetail=System.InvalidOperationException: battlegrounds_native_slot_changed\r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Drag (Entity entity, System.Int32 position, System.Boolean move) [0x00324] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:212 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Move (Entity entity, System.Int32 position) [0x00090] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:172 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x0053b] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:109 \r\n  at HSLaunch.Bridge.NativeBattlegroundsPositionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x001f4] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsPositionDriver.cs:56 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00108] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:48 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00059] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:87 ; nativeSideEffectStarted=true",
+    "automationEpoch": "15ff68a1-f2d4-429d-abb9-12a39d02264b",
+    "detail": {
+      "exceptionIncidentId": "e0bbd1da-eac2-507e-f0fb-8f38d8bd9589",
+      "actionId": 44,
+      "outcome": "failed",
+      "reason": "System.InvalidOperationException: battlegrounds_native_slot_changed; exceptionDetail=System.InvalidOperationException: battlegrounds_native_slot_changed\r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Drag (Entity entity, System.Int32 position, System.Boolean move) [0x00324] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:212 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Move (Entity entity, System.Int32 position) [0x00090] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:172 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x0053b] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:109 \r\n  at HSLaunch.Bridge.NativeBattlegroundsPositionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x001f4] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsPositionDriver.cs:56 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00108] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:48 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00059] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:87 ; nativeSideEffectStarted=true",
+      "evidence": {
+        "type": "ACTION_RESULT",
+        "status": "failed",
+        "actionId": 44,
+        "automationEpoch": "15ff68a1-f2d4-429d-abb9-12a39d02264b",
+        "reason": "System.InvalidOperationException: battlegrounds_native_slot_changed; exceptionDetail=System.InvalidOperationException: battlegrounds_native_slot_changed\r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Drag (Entity entity, System.Int32 position, System.Boolean move) [0x00324] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:212 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Move (Entity entity, System.Int32 position) [0x00090] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:172 \r\n  at HSLaunch.Bridge.NativeBattlegroundsReflectionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x0053b] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsReflectionDriver.cs:109 \r\n  at HSLaunch.Bridge.NativeBattlegroundsPositionDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x001f4] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsPositionDriver.cs:56 \r\n  at HSLaunch.Bridge.NativeBattlegroundsSequenceDriver.Step (HSLaunch.Bridge.NativeBattlegroundsCommand command) [0x00108] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsSequenceDriver.cs:48 \r\n  at HSLaunch.Bridge.NativeBattlegroundsCommandRuntime.Tick () [0x00059] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeBattlegroundsCommandRuntime.cs:87 ; nativeSideEffectStarted=true",
+        "request": "{\u0022operation\u0022:\u0022end_turn\u0022,\u0022optionsId\u0022:38,\u0022choicesId\u0022:-1,\u0022sourceEntityId\u0022:0,\u0022target\u0022:null,\u0022powerTarget\u0022:null,\u0022subOption\u0022:null,\u0022position\u0022:null,\u0022preAdjustPosition\u0022:[{\u0022entityId\u0022:2303,\u0022position\u0022:1},{\u0022entityId\u0022:2957,\u0022position\u0022:2},{\u0022entityId\u0022:2304,\u0022position\u0022:3},{\u0022entityId\u0022:2931,\u0022position\u0022:4},{\u0022entityId\u0022:2307,\u0022position\u0022:5},{\u0022entityId\u0022:2306,\u0022position\u0022:6}],\u0022recommendationIndex\u0022:0,\u0022followingActions\u0022:[],\u0022type\u0022:\u0022ACTION\u0022,\u0022kind\u0022:\u0022battlegrounds_action\u0022,\u0022actionId\u0022:44,\u0022automationEpoch\u0022:\u002215ff68a1-f2d4-429d-abb9-12a39d02264b\u0022,\u0022captureId\u0022:\u002268a3a348-5b14-48e1-8d2b-b7a11b71b15d\u0022,\u0022captureGeneration\u0022:1,\u0022gameIdentity\u0022:\u002228a87d66-dac6-48aa-a23e-59b3ec3be6aa\u0022,\u0022nativePacketSequence\u0022:318,\u0022nativePrintOrder\u0022:317,\u0022dragTiming\u0022:{\u0022minimumMs\u0022:200,\u0022maximumMs\u0022:500,\u0022randomMinimum\u0022:0.9,\u0022randomMaximum\u0022:1.1,\u0022targetAdjustmentPercent\u0022:0,\u0022handAdjustmentPercent\u0022:15,\u0022selectionDelayMinimumMs\u0022:500,\u0022selectionDelayMaximumMs\u0022:1500,\u0022sourceHoverMinimumMs\u0022:50,\u0022sourceHoverMaximumMs\u0022:100,\u0022targetHoverMinimumMs\u0022:50,\u0022targetHoverMaximumMs\u0022:100,\u0022pressMinimumMs\u0022:50,\u0022pressMaximumMs\u0022:100,\u0022maximumCurveAngleDegrees\u0022:10,\u0022fallbackTimeoutSeconds\u0022:12}}"
+      }
+    }
+  },
+  "turn": 9,
+  "actionId": 44,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
