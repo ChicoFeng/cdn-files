@@ -1,0 +1,75 @@
+{
+  "eventName": "LIVE_MODE_ERROR",
+  "timestampUtc": "2026-10-24T11:02:17.5467412+00:00",
+  "summary": "[\u9519\u8BEF]  \u6218\u68CB\u63A8\u8350\u53D7\u963B\uFF1A\u539F\u56E0\u672A\u786E\u5B9A\uFF08\u539F\u56E0\u7801\uFF1Abattlegrounds_action_unknown:choice\uFF09",
+  "technicalDetail": "battlegrounds_action_unknown:choice; index=0",
+  "exceptionIncidentId": "eb9e4d3f-c04f-4fa9-ace0-e759b06d75a4",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "processId": 25916,
+  "sessionId": "804b55e1-cead-41a6-95c5-ff8fbae6da31",
+  "gameEpoch": "f31c6741-1ccb-46ef-88b1-9f335d5fdd1e",
+  "automationEpoch": "30a63ce6-cd68-4119-b54b-f8bf581e000d",
+  "eventPayload": {
+    "mode": "battlegrounds",
+    "status": "failed",
+    "display": "battlegrounds_action_unknown:choice; index=0",
+    "automationEpoch": "30a63ce6-cd68-4119-b54b-f8bf581e000d",
+    "detail": {
+      "exceptionIncidentId": "eb9e4d3f-c04f-4fa9-ace0-e759b06d75a4",
+      "actionId": 0,
+      "outcome": "rejected",
+      "reason": "battlegrounds_action_unknown:choice; index=0",
+      "evidence": {
+        "context": {
+          "captureId": "0c9a1dde-1f8b-4545-89cc-d07ced25be80",
+          "gameIdentity": "2f68a591-413d-41f3-8c36-317082159a4f",
+          "decisionKey": "",
+          "historyWatermark": 190,
+          "sessionGeneration": 1
+        },
+        "requestUuid": null,
+        "stage": "battlegrounds_action",
+        "outcome": "rejected",
+        "reason": "battlegrounds_action_unknown:choice; index=0",
+        "timestampUtc": "2026-10-24T11:02:17.5464822\u002B00:00",
+        "elapsedMs": 0,
+        "actionId": null,
+        "automationEpoch": "30a63ce6-cd68-4119-b54b-f8bf581e000d",
+        "requestId": null,
+        "winrateOnly": false,
+        "decisionOrigin": "service",
+        "requestPayload": null,
+        "nativeOptions": null,
+        "rawResponse": null,
+        "resultReason": null,
+        "transportAttempts": null,
+        "transportConnectAttempts": null,
+        "transportConnectTimeouts": null,
+        "transportConnectMs": null,
+        "transportResponseHeaders": null,
+        "transportFailure": null,
+        "evidenceOmission": null,
+        "nativeFrameSequence": 1344,
+        "diagnosticDetail": null,
+        "diagnosticDeliveryFailures": 0,
+        "diagnosticDeliveryError": null
+      }
+    }
+  },
+  "turn": 5,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone-box.png",
+      "captured": true,
+      "detail": ""
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
