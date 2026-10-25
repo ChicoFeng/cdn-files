@@ -1,0 +1,39 @@
+{
+  "exceptionIncidentId": "2fc942e4-9655-481d-a9df-c7b6686e3170",
+  "recordedAtUtc": "2026-10-25T07:14:11.610155+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-25T07:14:11.5799609+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u539F\u56E0\u672A\u786E\u5B9A\uFF08\u539F\u56E0\u7801\uFF1Aaction_binding_mismatch\uFF09\uFF1B\u81EA\u52A8\u7ED3\u675F\u56DE\u5408",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=turn; timeoutMs=12000; elapsedMs=0; snapshotRevision=51730; snapshotFingerprint=9E7C69406FC28CE827716399E32C95F8424233B350FB04501854C62FF64FDFA2; choiceId=-1; choiceType=; requestResultReason=action_binding_mismatch; requestStage=ResponseDecoded; requestTransportFailure=; requestTransportHeaders=True; requestHttpStatus=200; requestUuid=20261025_057d80ce-23b6-4ba4-bdad-4bea9fd719de; exceptionIncidentId=2fc942e49655481da9dfc7b6686e3170; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=4813ee73-c6dc-493b-a236-982fd3d1600d",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 1188,
+    "payloadJson": "",
+    "matchId": "1c259128bf1f4c36b311d17405a7cce2:27",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-0c615f8bd7a0580378f7d94db38773d66ac5d95cfb61f4de6da6cf63258cdc32",
+    "matchSequence": 27
+  },
+  "state": {
+    "battleTag": "\u56BC\u53E3\u9999\u7CD6\u7684\u6076\u9B54#5788",
+    "turn": 17,
+    "actionId": 1188,
+    "processId": 10564,
+    "sessionId": "e318fc3a-52be-4480-919d-94788ff5f077",
+    "gameEpoch": "d8107c86-531c-4cd0-a225-5a17285852ff",
+    "automationEpoch": "4813ee73-c6dc-493b-a236-982fd3d1600d",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13226113513",
+    "currentRank": "\u767D\u91D14[14]-2\u2605 \u00B7 \u00D72",
+    "gameMode": "standard",
+    "deckId": 9554830079,
+    "deckName": "\u514B\u82CF\u6069\u8428",
+    "deckCode": "AAECAeCKBwbDgwfQ2weI3Qff5Qen9wfziQgM7eYG4J0HsbAHycAHyOUH1\u002BkHxfAH5v0Ht/4HwP8HpIEI\u002B4kIAAA=",
+    "deckHeroClass": "SHAMAN",
+    "opponentClass": "WARLOCK"
+  }
+}

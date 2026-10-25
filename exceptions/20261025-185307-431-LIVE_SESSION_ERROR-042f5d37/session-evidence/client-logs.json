@@ -1,0 +1,9 @@
+{
+  "byteLimitPerFile": 262144,
+  "files": [
+    {
+      "captured": false,
+      "detail": "System.ComponentModel.Win32Exception (299): \u4EC5\u5B8C\u6210\u90E8\u5206\u7684 ReadProcessMemory \u6216 WriteProcessMemory \u8BF7\u6C42\u3002\r\n   at System.Diagnostics.NtProcessManager.EnumProcessModulesUntilSuccess(SafeProcessHandle processHandle, IntPtr[] modules, Int32 size, Int32\u0026 needed, Int32 filterFlag)\r\n   at System.Diagnostics.NtProcessManager.GetModules(Int32 processId, Boolean firstModuleOnly)\r\n   at System.Diagnostics.NtProcessManager.GetFirstModule(Int32 processId)\r\n   at HSLaunch.Mvp.SessionFaultEvidence.CaptureLogsAsync(MvpConfiguration config, Process game, String directory, List\u00601 results, String playerLogPath, Nullable\u00601 cachedProcessStartUtc, CancellationToken cancellation)\r\n   at HSLaunch.Mvp.SessionFaultEvidence.CaptureAsync(MvpConfiguration config, Process game, Guid sessionId, Guid gameEpoch, Guid automationEpoch, LiveSessionTermination termination, Boolean screenshotAvailable, Action\u00601 requestScreenshot, CancellationToken cancellation, Nullable\u00601 screenshotBudget, String playerLogPath, Nullable\u00601 processStartUtc)"
+    }
+  ]
+}

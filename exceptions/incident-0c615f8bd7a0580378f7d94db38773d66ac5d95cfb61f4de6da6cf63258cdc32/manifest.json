@@ -1,0 +1,34 @@
+{
+  "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+  "timestampUtc": "2026-10-25T07:14:11.5799609+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u539F\u56E0\u672A\u786E\u5B9A\uFF08\u539F\u56E0\u7801\uFF1Aaction_binding_mismatch\uFF09\uFF1B\u81EA\u52A8\u7ED3\u675F\u56DE\u5408",
+  "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=turn; timeoutMs=12000; elapsedMs=0; snapshotRevision=51730; snapshotFingerprint=9E7C69406FC28CE827716399E32C95F8424233B350FB04501854C62FF64FDFA2; choiceId=-1; choiceType=; requestResultReason=action_binding_mismatch; requestStage=ResponseDecoded; requestTransportFailure=; requestTransportHeaders=True; requestHttpStatus=200; requestUuid=20261025_057d80ce-23b6-4ba4-bdad-4bea9fd719de; exceptionIncidentId=2fc942e49655481da9dfc7b6686e3170; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=4813ee73-c6dc-493b-a236-982fd3d1600d",
+  "exceptionIncidentId": "2fc942e4-9655-481d-a9df-c7b6686e3170",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "processId": 10564,
+  "sessionId": "e318fc3a-52be-4480-919d-94788ff5f077",
+  "gameEpoch": "d8107c86-531c-4cd0-a225-5a17285852ff",
+  "automationEpoch": "4813ee73-c6dc-493b-a236-982fd3d1600d",
+  "eventPayload": null,
+  "turn": 17,
+  "actionId": 1188,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=10564"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}

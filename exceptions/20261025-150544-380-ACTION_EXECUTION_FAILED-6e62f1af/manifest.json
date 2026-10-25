@@ -1,0 +1,58 @@
+{
+  "eventName": "ACTION_EXECUTION_FAILED",
+  "timestampUtc": "2026-10-25T07:05:44.3801979+00:00",
+  "summary": "[\u5931\u8D25]  \u6253\u51FA [4]\u6809\u9F99 \u27A3 \u4F4D\u7F6E[5] \u2718 \u539F\u56E0=\u7089\u77F3\u539F\u751F\u64CD\u4F5C\u672A\u5B8C\u6210\uFF0C\u672C\u6B21\u64CD\u4F5C\u5DF2\u505C\u6B62",
+  "technicalDetail": "native_interaction_failed: phase=drag; readinessCheck=ready; actionKind=play_card; sourceEntity=31; targetEntity=0; targetModeSource=not_checked; immediateTargetModeEntered=False; heldPointerHitBattlefield=False; nativeSideEffectStarted=True; timing=none; System.NullReferenceException: Object reference not set to an instance of an object; exceptionDetail=System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---\u003E System.NullReferenceException: Object reference not set to an instance of an object\r\n  at InputManager.HandleUpdateWhileHoldingCard (System.Boolean hitBattlefield) [0x00012] in \u003Cf6cd9545200d4f21ba2f2cb33bcf575d\u003E:0 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception\u0026)\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in \u003C1e94f3232bd74dfbb115579538c0cf48\u003E:0 \r\n   --- End of inner exception stack trace ---\r\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in \u003C1e94f3232bd74dfbb115579538c0cf48\u003E:0 \r\n  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in \u003C1e94f3232bd74dfbb115579538c0cf48\u003E:0 \r\n  at HSLaunch.Bridge.NativeInteractionRuntime\u002BNativeAction.UpdateHeldCard (System.Boolean hitBattlefield) [0x00019] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeInteractionRuntime.cs:3398 \r\n  at HSLaunch.Bridge.NativeInteractionRuntime\u002BNativeAction.UpdateHeldCardOrTargetReticle (System.Boolean hitBattlefield) [0x0004b] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeInteractionRuntime.cs:3836 \r\n  at HSLaunch.Bridge.NativeInteractionRuntime\u002BNativeAction.UpdateHandDrag () [0x0053f] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeInteractionRuntime.cs:2292 \r\n  at HSLaunch.Bridge.NativeInteractionRuntime\u002BNativeAction.Update () [0x002d9] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeInteractionRuntime.cs:1822 \r\n  at HSLaunch.Bridge.NativeInteractionRuntime.UpdateCore () [0x002c6] in D:\\HearthPilot\\src\\Bridge\\Interaction\\NativeInteractionRuntime.cs:242 ; gameOverNowOrPending=False; friendlyPreGameOverPlayState=INVALID; opposingPreGameOverPlayState=INVALID; nativeChoice=not_observed; nativeChoiceReceipt=not_observed; bridgeMvid=56252a5f-db3c-4a5c-bc96-c126a270288f; clientMvid=f6cd9545-200d-4f21-ba2f-2cb33bcf575d; nativeSideEffectStarted=true; cleanupStatus=completed; recommendationHash=630105A2B005DFC4EB6E68BD21ABE2AFEC999D9411FC871EBD703F06CA41CD06; snapshotRevision=965; action={\u0022Kind\u0022:\u0022play_card\u0022,\u0022SourceEntityId\u0022:31,\u0022TargetEntityId\u0022:null,\u0022Position\u0022:5,\u0022SourceCardName\u0022:\u0022\\u6809\\u9F99\u0022,\u0022SourceCardId\u0022:\u0022TLC_603\u0022,\u0022TargetCardName\u0022:\u0022\u0022,\u0022TargetCardId\u0022:\u0022\u0022,\u0022SourcePosition\u0022:4,\u0022TargetPosition\u0022:null,\u0022SourceZone\u0022:\u0022HAND\u0022,\u0022TargetZone\u0022:\u0022\u0022,\u0022SourceCardType\u0022:\u0022MINION\u0022,\u0022TargetCardType\u0022:\u0022\u0022,\u0022SubOptionIndex\u0022:null,\u0022SubOptionEntityId\u0022:null,\u0022SubOptionCardId\u0022:\u0022\u0022,\u0022SubOptionPosition\u0022:null,\u0022TargetSnapshotPosition\u0022:null,\u0022SubOptionCardName\u0022:null,\u0022ChoiceId\u0022:null,\u0022ChosenEntityIds\u0022:null,\u0022IsMagnetic\u0022:false}; automationEpoch=324d7144-807e-4d99-b43e-5376cbc7b2d5; actionElapsedMs=9998; gameEpoch=70a1051a-caec-49c5-8eab-1e557746d3d8; stableReason=native_interaction_failed",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 57540,
+  "sessionId": "d4e36147-b48b-414d-8b72-fc95d4e30a59",
+  "gameEpoch": "70a1051a-caec-49c5-8eab-1e557746d3d8",
+  "automationEpoch": "324d7144-807e-4d99-b43e-5376cbc7b2d5",
+  "eventPayload": {
+    "kind": "play_card",
+    "sourceEntityId": 31,
+    "targetEntityId": null,
+    "position": 5,
+    "sourceCardName": "\u6809\u9F99",
+    "sourceCardId": "TLC_603",
+    "targetCardName": "",
+    "targetCardId": "",
+    "sourcePosition": 4,
+    "targetPosition": null,
+    "sourceZone": "HAND",
+    "targetZone": "",
+    "sourceCardType": "MINION",
+    "targetCardType": "",
+    "subOptionIndex": null,
+    "subOptionEntityId": null,
+    "subOptionCardId": "",
+    "subOptionPosition": null,
+    "targetSnapshotPosition": null,
+    "subOptionCardName": null,
+    "choiceId": null,
+    "chosenEntityIds": null,
+    "isMagnetic": false
+  },
+  "turn": 13,
+  "actionId": 23,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=57540"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
