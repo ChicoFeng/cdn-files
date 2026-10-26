@@ -1,0 +1,58 @@
+{
+  "eventName": "ACTION_EXECUTION_FAILED",
+  "timestampUtc": "2026-10-26T17:39:05.9470239+00:00",
+  "summary": "[\u5931\u8D25]  \u6253\u51FA [5]\u6697\u5F71\u4E4B\u821E \u2718 \u539F\u56E0=\u7089\u77F3\u672A\u5F00\u59CB\u6267\u884C\u539F\u751F\u64CD\u4F5C\uFF0C\u672C\u6B21\u64CD\u4F5C\u5DF2\u505C\u6B62",
+  "technicalDetail": "native_input_not_started: phase=begin; previousReadinessCheck=hand_card_card_input_disabled; actionKind=play_card; sourceEntity=234; targetEntity=0; targetModeSource=not_checked; immediateTargetModeEntered=False; heldPointerHitBattlefield=not_checked; nativeSideEffectStarted=False; timing=none; native_input_not_started; readinessCheck=hand_card_card_input_disabled; gameOverNowOrPending=False; friendlyPreGameOverPlayState=INVALID; opposingPreGameOverPlayState=INVALID; nativeChoice=not_observed; nativeChoiceReceipt=not_observed; bridgeMvid=08718b2a-92d1-4f3e-bc40-2c63958d2b24; clientMvid=f6cd9545-200d-4f21-ba2f-2cb33bcf575d; nativeSideEffectStarted=false; cleanupStatus=completed; recommendationHash=C620E78B4A673E806A774450DD738175A61D13A91407D1188B1242CA6B788FD0; snapshotRevision=16021; action={\u0022Kind\u0022:\u0022play_card\u0022,\u0022SourceEntityId\u0022:234,\u0022TargetEntityId\u0022:null,\u0022Position\u0022:null,\u0022SourceCardName\u0022:\u0022\\u6697\\u5F71\\u4E4B\\u821E\u0022,\u0022SourceCardId\u0022:\u0022BE_071\u0022,\u0022TargetCardName\u0022:\u0022\u0022,\u0022TargetCardId\u0022:\u0022\u0022,\u0022SourcePosition\u0022:5,\u0022TargetPosition\u0022:null,\u0022SourceZone\u0022:\u0022HAND\u0022,\u0022TargetZone\u0022:\u0022\u0022,\u0022SourceCardType\u0022:\u0022SPELL\u0022,\u0022TargetCardType\u0022:\u0022\u0022,\u0022SubOptionIndex\u0022:null,\u0022SubOptionEntityId\u0022:null,\u0022SubOptionCardId\u0022:\u0022\u0022,\u0022SubOptionPosition\u0022:null,\u0022TargetSnapshotPosition\u0022:null,\u0022SubOptionCardName\u0022:null,\u0022ChoiceId\u0022:null,\u0022ChosenEntityIds\u0022:null,\u0022IsMagnetic\u0022:false}; automationEpoch=84561505-6a7d-4650-a53b-5477269bfffe; actionElapsedMs=207; gameEpoch=5fa4c490-e6eb-492c-ae34-14217f91a098; stableReason=native_input_not_started",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 12828,
+  "sessionId": "86d268db-93bf-43e6-ad44-40acf394e996",
+  "gameEpoch": "5fa4c490-e6eb-492c-ae34-14217f91a098",
+  "automationEpoch": "84561505-6a7d-4650-a53b-5477269bfffe",
+  "eventPayload": {
+    "kind": "play_card",
+    "sourceEntityId": 234,
+    "targetEntityId": null,
+    "position": null,
+    "sourceCardName": "\u6697\u5F71\u4E4B\u821E",
+    "sourceCardId": "BE_071",
+    "targetCardName": "",
+    "targetCardId": "",
+    "sourcePosition": 5,
+    "targetPosition": null,
+    "sourceZone": "HAND",
+    "targetZone": "",
+    "sourceCardType": "SPELL",
+    "targetCardType": "",
+    "subOptionIndex": null,
+    "subOptionEntityId": null,
+    "subOptionCardId": "",
+    "subOptionPosition": null,
+    "targetSnapshotPosition": null,
+    "subOptionCardName": null,
+    "choiceId": null,
+    "chosenEntityIds": null,
+    "isMagnetic": false
+  },
+  "turn": 10,
+  "actionId": 395,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=12828"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
