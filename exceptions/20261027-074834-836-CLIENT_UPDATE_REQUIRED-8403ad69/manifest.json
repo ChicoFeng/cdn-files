@@ -1,0 +1,34 @@
+{
+  "eventName": "CLIENT_UPDATE_REQUIRED",
+  "timestampUtc": "2026-10-26T23:48:34.8366731+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u9700\u8981\u66F4\u65B0\u6216\u5DF2\u66F4\u65B0\uFF0CHP \u5DF2\u505C\u6B62\u81EA\u52A8\u64CD\u4F5C\u548C\u8BA1\u5212\u3002\u8BF7\u5B8C\u6210\u7089\u77F3\u66F4\u65B0\u540E\u91CD\u65B0\u6253\u5F00 HP\uFF0C\u518D\u624B\u52A8\u5F00\u59CB\uFF1B\u539F\u56E0\uFF1A\u539F\u56E0\u672A\u786E\u5B9A\uFF08\u539F\u56E0\u7801\uFF1A{\u0022Reason\u0022:\u0022client_update_pending\u0022,\u0022Source\u0022:\u0022battle_net_product_db\u0022,\u0022PreviousVersion\u0022:\u00226000.3.11.3145967\uFF09",
+  "technicalDetail": "{\u0022Reason\u0022:\u0022client_update_pending\u0022,\u0022Source\u0022:\u0022battle_net_product_db\u0022,\u0022PreviousVersion\u0022:\u00226000.3.11.3145967;mvid=f6cd9545-200d-4f21-ba2f-2cb33bcf575d\u0022,\u0022CurrentVersion\u0022:\u00226000.3.11.3145967;mvid=f6cd9545-200d-4f21-ba2f-2cb33bcf575d\u0022,\u0022Detail\u0022:\u0022installed=True;playable=False;updateComplete=False;activeOperation=;version=37.0.0.255130.254477\u0022}",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 0,
+  "sessionId": "6a3851df-abb5-4776-a856-dd9d08507672",
+  "gameEpoch": "33bd58ce-89c3-4cfd-a4cd-79341d932088",
+  "automationEpoch": "03a0a814-6c19-4b45-9ef8-bd083c028323",
+  "eventPayload": null,
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
