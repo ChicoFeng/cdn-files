@@ -1,0 +1,52 @@
+{
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-10-26T22:41:03.8084592+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u8FDE\u63A5\u5F02\u5E38\uFF1A\u7089\u77F3\u6E38\u620F\u8FDE\u63A5\u4E2D\u65AD\uFF0C\u6B63\u5728\u5173\u95ED\u5E76\u91CD\u65B0\u542F\u52A8",
+  "technicalDetail": "client_fatal_error",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 2412,
+  "sessionId": "f66c7917-9939-471e-a816-3339e1bea4ed",
+  "gameEpoch": "08527954-9761-43a7-a551-d217d5d3e679",
+  "automationEpoch": "10736f90-c51a-483a-bdff-4da2f8a13d82",
+  "eventPayload": {
+    "kind": "ClientSessionFault",
+    "component": "game_session",
+    "code": "client_fatal_error",
+    "normal": false,
+    "detail": "client_fatal_error",
+    "sessionEvidence": {
+      "id": "112d6e63-66cd-4910-b81b-aa1ac87ac8b4",
+      "relativeDirectory": "20261027-064058-301-SESSION_FAULT-112d6e6366cd4910b81baa1ac87ac8b4",
+      "processId": 2412,
+      "sessionId": "f66c7917-9939-471e-a816-3339e1bea4ed",
+      "gameEpoch": "08527954-9761-43a7-a551-d217d5d3e679",
+      "automationEpoch": "10736f90-c51a-483a-bdff-4da2f8a13d82",
+      "faultedAtUtc": "2026-10-26T22:40:58.3018748\u002B00:00"
+    },
+    "evidenceError": null
+  },
+  "turn": 1,
+  "actionId": 229,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "System.InvalidOperationException: screenshot_timeout: System.Threading.Tasks.TaskCanceledException: A task was canceled.\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId, String expectedGameEpoch, MvpViewState targetRankState)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline)\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ImportSessionEvidence(String directory, FeatureRuntimeEvent value, Boolean captureImages, List\u00601 screenshots, List\u00601 images, List\u00601 diagnostics)"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": [
+    "\u6E05\u7406\u524D\u73B0\u573A\u5BFC\u5165\u5931\u8D25\uFF1ASystem.InvalidOperationException: screenshot_timeout: System.Threading.Tasks.TaskCanceledException: A task was canceled.\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId, String expectedGameEpoch, MvpViewState targetRankState)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline)\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ImportSessionEvidence(String directory, FeatureRuntimeEvent value, Boolean captureImages, List\u00601 screenshots, List\u00601 images, List\u00601 diagnostics)"
+  ]
+}
