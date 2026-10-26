@@ -1,0 +1,29 @@
+{
+  "eventName": "SESSION_FAULT",
+  "timestampUtc": "2026-10-26T14:15:16.7117089+00:00",
+  "evidence": {
+    "id": "4b96926c-4491-499a-b5ed-a2ad9bf45da2",
+    "relativeDirectory": "20261026-221516-711-SESSION_FAULT-4b96926c4491499ab5eda2ad9bf45da2",
+    "processId": 6092,
+    "sessionId": "3c2c0cdc-6378-461a-a638-e6f8d367eaec",
+    "gameEpoch": "a63712a5-8674-4d7a-9bef-8a34a70772df",
+    "automationEpoch": "ecf84db8-fdaf-4759-90d6-a12788f5345b",
+    "faultedAtUtc": "2026-10-26T14:15:16.7117089+00:00"
+  },
+  "termination": {
+    "kind": 4,
+    "component": "game_session",
+    "detail": "client_fatal_error",
+    "code": "client_fatal_error",
+    "isNormal": false,
+    "evidence": null,
+    "evidenceError": null
+  },
+  "snapshotMissing": false,
+  "screenshot": {
+    "outcome": "failed",
+    "detail": "System.AggregateException: One or more errors occurred. (manual_command_busy) (native_screenshot_owner_rejected)\r\n ---\u003E System.InvalidOperationException: manual_command_busy\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId, String expectedGameEpoch, MvpViewState targetRankState)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   --- End of inner exception stack trace ---\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline)\r\n ---\u003E (Inner Exception #1) System.InvalidOperationException: native_screenshot_owner_rejected\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId, String expectedGameEpoch, MvpViewState targetRankState)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\u003C---\r\n",
+    "captured": false
+  },
+  "logs": "client-logs.json"
+}
