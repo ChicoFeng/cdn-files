@@ -1,8 +1,0 @@
-capturedAtUtc=2026-10-25T03:23:57.8514246+00:00
-eventName=CLIENT_UPDATE_REQUIRED
-summary=[错误]  炉石需要更新或已更新，HP 已停止自动操作和计划。请完成炉石更新后重新打开 HP，再手动开始；原因：原因未确定（原因码：{"Reason":"client_update_pending","Source":"battle_net_product_db","PreviousVersion":"6000.3.11.3145967）
-technicalDetail={"Reason":"client_update_pending","Source":"battle_net_product_db","PreviousVersion":"6000.3.11.3145967;mvid=f6cd9545-200d-4f21-ba2f-2cb33bcf575d","CurrentVersion":"6000.3.11.3145967;mvid=f6cd9545-200d-4f21-ba2f-2cb33bcf575d","Detail":"installed=True;playable=False;updateComplete=False;activeOperation=;version=37.0.0.255026.254477"}
-turn=-1
-actionId=0
---- launcher log tail ---
-(读取 launcher 日志失败: IOException)
