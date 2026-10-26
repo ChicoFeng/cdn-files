@@ -1,0 +1,40 @@
+{
+  "exceptionIncidentId": "4414d96f-8b87-45c9-a1f9-96afb776f6ad",
+  "recordedAtUtc": "2026-10-26T04:39:01.4272964+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-26T04:39:01.4163644+00:00",
+    "eventName": "LIVE_DIRECT_STATUS",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5931\u8D25\uFF1A\u5EFA\u7ACB\u7F51\u7EDC\u8FDE\u63A5\u5931\u8D25\uFF1A\u5355\u6B21\u5EFA\u8FDE\u8D85\u65F6\uFF08attempt_timeout\uFF09",
+    "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u00224f7aafeb-513b-4a6e-9fd5-537ba66412b8\u0022,\u0022gameIdentity\u0022:\u0022897740ac-2adc-4ccc-869a-8be5dd84aa99\u0022,\u0022decisionKey\u0022:\u00224BB452E81FB103F488D0AC7860132C5EE107357D892540EB42EFAB063112B2F1\u0022,\u0022historyWatermark\u0022:60,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u00224414d96f-8b87-45c9-a1f9-96afb776f6ad\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=10561.2,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:10561.2,\u0022responseHeaders\u0022:false,\u0022failure\u0022:\u0022connect:attempt_timeout\u0022,\u0022connectAttempts\u0022:7,\u0022connectTimeouts\u0022:7,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:null},\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u0022f125ac03-d5e4-464f-9d35-755e2ab71f89\u0022,\u0022executionAuthorized\u0022:false}",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 0,
+    "payloadJson": "{\u0022context\u0022:{\u0022captureId\u0022:\u00224f7aafeb-513b-4a6e-9fd5-537ba66412b8\u0022,\u0022gameIdentity\u0022:\u0022897740ac-2adc-4ccc-869a-8be5dd84aa99\u0022,\u0022decisionKey\u0022:\u00224BB452E81FB103F488D0AC7860132C5EE107357D892540EB42EFAB063112B2F1\u0022,\u0022historyWatermark\u0022:60,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u00224414d96f-8b87-45c9-a1f9-96afb776f6ad\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=10561.2,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:10561.2,\u0022responseHeaders\u0022:false,\u0022failure\u0022:\u0022connect:attempt_timeout\u0022,\u0022connectAttempts\u0022:7,\u0022connectTimeouts\u0022:7,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:null},\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u0022f125ac03-d5e4-464f-9d35-755e2ab71f89\u0022,\u0022executionAuthorized\u0022:false}",
+    "matchId": "2428234006bb41e9947a6b521ab823be:47",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-9ff8928f701e907b784e7969a1f13c0d12c20a1910d96eaf29b8f8b9bb8884f9",
+    "matchSequence": 47
+  },
+  "state": {
+    "battleTag": "\u552F\u706C\u6708#5775",
+    "turn": 8,
+    "actionId": 1211,
+    "processId": 55668,
+    "sessionId": "50d31b4f-90a1-4e49-b9a5-740b293e4d9c",
+    "gameEpoch": "48dbc896-2158-4cc9-af9b-fd1f7eb615aa",
+    "automationEpoch": "f125ac03-d5e4-464f-9d35-755e2ab71f89",
+    "matchmakingRequestId": "02aa1836-f94c-4ed0-8a13-86cb56dd5e6a-postgame-9",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "",
+    "currentRank": "\u94BB\u77F34[4]-3\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9556184656,
+    "deckName": "\u6D77\u76D7\u6218",
+    "deckCode": "AAEBAce\u002BBQSRvALr1gey2Aer4AcN\u002Bw/psAOktgO\u002B4gSVqgW00QX8qAatxQam4Aen4Aeo4Aep4Af74AcAAA==",
+    "deckHeroClass": "WARRIOR",
+    "opponentClass": "PRIEST"
+  }
+}
