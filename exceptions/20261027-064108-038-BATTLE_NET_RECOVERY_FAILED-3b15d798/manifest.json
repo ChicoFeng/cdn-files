@@ -1,0 +1,34 @@
+{
+  "eventName": "BATTLE_NET_RECOVERY_FAILED",
+  "timestampUtc": "2026-10-26T22:41:08.0385178+00:00",
+  "summary": "[\u9519\u8BEF]  \u6218\u7F51\u6062\u590D\u5931\u8D25\uFF0C\u81EA\u52A8\u64CD\u4F5C\u5DF2\u505C\u6B62\uFF1A\u5C1A\u672A\u786E\u8BA4\u9700\u8981\u6062\u590D\u7684\u7089\u77F3\u8D26\u53F7\uFF0C\u8BF7\u5728 HP \u4E2D\u6388\u6743\u5E76\u8FDB\u5165\u4E00\u6B21\u7089\u77F3\uFF1B\u539F\u56E0\uFF1A\u5185\u90E8\u64CD\u4F5C\u5F02\u5E38\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF08{\u0022code\u0022:\u0022battlenet_recovery_failed\u0022,\u0022recoveryId\u0022:\u00227d877ed7-92bb-4f47-8165-7f69a24bb58a\u0022,\u0022evidence\u0022:null,\u0022exception\u0022:\u0022HSLaunch.Mvp.HearthstoneLoginRequiredExcept\u2026\uFF09",
+  "technicalDetail": "{\u0022code\u0022:\u0022battlenet_recovery_failed\u0022,\u0022recoveryId\u0022:\u00227d877ed7-92bb-4f47-8165-7f69a24bb58a\u0022,\u0022evidence\u0022:null,\u0022exception\u0022:\u0022HSLaunch.Mvp.HearthstoneLoginRequiredException: \\u5C1A\\u672A\\u786E\\u8BA4\\u9700\\u8981\\u6062\\u590D\\u7684\\u7089\\u77F3\\u8D26\\u53F7\\uFF0C\\u8BF7\\u5728 HP \\u4E2D\\u6388\\u6743\\u5E76\\u8FDB\\u5165\\u4E00\\u6B21\\u7089\\u77F3\\u3002\\r\\n   at HSLaunch.Mvp.Program.\\u003C\\u003Ec__DisplayClass6_2.\\u003C\\u003CRunLiveSupervisorAsync\\u003Eb__5\\u003Ed.MoveNext()\\r\\n--- End of stack trace from previous loca\u2026",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 0,
+  "sessionId": "f66c7917-9939-471e-a816-3339e1bea4ed",
+  "gameEpoch": "1c9d9fda-7a55-453c-9412-47898513543a",
+  "automationEpoch": "10736f90-c51a-483a-bdff-4da2f8a13d82",
+  "eventPayload": null,
+  "turn": -1,
+  "actionId": 0,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
