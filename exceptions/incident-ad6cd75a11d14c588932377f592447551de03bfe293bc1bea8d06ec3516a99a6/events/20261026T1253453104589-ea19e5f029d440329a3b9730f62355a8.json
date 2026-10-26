@@ -1,0 +1,40 @@
+{
+  "exceptionIncidentId": "b8385f72-0952-4bbf-9960-e0ce16b5f3eb",
+  "recordedAtUtc": "2026-10-26T12:53:45.3164585+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-26T12:53:45.3104589+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u670D\u52A1\u8FD4\u56DE\u7684\u63A8\u8350\u672A\u88AB\u63A5\u7EB3\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF1B\u81EA\u52A8\u7ED3\u675F\u56DE\u5408",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=turn; timeoutMs=12000; elapsedMs=0; snapshotRevision=10773; snapshotFingerprint=891FCEB6F9D6D58BA2A3C6C6AF262D3663DF954807AA4B83D0BED4EE476A5FF2; choiceId=-1; choiceType=; requestResultReason=traditional_recommendation_rejected; requestStage=ResponseDecoded; requestTransportFailure=; requestTransportHeaders=True; requestHttpStatus=200; requestUuid=20261026_a84ba290-74ea-40a9-80b9-cd87d9fbc25c; exceptionIncidentId=b8385f7209524bbf9960e0ce16b5f3eb; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=cd832248-254d-4583-b78a-7caf02e30881",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 264,
+    "payloadJson": "",
+    "matchId": "8da917e7fec9449ab8ec2327d68684b8:8",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-ad6cd75a11d14c588932377f592447551de03bfe293bc1bea8d06ec3516a99a6",
+    "matchSequence": 8
+  },
+  "state": {
+    "battleTag": "\u5C0F\u6731#52731",
+    "turn": 6,
+    "actionId": 264,
+    "processId": 2152,
+    "sessionId": "a3ee5d10-d4e1-462c-bd49-631b74421ca7",
+    "gameEpoch": "7f2fd8fa-328a-4805-813a-a63389dac705",
+    "automationEpoch": "cd832248-254d-4583-b78a-7caf02e30881",
+    "matchmakingRequestId": "2e6c6fe6-814b-42a4-9a22-2b0341e19623-postgame-7",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "18206222243",
+    "currentRank": "\u94BB\u77F34[4]-3\u2605 \u00B7 \u00D71",
+    "gameMode": "standard",
+    "deckId": 9556813284,
+    "deckName": "\u52A8\u7269\u56ED",
+    "deckCode": "AAECAa3NBwLDgwfb4AcO0J4G054G15cHhJkHoq0HpK0Hpa0HqK0H9sEHgfYHivYHjfYH6fkH6/kHAAA=",
+    "deckHeroClass": "WARLOCK",
+    "opponentClass": "PRIEST"
+  }
+}
