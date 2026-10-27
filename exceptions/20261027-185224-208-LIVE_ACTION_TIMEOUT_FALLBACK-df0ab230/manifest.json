@@ -1,0 +1,34 @@
+{
+  "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+  "timestampUtc": "2026-10-27T10:52:24.2080888+00:00",
+  "summary": "[\u9519\u8BEF]  \u7559\u724C\u9636\u6BB5\u8D85\u8FC712\u79D2\u672A\u54CD\u5E94\uFF0C\u81EA\u52A8\u786E\u8BA4\u7559\u724C",
+  "technicalDetail": "source=timeout_fallback; trigger=stage_timeout; scope=mulligan; timeoutMs=12000; elapsedMs=12200; snapshotRevision=350; snapshotFingerprint=741C0143F1A7CB3E2AB86723BEE0DC544766532BED404D81B4C91F9D721551A4; choiceId=1; choiceType=MULLIGAN; automationEpoch=6beec4ca-bb4d-4ebf-93c4-2b4cc3b5bb56",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 3524,
+  "sessionId": "2f5905fc-c952-459e-af05-9e6b18aa80b0",
+  "gameEpoch": "55e9bef5-f123-4471-abab-bb777ddc89d8",
+  "automationEpoch": "6beec4ca-bb4d-4ebf-93c4-2b4cc3b5bb56",
+  "eventPayload": null,
+  "turn": 1,
+  "actionId": 1,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=3524"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
