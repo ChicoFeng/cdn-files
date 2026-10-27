@@ -1,0 +1,41 @@
+{
+  "exceptionIncidentId": "8f332d75-b36b-4259-aad3-f7b9f75c5286",
+  "recordedAtUtc": "2026-10-27T15:50:23.4509212+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-27T15:50:23.445105+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u670D\u52A1\u8FD4\u56DE\u7684\u63A8\u8350\u672A\u88AB\u63A5\u7EB3\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF1B\u81EA\u52A8\u786E\u8BA4\u7559\u724C",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=mulligan; timeoutMs=12000; elapsedMs=0; snapshotRevision=14072; snapshotFingerprint=62BC24EE2339958FDA4A018B806F89CB9DD3F8C2E9C00CB482980EFA119D585F; choiceId=1; choiceType=MULLIGAN; requestResultReason=traditional_recommendation_rejected; requestStage=ResponseDecoded; requestTransportFailure=; requestTransportHeaders=True; requestHttpStatus=200; requestUuid=20261027_c1658963-bd9f-49b4-b043-9cdc84d86ad2; exceptionIncidentId=8f332d75b36b4259aad3f7b9f75c5286; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=f24a45c2-848b-4efd-9df6-f4f6f0364d10",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 400,
+    "payloadJson": "",
+    "matchId": "c504b339aa944c1c936185f7acb02e16:11",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-e6b33b697d1ea60db0f69ecd9d25d739fec9b3abd113e470d74c3c0bdffdb50e",
+    "matchSequence": 11
+  },
+  "state": {
+    "battleTag": "\u4F20\u5947\u5973\u5CD2\u5343\u65E9\u7231\u97F3#5211",
+    "turn": 1,
+    "actionId": 400,
+    "processId": 7752,
+    "sessionId": "8e60d4f3-4012-4e59-91e1-a6798dfceca3",
+    "gameEpoch": "d77a7185-2140-4fa1-9ff3-1fef9eb8ce22",
+    "automationEpoch": "f24a45c2-848b-4efd-9df6-f4f6f0364d10",
+    "matchmakingRequestId": "bcc804fc-0c50-4a06-bdda-5b37f8c579a0-postgame-10",
+    "matchState": "Mulligan",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13763874928",
+    "accountLabel": "5127562226408039814",
+    "currentRank": "\u767D\u91D16[16]-3\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9558849295,
+    "deckName": "\u5723\u5951\u9A911",
+    "deckCode": "AAEBAYyLBwb30AKd7ALM6wO4xQXWgAbSuQYM2McC2f4C/bgD67kD070E4tMEmY4G9ZUG7d8GkuAGnOgGn\u002BgGAAA=",
+    "deckHeroClass": "PALADIN",
+    "opponentClass": "HUNTER"
+  }
+}
