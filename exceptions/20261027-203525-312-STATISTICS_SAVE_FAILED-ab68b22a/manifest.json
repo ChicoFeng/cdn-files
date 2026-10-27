@@ -1,0 +1,34 @@
+{
+  "eventName": "STATISTICS_SAVE_FAILED",
+  "timestampUtc": "2026-10-27T12:35:25.3123373+00:00",
+  "summary": "\u5BBF\u4E3B\u4F20\u8BF4\u7EDF\u8BA1\u4FDD\u5B58\u5931\u8D25\uFF0C\u672C\u6B21\u8BB0\u5F55\u5C1A\u672A\u63D0\u4EA4\u3002",
+  "technicalDetail": "System.IO.IOException: \u65E0\u6CD5\u5220\u9664\u8981\u88AB\u66FF\u6362\u7684\u6587\u4EF6\u3002\r\n   at System.IO.FileSystem.ReplaceFile(String sourceFullPath, String destFullPath, String destBackupFullPath, Boolean ignoreMetadataErrors)\r\n   at HSLaunch.MvpLauncher.MvpStatisticsStore.Save(StatisticsDocument candidate)\r\n   at HSLaunch.MvpLauncher.MvpStatisticsStore.Observe(HearthstoneProfile profile, DateTimeOffset observedAtUtc)",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 44064,
+  "sessionId": "2b7b2f1d-f2f7-4adc-8a82-d1e81f2c2293",
+  "gameEpoch": "ae2eef53-cf6b-4cdc-aca8-d194d66d90d8",
+  "automationEpoch": "19cc308d-0422-4632-8f6b-d35a24b7c33d",
+  "eventPayload": null,
+  "turn": 13,
+  "actionId": 2004,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=44064"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
