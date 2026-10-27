@@ -1,0 +1,34 @@
+{
+  "eventName": "LIVE_RECOMMENDATION_EXECUTION_STALLED",
+  "timestampUtc": "2026-10-27T13:14:13.9916656+00:00",
+  "summary": "[\u9519\u8BEF]  \u7559\u724C\u63A8\u8350\u5DF2\u6536\u5230\uFF0C\u4F46\u6301\u7EED\u672A\u80FD\u6267\u884C\uFF08\u7559\u724C\uFF0C12 \u79D2\uFF09\uFF0C\u5DF2\u8BB0\u5F55\u5F02\u5E38\uFF1B\u8BF7\u68C0\u67E5\u5F53\u524D\u6E38\u620F\u72B6\u6001\uFF1B\u539F\u56E0\uFF1A\u7089\u77F3\u5DF2\u53EF\u64CD\u4F5C\uFF0C\u4F46\u539F\u63A8\u8350\u6267\u884C\u8BA1\u5212\u5DF2\u5931\u6548",
+  "technicalDetail": "recommendation_execution_stalled; diagnosticOnly=true; turn=1; scope=mulligan; choiceId=1; optionId=-1; firstRecommendationHash=669CEDD3A4EB4322EF0B10C3F8718B46DE0702E0C7A8521F15321094A67113F7; latestRecommendationHash=669CEDD3A4EB4322EF0B10C3F8718B46DE0702E0C7A8521F15321094A67113F7; waitReason=execution_plan_invalidated; invalidation=native_decision_changed; previousKey=; decisionKey=8B3EB243B4DBD4388C39F85212911371C2138EE722547F78F561025842120B73; decisionReason=received_decision_ready; previousGame=3fc6bf0e-69e1-4559-803b-1f94c214da2a; game=3fc6bf0e-69e1-4559-803b-1f94c214da2a; elapsedMs=12188; timeoutMs=12000; nativeReason=received_decision_ready; receivedWatermark=8; appliedWatermark=0; requestWatermark=8; automationEpoch=351e9a5e-63c0-4f9f-890d-70e944d98b40",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "processId": 3236,
+  "sessionId": "c99f073e-949f-4625-9aa2-27edf4d15157",
+  "gameEpoch": "4fd9fb4f-a382-468e-bd2c-ba13e0d31457",
+  "automationEpoch": "351e9a5e-63c0-4f9f-890d-70e944d98b40",
+  "eventPayload": null,
+  "turn": 1,
+  "actionId": 22,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=3236"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
