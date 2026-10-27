@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "component": "HSLaunch.NativeBootstrap",
+  "state": "UnityProbeScheduled",
+  "processId": 7192,
+  "workerThreadId": 0,
+  "lastCallThreadId": 8776,
+  "win32Error": 0,
+  "monoModulePresent": true,
+  "threadAttached": true,
+  "threadDetached": true,
+  "rootDomain": "0x1748DDB2D20",
+  "currentDomainBeforeAttach": "0x0",
+  "currentDomainAfterAttach": "0x1748DDB2D20",
+  "attachedThread": "0x1753B38F730",
+  "runtimeBuildInfo": "6.13.0 (Visual Studio built mono)",
+  "bridgeStarted": true,
+  "unityProbeRequested": true,
+  "bridgePath": "C:\\Users\\Administrator\\Desktop\\HearthPilot\\Bridge\\HearthstoneBridge.V15.dll",
+  "bridgeResult": "{\"state\":\"Active\",\"bridgeIdentity\":\"HearthstoneBridge.V15, Version=0.15.0.0\",\"message\":\"Unity login observation is active; client input awaits the expected account.\",\"revision\":3,\"startupScreenStatus\":\"waiting\",\"startupScreenDetail\":\"waiting for the Hearthstone ratings start screen\",\"postGameStatus\":\"Idle\",\"postGameDetail\":\"等待对局结束。\",\"postGameObservation\":\"not_observed\",\"clientPopupGate\":\"Clear\",\"clientPopupStatus\":\"WaitingForPopup\",\"clientPopupDetail\":\"等待任务弹窗。\",\"taskPopupStatus\":\"WaitingForPopup\",\"taskPopupDetail\":\"等待任务弹窗。\",\"clientInactivityStatus\":\"not_requested\",\"clientInactivityDetail\":\"Bridge 尚未附着，未修改炉石本地 inactivity 检查。\",\"matchmakingState\":\"idle\",\"matchmakingStage\":\"Idle\",\"matchmakingFindGameState\":\"\",\"matchmakingDetail\":\"\"}",
+  "lastError": ""
+}
