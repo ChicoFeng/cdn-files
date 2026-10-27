@@ -1,0 +1,40 @@
+{
+  "exceptionIncidentId": "beebbfa0-5084-44ea-9d8c-4bb9a769e1c0",
+  "recordedAtUtc": "2026-10-27T05:12:00.5315956+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-27T05:12:00.4235235+00:00",
+    "eventName": "LIVE_ACTION_TIMEOUT_FALLBACK",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5DF2\u5931\u8D25\uFF1A\u5EFA\u7ACB\u7F51\u7EDC\u8FDE\u63A5\u5931\u8D25\uFF1A\u5355\u6B21\u5EFA\u8FDE\u8D85\u65F6\uFF08attempt_timeout\uFF09\uFF1B\u81EA\u52A8\u7ED3\u675F\u56DE\u5408",
+    "technicalDetail": "source=timeout_fallback; trigger=direct_request_failed; scope=turn; timeoutMs=12000; elapsedMs=0; snapshotRevision=29685; snapshotFingerprint=87CE34692E43E491E6F8605289B879779D8244ABF63A608256372639DA17756A; choiceId=-1; choiceType=; requestResultReason=traditional_recommendation_rejected; requestStage=PostStarted; requestTransportFailure=connect:attempt_timeout; requestTransportHeaders=False; requestHttpStatus=; requestUuid=20261027_90f77f48-0cb3-4a30-973d-42916ec0c483; exceptionIncidentId=beebbfa0508444ea9d8c4bb9a769e1c0; requestRetirement=timeout_fallback; source=traditional_core; automationEpoch=d65330db-d910-468c-b2ab-9f4e042b7e36",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 640,
+    "payloadJson": "",
+    "matchId": "7f03ffb53dad4dbebf97c62b15ada208:19",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-8f461b602db6b32a646c6fb5aee0ece5a686e2e6bb63573b416b612de4d6e531",
+    "matchSequence": 19
+  },
+  "state": {
+    "battleTag": "NewUmbrella#51541",
+    "turn": 9,
+    "actionId": 640,
+    "processId": 9448,
+    "sessionId": "937928b7-9605-4eed-8d47-1270fd5c42c5",
+    "gameEpoch": "0da023db-4dce-4b1a-a22e-5dd6e94dbc65",
+    "automationEpoch": "d65330db-d910-468c-b2ab-9f4e042b7e36",
+    "matchmakingRequestId": "d506ac5e-4359-4008-a005-211c25226574-postgame-9",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "njs13295529668@163.com",
+    "currentRank": "\u94BB\u77F33[3]-1\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9557742597,
+    "deckName": "\u6D77\u76D7\u62181",
+    "deckCode": "AAEBAaPlBwSRvALr1gey2Aer4AcN\u002Bw/psAOktgO\u002B4gSVqgW00QX8qAatxQam4Aen4Aeo4Aep4Af74AcAAA==",
+    "deckHeroClass": "WARRIOR",
+    "opponentClass": "ROGUE"
+  }
+}
