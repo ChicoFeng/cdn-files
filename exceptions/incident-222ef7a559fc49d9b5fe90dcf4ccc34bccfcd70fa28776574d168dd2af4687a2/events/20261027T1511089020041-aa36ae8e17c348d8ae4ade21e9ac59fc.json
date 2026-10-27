@@ -1,0 +1,41 @@
+{
+  "exceptionIncidentId": "c41df696-0078-4150-a654-8d979138d1b6",
+  "recordedAtUtc": "2026-10-27T15:11:08.9368035+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-27T15:11:08.9020041+00:00",
+    "eventName": "LIVE_DIRECT_STATUS",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u65E0\u6CD5\u751F\u6210\u6709\u6548\u52A8\u4F5C\uFF1A\u670D\u52A1\u8FD4\u56DE\u7684\u63A8\u8350\u672A\u88AB\u63A5\u7EB3\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF1B\u670D\u52A1\u6D88\u606F\uFF1A\u6807\u51C6AI\u6253\u6CD5\u9884\u6D4B\u5931\u8D25[Input error: Invalid choices: Invalid choices entities for mulligan]",
+    "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u002286a50355-3771-4722-a26b-5dc1cb31dc48\u0022,\u0022gameIdentity\u0022:\u00221c16cd72-c3b6-4b57-b34b-8b0ebde8d89e\u0022,\u0022decisionKey\u0022:\u0022CD03E907E93EA797C3F79F0EC5454965D6C2221C0928EE34913671EFD45D2ED7\u0022,\u0022historyWatermark\u0022:8,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022c41df696-0078-4150-a654-8d979138d1b6\u0022,\u0022requestStage\u0022:\u0022ResponseDecoded\u0022,\u0022networkSuccess\u0022:true,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-5; transport=attempts=1,connectMs=0,headers=true,failure=none,connectAttempts=0,connectTimeouts=0\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:0,\u0022responseHeaders\u0022:true,\u0022failure\u0022:null,\u0022connectAttempts\u0022:0,\u0022connectTimeouts\u0022:0,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:200},\u0022serviceMessage\u0022:\u0022\\u6807\\u51C6AI\\u6253\\u6CD5\\u9884\\u6D4B\\u5931\\u8D25[Input error: Invalid choices: Invalid choices entities for mulligan]\u0022,\u0022automationEpoch\u0022:\u0022f24a45c2-848b-4efd-9df6-f4f6f0364d10\u0022,\u0022executionAuthorized\u0022:false}",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 0,
+    "payloadJson": "{\u0022context\u0022:{\u0022captureId\u0022:\u002286a50355-3771-4722-a26b-5dc1cb31dc48\u0022,\u0022gameIdentity\u0022:\u00221c16cd72-c3b6-4b57-b34b-8b0ebde8d89e\u0022,\u0022decisionKey\u0022:\u0022CD03E907E93EA797C3F79F0EC5454965D6C2221C0928EE34913671EFD45D2ED7\u0022,\u0022historyWatermark\u0022:8,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022c41df696-0078-4150-a654-8d979138d1b6\u0022,\u0022requestStage\u0022:\u0022ResponseDecoded\u0022,\u0022networkSuccess\u0022:true,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-5; transport=attempts=1,connectMs=0,headers=true,failure=none,connectAttempts=0,connectTimeouts=0\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:0,\u0022responseHeaders\u0022:true,\u0022failure\u0022:null,\u0022connectAttempts\u0022:0,\u0022connectTimeouts\u0022:0,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:200},\u0022serviceMessage\u0022:\u0022\\u6807\\u51C6AI\\u6253\\u6CD5\\u9884\\u6D4B\\u5931\\u8D25[Input error: Invalid choices: Invalid choices entities for mulligan]\u0022,\u0022automationEpoch\u0022:\u0022f24a45c2-848b-4efd-9df6-f4f6f0364d10\u0022,\u0022executionAuthorized\u0022:false}",
+    "matchId": "c504b339aa944c1c936185f7acb02e16:4",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-222ef7a559fc49d9b5fe90dcf4ccc34bccfcd70fa28776574d168dd2af4687a2",
+    "matchSequence": 4
+  },
+  "state": {
+    "battleTag": "\u4F20\u5947\u5973\u5CD2\u5343\u65E9\u7231\u97F3#5211",
+    "turn": 0,
+    "actionId": 118,
+    "processId": 7752,
+    "sessionId": "8e60d4f3-4012-4e59-91e1-a6798dfceca3",
+    "gameEpoch": "d77a7185-2140-4fa1-9ff3-1fef9eb8ce22",
+    "automationEpoch": "f24a45c2-848b-4efd-9df6-f4f6f0364d10",
+    "matchmakingRequestId": "bcc804fc-0c50-4a06-bdda-5b37f8c579a0-postgame-3",
+    "matchState": "Mulligan",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13763874928",
+    "accountLabel": "5127562226408039814",
+    "currentRank": "\u767D\u91D19[19]-3\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9558849295,
+    "deckName": "\u5723\u5951\u9A911",
+    "deckCode": "AAEBAYyLBwb30AKd7ALM6wO4xQXWgAbSuQYM2McC2f4C/bgD67kD070E4tMEmY4G9ZUG7d8GkuAGnOgGn\u002BgGAAA=",
+    "deckHeroClass": "PALADIN",
+    "opponentClass": "MAGE"
+  }
+}
