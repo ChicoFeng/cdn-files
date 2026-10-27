@@ -1,0 +1,66 @@
+{
+  "eventName": "LIVE_DIRECT_STATUS",
+  "timestampUtc": "2026-10-27T05:12:00.3573365+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5931\u8D25\uFF1A\u5EFA\u7ACB\u7F51\u7EDC\u8FDE\u63A5\u5931\u8D25\uFF1A\u5355\u6B21\u5EFA\u8FDE\u8D85\u65F6\uFF08attempt_timeout\uFF09",
+  "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u0022f85878d1-4949-419c-8249-25ac2d06fbe3\u0022,\u0022gameIdentity\u0022:\u0022f51f2bbf-e05c-4cf2-bb09-52fc00382be8\u0022,\u0022decisionKey\u0022:\u0022AC32AC71201086B4CB06880BC5417B00E5F8AD78D75144FF8F38CDD2A960272D\u0022,\u0022historyWatermark\u0022:88,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022beebbfa0-5084-44ea-9d8c-4bb9a769e1c0\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=10552,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:10552,\u0022responseHeaders\u0022:false,\u0022failure\u0022:\u0022connect:attempt_timeout\u0022,\u0022connectAttempts\u0022:7,\u0022connectTimeouts\u0022:7,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:null},\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u0022d65330db-d910-468c-b2ab-9f4e042b7e36\u0022,\u0022executionAuthorized\u0022:false}",
+  "exceptionIncidentId": "beebbfa0-5084-44ea-9d8c-4bb9a769e1c0",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "processId": 9448,
+  "sessionId": "937928b7-9605-4eed-8d47-1270fd5c42c5",
+  "gameEpoch": "0da023db-4dce-4b1a-a22e-5dd6e94dbc65",
+  "automationEpoch": "d65330db-d910-468c-b2ab-9f4e042b7e36",
+  "eventPayload": {
+    "context": {
+      "captureId": "f85878d1-4949-419c-8249-25ac2d06fbe3",
+      "gameIdentity": "f51f2bbf-e05c-4cf2-bb09-52fc00382be8",
+      "decisionKey": "AC32AC71201086B4CB06880BC5417B00E5F8AD78D75144FF8F38CDD2A960272D",
+      "historyWatermark": 88,
+      "sessionGeneration": 1
+    },
+    "decisionOrigin": "service",
+    "exceptionIncidentId": "beebbfa0-5084-44ea-9d8c-4bb9a769e1c0",
+    "requestStage": "PostStarted",
+    "networkSuccess": false,
+    "businessSuccess": false,
+    "structureSuccess": false,
+    "sceneBindingSuccess": false,
+    "actionsSupported": false,
+    "actionCount": 0,
+    "recommendationActionCount": 0,
+    "payloadFailureDetail": "AI\u8BA1\u7B97\u5F02\u5E38\uFF0C\u6682\u65E0\u53EF\u7528\u63A8\u8350\u3002error:-1; transport=attempts=1,connectMs=10552,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7",
+    "transportEvidence": {
+      "attempts": 1,
+      "connectMs": 10552,
+      "responseHeaders": false,
+      "failure": "connect:attempt_timeout",
+      "connectAttempts": 7,
+      "connectTimeouts": 7,
+      "timeoutMs": 12000,
+      "httpStatus": null
+    },
+    "serviceMessage": null,
+    "automationEpoch": "d65330db-d910-468c-b2ab-9f4e042b7e36",
+    "executionAuthorized": false
+  },
+  "turn": 9,
+  "actionId": 639,
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=9448"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
