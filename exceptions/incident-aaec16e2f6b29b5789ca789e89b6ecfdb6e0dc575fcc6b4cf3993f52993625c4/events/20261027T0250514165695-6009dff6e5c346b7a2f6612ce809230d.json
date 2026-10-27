@@ -1,0 +1,40 @@
+{
+  "exceptionIncidentId": "44d52876-a34a-4446-8d34-f1ef601f54ce",
+  "recordedAtUtc": "2026-10-27T02:50:51.4396006+00:00",
+  "sourceEvent": {
+    "timestampUtc": "2026-10-27T02:50:51.4165695+00:00",
+    "eventName": "LIVE_DIRECT_STATUS",
+    "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5931\u8D25\uFF1A\u5EFA\u7ACB\u7F51\u7EDC\u8FDE\u63A5\u5931\u8D25\uFF1A\u5355\u6B21\u5EFA\u8FDE\u8D85\u65F6\uFF08attempt_timeout\uFF09",
+    "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u00224cf1def6-b358-4f57-8788-3be68b6530f6\u0022,\u0022gameIdentity\u0022:\u00226a5e82b7-07a2-44b8-b01f-d93985f3fc65\u0022,\u0022decisionKey\u0022:\u0022FEA13692B7959082EED61705B59F064AF4F0B96D460E124CF77438D8CA8E8282\u0022,\u0022historyWatermark\u0022:6,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u002244d52876-a34a-4446-8d34-f1ef601f54ce\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=10563,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:10563,\u0022responseHeaders\u0022:false,\u0022failure\u0022:\u0022connect:attempt_timeout\u0022,\u0022connectAttempts\u0022:7,\u0022connectTimeouts\u0022:7,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:null},\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u00229fd0c998-f331-49b4-b1ac-56483bc2f6f8\u0022,\u0022executionAuthorized\u0022:false}",
+    "tone": "Error",
+    "category": "Error",
+    "logKind": "Error",
+    "actionId": 0,
+    "payloadJson": "{\u0022context\u0022:{\u0022captureId\u0022:\u00224cf1def6-b358-4f57-8788-3be68b6530f6\u0022,\u0022gameIdentity\u0022:\u00226a5e82b7-07a2-44b8-b01f-d93985f3fc65\u0022,\u0022decisionKey\u0022:\u0022FEA13692B7959082EED61705B59F064AF4F0B96D460E124CF77438D8CA8E8282\u0022,\u0022historyWatermark\u0022:6,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u002244d52876-a34a-4446-8d34-f1ef601f54ce\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=10563,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:10563,\u0022responseHeaders\u0022:false,\u0022failure\u0022:\u0022connect:attempt_timeout\u0022,\u0022connectAttempts\u0022:7,\u0022connectTimeouts\u0022:7,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:null},\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u00229fd0c998-f331-49b4-b1ac-56483bc2f6f8\u0022,\u0022executionAuthorized\u0022:false}",
+    "matchId": "e57aeebb844943db910a606c3b87f952:48",
+    "recoveryIncidentId": "",
+    "exceptionLogKey": "incident-aaec16e2f6b29b5789ca789e89b6ecfdb6e0dc575fcc6b4cf3993f52993625c4",
+    "matchSequence": 48
+  },
+  "state": {
+    "battleTag": "NewUmbrella#51541",
+    "turn": 1,
+    "actionId": 759,
+    "processId": 2152,
+    "sessionId": "78aa6f91-3cf9-41b3-b259-3f30a02ee108",
+    "gameEpoch": "228ca04a-e8d6-446b-be42-cef169a479bd",
+    "automationEpoch": "9fd0c998-f331-49b4-b1ac-56483bc2f6f8",
+    "matchmakingRequestId": "a116abb7-a4b0-4a24-98a7-d2d56c2b8730-postgame-6",
+    "matchState": "Mulligan",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "njs13295529668@163.com",
+    "currentRank": "\u94BB\u77F31[1]-1\u2605 \u00B7 \u00D71",
+    "gameMode": "standard",
+    "deckId": 9557742774,
+    "deckName": "\u52A8\u7269\u56ED\u672F1",
+    "deckCode": "AAECAa35AwLb4Aft\u002BQcO0J4G15cHhJkHoq0HpK0Hpa0HqK0H9sEHxfAHgfYHivYHjfYH6fkH6/kHAAA=",
+    "deckHeroClass": "WARLOCK",
+    "opponentClass": "WARLOCK"
+  }
+}
