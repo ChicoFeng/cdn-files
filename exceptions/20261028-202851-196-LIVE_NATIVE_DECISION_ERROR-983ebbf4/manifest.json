@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.12.0",
+  "eventName": "LIVE_NATIVE_DECISION_ERROR",
+  "timestampUtc": "2026-10-28T12:28:51.1964296+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\uFF1A\u539F\u751F\u6570\u636E\u91C7\u96C6\u5F02\u5E38\uFF08native_packets\uFF09\uFF1Anative_print_capture_failed:InvalidOperationException:native_power_print_disabled\uFF1B\u539F\u56E0\uFF1A\u5185\u90E8\u64CD\u4F5C\u5F02\u5E38\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF08native_print_capture_failed:InvalidOperationException:native_power_print_disabled\uFF09",
+  "technicalDetail": "native_print_capture_failed:InvalidOperationException:native_power_print_disabled\n{\u0022type\u0022:\u0022NATIVE_DECISION_ERROR\u0022,\u0022incidentId\u0022:\u0022f820ebda-1536-47d2-bce3-e38acbecbb71:134\u0022,\u0022reason\u0022:\u0022native_print_capture_failed:InvalidOperationException:native_power_print_disabled\u0022,\u0022stage\u0022:\u0022native_packets\u0022,\u0022exception\u0022:null,\u0022captureFaulted\u0022:true,\u0022recoveryRequired\u0022:false,\u0022nativeFrame\u0022:{\u0022type\u0022:\u0022NATIVE_DECISION\u0022,\u0022captureId\u0022:\u0022f820ebda-1536-47d2-bce3-e38acbecbb71\u0022,\u0022captureGeneration\u0022:2,\u0022frameSequence\u0022:134,\u0022sourceReason\u0022:\u0022native_print_capture_failed:InvalidOperationException:native_power_print_disabled\u0022,\u0022receivedWatermark\u0022:1,\u0022receivedHistory\u0022:true,\u0022packets\u0022:[],\u0022scene\u0022:null,\u0022deck\u0022:null,\u0022unpublishedPackets\u0022:[{\u0022sequence\u0022:1,\u0022packetType\u0022:19,\u0022context\u0022:0,\u0022body\u0022:{\u0022List\u0022:[{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:305,\u0022Value\u0022:2}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:-1,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:false,\u0022Source\u0022:3,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:2,\u0022Value\u0022:846505784}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:305,\u0022Value\u0022:3}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:-1,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:false,\u0022Source\u0022:3,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:305,\u0022Value\u0022:4}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:2,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:17,\u0022Value\u0022:8}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:2,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:3479,\u0022Value\u0022:1}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:11,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:true,\u0022Source\u0022:1,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:2,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:17,\u0022Value\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:17,\u0022Value\u0022:4}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:13,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:273,\u0022Value\u0022:2}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:23,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:273,\u0022Value\u0022:2}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:11,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:273,\u0022Value\u0022:2}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:198,\u0022Value\u0022:14}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:19,\u0022Value\u0022:14}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:-1,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:false,\u0022Source\u0022:1,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:198,\u0022Value\u0022:15}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:19,\u0022Value\u0022:15}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:204,\u0022Value\u0022:3}}]},\u0022receivedAtUtc\u0022:\u00222026-10-28T12:28:51.1776704Z\u0022,\u0022presentationBodiesOmitted\u0022:true,\u0022powerEntityReferences\u0022:{},\u0022powerBlockPrints\u0022:{}}],\u0022captureError\u0022:null},\u0022captureId\u0022:\u0022f820ebda-1536-47d2-bce3-e38acbecbb71\u0022,\u0022gameIdentity\u0022:\u0022\u0022,\u0022receivedWatermark\u0022:1,\u0022historyCount\u0022:0,\u0022unpublishedPackets\u0022:[{\u0022sequence\u0022:1,\u0022packetType\u0022:19,\u0022context\u0022:0,\u0022body\u0022:{\u0022List\u0022:[{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:305,\u0022Value\u0022:2}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:-1,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:false,\u0022Source\u0022:3,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:2,\u0022Value\u0022:846505784}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:305,\u0022Value\u0022:3}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:-1,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:false,\u0022Source\u0022:3,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:305,\u0022Value\u0022:4}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:2,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:17,\u0022Value\u0022:8}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:2,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:3479,\u0022Value\u0022:1}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:11,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:true,\u0022Source\u0022:1,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:2,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:17,\u0022Value\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:3,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:17,\u0022Value\u0022:4}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:13,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:273,\u0022Value\u0022:2}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:23,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:273,\u0022Value\u0022:2}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:11,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:273,\u0022Value\u0022:2}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:198,\u0022Value\u0022:14}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:19,\u0022Value\u0022:14}},{\u0022HasPowerStart\u0022:true,\u0022PowerStart\u0022:{\u0022EffectCardId\u0022:null,\u0022EffectIndex\u0022:-1,\u0022ForceShowBigCard\u0022:false,\u0022HasEffectCardId\u0022:false,\u0022HasEffectIndex\u0022:true,\u0022HasForceShowBigCard\u0022:false,\u0022HasIsBatchable\u0022:true,\u0022HasIsDeferBlocker\u0022:true,\u0022HasIsDeferrable\u0022:true,\u0022HasShowInHistory\u0022:true,\u0022HasTriggerKeyword\u0022:true,\u0022IsBatchable\u0022:false,\u0022IsDeferBlocker\u0022:false,\u0022IsDeferrable\u0022:false,\u0022ShowInHistory\u0022:false,\u0022Source\u0022:1,\u0022SubOption\u0022:-1,\u0022Target\u0022:0,\u0022TriggerKeyword\u0022:0,\u0022Type\u0022:5}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:198,\u0022Value\u0022:15}},{\u0022HasPowerEnd\u0022:true,\u0022PowerEnd\u0022:{}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:19,\u0022Value\u0022:15}},{\u0022HasTagChange\u0022:true,\u0022TagChange\u0022:{\u0022ChangeDef\u0022:false,\u0022Entity\u0022:1,\u0022HasChangeDef\u0022:true,\u0022Tag\u0022:204,\u0022Value\u0022:3}}]},\u0022receivedAtUtc\u0022:\u00222026-10-28T12:28:51.1776704Z\u0022,\u0022presentationBodiesOmitted\u0022:true,\u0022powerEntityReferences\u0022:{},\u0022powerBlockPrints\u0022:{}}],\u0022relatedActions\u0022:[]}",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\Administrator\\Downloads\\HearthPilot-Release\\artifacts\\logs\\launcher-20261028-202800-410.log",
+    "originalBytes": 95085,
+    "offset": 0,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 0,
+    "truncated": false
+  },
+  "processId": 1368,
+  "sessionId": "bf39118f-f203-42de-a0d9-d1889e0e2454",
+  "gameEpoch": "9590fa76-5a90-4f6e-9744-08e82b09c7d7",
+  "automationEpoch": "cdc6bb64-f44d-41ef-a44b-85ab9930adf2",
+  "eventPayload": {
+    "type": "NATIVE_DECISION_ERROR",
+    "incidentId": "f820ebda-1536-47d2-bce3-e38acbecbb71:134",
+    "reason": "native_print_capture_failed:InvalidOperationException:native_power_print_disabled",
+    "stage": "native_packets",
+    "exception": null,
+    "captureFaulted": true,
+    "recoveryRequired": false,
+    "nativeFrame": {
+      "type": "NATIVE_DECISION",
+      "captureId": "f820ebda-1536-47d2-bce3-e38acbecbb71",
+      "captureGeneration": 2,
+      "frameSequence": 134,
+      "sourceReason": "native_print_capture_failed:InvalidOperationException:native_power_print_disabled",
+      "receivedWatermark": 1,
+      "receivedHistory": true,
+      "packets": [],
+      "scene": null,
+      "deck": null,
+      "unpublishedPackets": [
+        {
+          "sequence": 1,
+          "packetType": 19,
+          "context": 0,
+          "body": {
+            "List": [
+              {
+                "HasPowerEnd": true,
+                "PowerEnd": {}
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 3,
+                  "HasChangeDef": true,
+                  "Tag": 305,
+                  "Value": 2
+                }
+              },
+              {
+                "HasPowerStart": true,
+                "PowerStart": {
+                  "EffectCardId": null,
+                  "EffectIndex": -1,
+                  "ForceShowBigCard": false,
+                  "HasEffectCardId": false,
+                  "HasEffectIndex": true,
+                  "HasForceShowBigCard": false,
+                  "HasIsBatchable": true,
+                  "HasIsDeferBlocker": true,
+                  "HasIsDeferrable": true,
+                  "HasShowInHistory": true,
+                  "HasTriggerKeyword": true,
+                  "IsBatchable": false,
+                  "IsDeferBlocker": false,
+                  "IsDeferrable": false,
+                  "ShowInHistory": false,
+                  "Source": 3,
+                  "SubOption": -1,
+                  "Target": 0,
+                  "TriggerKeyword": 0,
+                  "Type": 5
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 1,
+                  "HasChangeDef": true,
+                  "Tag": 2,
+                  "Value": 846505784
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 3,
+                  "HasChangeDef": true,
+                  "Tag": 305,
+                  "Value": 3
+                }
+              },
+              {
+                "HasPowerEnd": true,
+                "PowerEnd": {}
+              },
+              {
+                "HasPowerStart": true,
+                "PowerStart": {
+                  "EffectCardId": null,
+                  "EffectIndex": -1,
+                  "ForceShowBigCard": false,
+                  "HasEffectCardId": false,
+                  "HasEffectIndex": true,
+                  "HasForceShowBigCard": false,
+                  "HasIsBatchable": true,
+                  "HasIsDeferBlocker": true,
+                  "HasIsDeferrable": true,
+                  "HasShowInHistory": true,
+                  "HasTriggerKeyword": true,
+                  "IsBatchable": false,
+                  "IsDeferBlocker": false,
+                  "IsDeferrable": false,
+                  "ShowInHistory": false,
+                  "Source": 3,
+                  "SubOption": -1,
+                  "Target": 0,
+                  "TriggerKeyword": 0,
+                  "Type": 5
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 3,
+                  "HasChangeDef": true,
+                  "Tag": 305,
+                  "Value": 4
+                }
+              },
+              {
+                "HasPowerEnd": true,
+                "PowerEnd": {}
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 2,
+                  "HasChangeDef": true,
+                  "Tag": 17,
+                  "Value": 8
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 2,
+                  "HasChangeDef": true,
+                  "Tag": 3479,
+                  "Value": 1
+                }
+              },
+              {
+                "HasPowerStart": true,
+                "PowerStart": {
+                  "EffectCardId": null,
+                  "EffectIndex": 11,
+                  "ForceShowBigCard": false,
+                  "HasEffectCardId": false,
+                  "HasEffectIndex": true,
+                  "HasForceShowBigCard": false,
+                  "HasIsBatchable": true,
+                  "HasIsDeferBlocker": true,
+                  "HasIsDeferrable": true,
+                  "HasShowInHistory": true,
+                  "HasTriggerKeyword": true,
+                  "IsBatchable": false,
+                  "IsDeferBlocker": false,
+                  "IsDeferrable": false,
+                  "ShowInHistory": true,
+                  "Source": 1,
+                  "SubOption": -1,
+                  "Target": 0,
+                  "TriggerKeyword": 0,
+                  "Type": 5
+                }
+              },
+              {
+                "HasPowerEnd": true,
+                "PowerEnd": {}
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 2,
+                  "HasChangeDef": true,
+                  "Tag": 17,
+                  "Value": 5
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 3,
+                  "HasChangeDef": true,
+                  "Tag": 17,
+                  "Value": 4
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 13,
+                  "HasChangeDef": true,
+                  "Tag": 273,
+                  "Value": 2
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 23,
+                  "HasChangeDef": true,
+                  "Tag": 273,
+                  "Value": 2
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 11,
+                  "HasChangeDef": true,
+                  "Tag": 273,
+                  "Value": 2
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 1,
+                  "HasChangeDef": true,
+                  "Tag": 198,
+                  "Value": 14
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 1,
+                  "HasChangeDef": true,
+                  "Tag": 19,
+                  "Value": 14
+                }
+              },
+              {
+                "HasPowerStart": true,
+                "PowerStart": {
+                  "EffectCardId": null,
+                  "EffectIndex": -1,
+                  "ForceShowBigCard": false,
+                  "HasEffectCardId": false,
+                  "HasEffectIndex": true,
+                  "HasForceShowBigCard": false,
+                  "HasIsBatchable": true,
+                  "HasIsDeferBlocker": true,
+                  "HasIsDeferrable": true,
+                  "HasShowInHistory": true,
+                  "HasTriggerKeyword": true,
+                  "IsBatchable": false,
+                  "IsDeferBlocker": false,
+                  "IsDeferrable": false,
+                  "ShowInHistory": false,
+                  "Source": 1,
+                  "SubOption": -1,
+                  "Target": 0,
+                  "TriggerKeyword": 0,
+                  "Type": 5
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 1,
+                  "HasChangeDef": true,
+                  "Tag": 198,
+                  "Value": 15
+                }
+              },
+              {
+                "HasPowerEnd": true,
+                "PowerEnd": {}
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 1,
+                  "HasChangeDef": true,
+                  "Tag": 19,
+                  "Value": 15
+                }
+              },
+              {
+                "HasTagChange": true,
+                "TagChange": {
+                  "ChangeDef": false,
+                  "Entity": 1,
+                  "HasChangeDef": true,
+                  "Tag": 204,
+                  "Value": 3
+                }
+              }
+            ]
+          },
+          "receivedAtUtc": "2026-10-28T12:28:51.1776704Z",
+          "presentationBodiesOmitted": true,
+          "powerEntityReferences": {},
+          "powerBlockPrints": {}
+        }
+      ],
+      "captureError": null
+    },
+    "captureId": "f820ebda-1536-47d2-bce3-e38acbecbb71",
+    "gameIdentity": "",
+    "receivedWatermark": 1,
+    "historyCount": 0,
+    "unpublishedPackets": [
+      {
+        "sequence": 1,
+        "packetType": 19,
+        "context": 0,
+        "body": {
+          "List": [
+            {
+              "HasPowerEnd": true,
+              "PowerEnd": {}
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 3,
+                "HasChangeDef": true,
+                "Tag": 305,
+                "Value": 2
+              }
+            },
+            {
+              "HasPowerStart": true,
+              "PowerStart": {
+                "EffectCardId": null,
+                "EffectIndex": -1,
+                "ForceShowBigCard": false,
+                "HasEffectCardId": false,
+                "HasEffectIndex": true,
+                "HasForceShowBigCard": false,
+                "HasIsBatchable": true,
+                "HasIsDeferBlocker": true,
+                "HasIsDeferrable": true,
+                "HasShowInHistory": true,
+                "HasTriggerKeyword": true,
+                "IsBatchable": false,
+                "IsDeferBlocker": false,
+                "IsDeferrable": false,
+                "ShowInHistory": false,
+                "Source": 3,
+                "SubOption": -1,
+                "Target": 0,
+                "TriggerKeyword": 0,
+                "Type": 5
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 1,
+                "HasChangeDef": true,
+                "Tag": 2,
+                "Value": 846505784
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 3,
+                "HasChangeDef": true,
+                "Tag": 305,
+                "Value": 3
+              }
+            },
+            {
+              "HasPowerEnd": true,
+              "PowerEnd": {}
+            },
+            {
+              "HasPowerStart": true,
+              "PowerStart": {
+                "EffectCardId": null,
+                "EffectIndex": -1,
+                "ForceShowBigCard": false,
+                "HasEffectCardId": false,
+                "HasEffectIndex": true,
+                "HasForceShowBigCard": false,
+                "HasIsBatchable": true,
+                "HasIsDeferBlocker": true,
+                "HasIsDeferrable": true,
+                "HasShowInHistory": true,
+                "HasTriggerKeyword": true,
+                "IsBatchable": false,
+                "IsDeferBlocker": false,
+                "IsDeferrable": false,
+                "ShowInHistory": false,
+                "Source": 3,
+                "SubOption": -1,
+                "Target": 0,
+                "TriggerKeyword": 0,
+                "Type": 5
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 3,
+                "HasChangeDef": true,
+                "Tag": 305,
+                "Value": 4
+              }
+            },
+            {
+              "HasPowerEnd": true,
+              "PowerEnd": {}
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 2,
+                "HasChangeDef": true,
+                "Tag": 17,
+                "Value": 8
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 2,
+                "HasChangeDef": true,
+                "Tag": 3479,
+                "Value": 1
+              }
+            },
+            {
+              "HasPowerStart": true,
+              "PowerStart": {
+                "EffectCardId": null,
+                "EffectIndex": 11,
+                "ForceShowBigCard": false,
+                "HasEffectCardId": false,
+                "HasEffectIndex": true,
+                "HasForceShowBigCard": false,
+                "HasIsBatchable": true,
+                "HasIsDeferBlocker": true,
+                "HasIsDeferrable": true,
+                "HasShowInHistory": true,
+                "HasTriggerKeyword": true,
+                "IsBatchable": false,
+                "IsDeferBlocker": false,
+                "IsDeferrable": false,
+                "ShowInHistory": true,
+                "Source": 1,
+                "SubOption": -1,
+                "Target": 0,
+                "TriggerKeyword": 0,
+                "Type": 5
+              }
+            },
+            {
+              "HasPowerEnd": true,
+              "PowerEnd": {}
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 2,
+                "HasChangeDef": true,
+                "Tag": 17,
+                "Value": 5
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 3,
+                "HasChangeDef": true,
+                "Tag": 17,
+                "Value": 4
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 13,
+                "HasChangeDef": true,
+                "Tag": 273,
+                "Value": 2
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 23,
+                "HasChangeDef": true,
+                "Tag": 273,
+                "Value": 2
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 11,
+                "HasChangeDef": true,
+                "Tag": 273,
+                "Value": 2
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 1,
+                "HasChangeDef": true,
+                "Tag": 198,
+                "Value": 14
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 1,
+                "HasChangeDef": true,
+                "Tag": 19,
+                "Value": 14
+              }
+            },
+            {
+              "HasPowerStart": true,
+              "PowerStart": {
+                "EffectCardId": null,
+                "EffectIndex": -1,
+                "ForceShowBigCard": false,
+                "HasEffectCardId": false,
+                "HasEffectIndex": true,
+                "HasForceShowBigCard": false,
+                "HasIsBatchable": true,
+                "HasIsDeferBlocker": true,
+                "HasIsDeferrable": true,
+                "HasShowInHistory": true,
+                "HasTriggerKeyword": true,
+                "IsBatchable": false,
+                "IsDeferBlocker": false,
+                "IsDeferrable": false,
+                "ShowInHistory": false,
+                "Source": 1,
+                "SubOption": -1,
+                "Target": 0,
+                "TriggerKeyword": 0,
+                "Type": 5
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 1,
+                "HasChangeDef": true,
+                "Tag": 198,
+                "Value": 15
+              }
+            },
+            {
+              "HasPowerEnd": true,
+              "PowerEnd": {}
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 1,
+                "HasChangeDef": true,
+                "Tag": 19,
+                "Value": 15
+              }
+            },
+            {
+              "HasTagChange": true,
+              "TagChange": {
+                "ChangeDef": false,
+                "Entity": 1,
+                "HasChangeDef": true,
+                "Tag": 204,
+                "Value": 3
+              }
+            }
+          ]
+        },
+        "receivedAtUtc": "2026-10-28T12:28:51.1776704Z",
+        "presentationBodiesOmitted": true,
+        "powerEntityReferences": {},
+        "powerBlockPrints": {}
+      }
+    ],
+    "relatedActions": []
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": -1,
+  "actionId": 0,
+  "runtimeState": {
+    "battleTag": "\u8001\u7EC3\u7684\u96F7\u8C61#510945",
+    "turn": -1,
+    "actionId": 0,
+    "processId": 1368,
+    "sessionId": "bf39118f-f203-42de-a0d9-d1889e0e2454",
+    "gameEpoch": "9590fa76-5a90-4f6e-9744-08e82b09c7d7",
+    "automationEpoch": "cdc6bb64-f44d-41ef-a44b-85ab9930adf2",
+    "matchmakingRequestId": "c73a23bc-1892-4734-96d7-51156867e8d3",
+    "matchState": "NotStarted",
+    "gameResult": "",
+    "automationEnabled": false,
+    "loginAccount": "15197877765",
+    "accountLabel": "",
+    "currentRank": "\u9752\u94DC10[50]-0\u2605 \u00B7 \u00D74",
+    "gameMode": "casual",
+    "deckId": 9560102219,
+    "deckName": "\u6838\u5FC3\u6CD5\u5E08",
+    "deckCode": "AAECAf0EBuefBOifBJegBNuhBcisB\u002BqsBwz8ngT9ngT\u002BngTx0wTTngaF5ga7lAfLrQeLsQeT2geA4AeG4AcAAA==",
+    "deckHeroClass": "MAGE",
+    "opponentClass": "MAGE"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 104056,
+      "sha256": "34dae4a3e604697b1cf814944817441b5dedaec3116add33af41acd46d9a19b5"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 144282,
+      "sha256": "aab157632191fe775586c9e618816298f79b57af9f232f5404c17cc02ff310a3"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 650526,
+      "sha256": "df639721ae9186509fb2ddd2b2ed62006764b72af1fd54a98b02990578aaf0a0"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=1368"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
