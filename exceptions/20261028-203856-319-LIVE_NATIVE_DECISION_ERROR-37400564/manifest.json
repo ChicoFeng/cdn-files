@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.12.0",
+  "eventName": "LIVE_NATIVE_DECISION_ERROR",
+  "timestampUtc": "2026-10-28T12:38:56.3199414+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\uFF1A\u539F\u751F\u6570\u636E\u91C7\u96C6\u5F02\u5E38\uFF08native_packets\uFF09\uFF1Anative_print_capture_failed:InvalidOperationException:native_chosen_print_disabled\uFF1B\u539F\u56E0\uFF1A\u5185\u90E8\u64CD\u4F5C\u5F02\u5E38\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF08native_print_capture_failed:InvalidOperationException:native_chosen_print_disabled\uFF09",
+  "technicalDetail": "native_print_capture_failed:InvalidOperationException:native_chosen_print_disabled\n{\u0022type\u0022:\u0022NATIVE_DECISION_ERROR\u0022,\u0022incidentId\u0022:\u002212042c72-55d9-49b1-b4b9-89f655a5e49c:125\u0022,\u0022reason\u0022:\u0022native_print_capture_failed:InvalidOperationException:native_chosen_print_disabled\u0022,\u0022stage\u0022:\u0022native_packets\u0022,\u0022exception\u0022:null,\u0022captureFaulted\u0022:true,\u0022recoveryRequired\u0022:false,\u0022nativeFrame\u0022:{\u0022type\u0022:\u0022NATIVE_DECISION\u0022,\u0022captureId\u0022:\u002212042c72-55d9-49b1-b4b9-89f655a5e49c\u0022,\u0022captureGeneration\u0022:2,\u0022frameSequence\u0022:125,\u0022sourceReason\u0022:\u0022native_print_capture_failed:InvalidOperationException:native_chosen_print_disabled\u0022,\u0022receivedWatermark\u0022:1,\u0022receivedHistory\u0022:true,\u0022packets\u0022:[],\u0022scene\u0022:null,\u0022deck\u0022:null,\u0022unpublishedPackets\u0022:[{\u0022sequence\u0022:1,\u0022packetType\u0022:13,\u0022context\u0022:0,\u0022body\u0022:{\u0022ChoiceType\u0022:1,\u0022ChooseEntities\u0022:{\u0022Entities\u0022:[32],\u0022Id\u0022:2},\u0022HasChoiceType\u0022:true,\u0022PlayerId\u0022:2},\u0022receivedAtUtc\u0022:\u00222026-10-28T12:38:56.3003868Z\u0022}],\u0022captureError\u0022:null},\u0022captureId\u0022:\u002212042c72-55d9-49b1-b4b9-89f655a5e49c\u0022,\u0022gameIdentity\u0022:\u0022\u0022,\u0022receivedWatermark\u0022:1,\u0022historyCount\u0022:0,\u0022unpublishedPackets\u0022:[{\u0022sequence\u0022:1,\u0022packetType\u0022:13,\u0022context\u0022:0,\u0022body\u0022:{\u0022ChoiceType\u0022:1,\u0022ChooseEntities\u0022:{\u0022Entities\u0022:[32],\u0022Id\u0022:2},\u0022HasChoiceType\u0022:true,\u0022PlayerId\u0022:2},\u0022receivedAtUtc\u0022:\u00222026-10-28T12:38:56.3003868Z\u0022}],\u0022relatedActions\u0022:[]}",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\Administrator\\Desktop\\HP\\artifacts\\logs\\launcher-20261028-203701-348.log",
+    "originalBytes": 198691,
+    "offset": 0,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 0,
+    "truncated": false
+  },
+  "processId": 6192,
+  "sessionId": "bbb0b013-6885-41b3-a339-4ebb5887dd24",
+  "gameEpoch": "2c02a028-953b-4ea7-945c-b1a06299c975",
+  "automationEpoch": "61b39105-541b-4d39-8348-37298a32d713",
+  "eventPayload": {
+    "type": "NATIVE_DECISION_ERROR",
+    "incidentId": "12042c72-55d9-49b1-b4b9-89f655a5e49c:125",
+    "reason": "native_print_capture_failed:InvalidOperationException:native_chosen_print_disabled",
+    "stage": "native_packets",
+    "exception": null,
+    "captureFaulted": true,
+    "recoveryRequired": false,
+    "nativeFrame": {
+      "type": "NATIVE_DECISION",
+      "captureId": "12042c72-55d9-49b1-b4b9-89f655a5e49c",
+      "captureGeneration": 2,
+      "frameSequence": 125,
+      "sourceReason": "native_print_capture_failed:InvalidOperationException:native_chosen_print_disabled",
+      "receivedWatermark": 1,
+      "receivedHistory": true,
+      "packets": [],
+      "scene": null,
+      "deck": null,
+      "unpublishedPackets": [
+        {
+          "sequence": 1,
+          "packetType": 13,
+          "context": 0,
+          "body": {
+            "ChoiceType": 1,
+            "ChooseEntities": {
+              "Entities": [
+                32
+              ],
+              "Id": 2
+            },
+            "HasChoiceType": true,
+            "PlayerId": 2
+          },
+          "receivedAtUtc": "2026-10-28T12:38:56.3003868Z"
+        }
+      ],
+      "captureError": null
+    },
+    "captureId": "12042c72-55d9-49b1-b4b9-89f655a5e49c",
+    "gameIdentity": "",
+    "receivedWatermark": 1,
+    "historyCount": 0,
+    "unpublishedPackets": [
+      {
+        "sequence": 1,
+        "packetType": 13,
+        "context": 0,
+        "body": {
+          "ChoiceType": 1,
+          "ChooseEntities": {
+            "Entities": [
+              32
+            ],
+            "Id": 2
+          },
+          "HasChoiceType": true,
+          "PlayerId": 2
+        },
+        "receivedAtUtc": "2026-10-28T12:38:56.3003868Z"
+      }
+    ],
+    "relatedActions": []
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": -1,
+  "actionId": 0,
+  "runtimeState": {
+    "battleTag": "\u5B59\u7B11\u5DDD#51360",
+    "turn": -1,
+    "actionId": 0,
+    "processId": 6192,
+    "sessionId": "bbb0b013-6885-41b3-a339-4ebb5887dd24",
+    "gameEpoch": "2c02a028-953b-4ea7-945c-b1a06299c975",
+    "automationEpoch": "61b39105-541b-4d39-8348-37298a32d713",
+    "matchmakingRequestId": "9e6c79dc-bc4f-4876-a994-09048a6365c9",
+    "matchState": "NotStarted",
+    "gameResult": "",
+    "automationEnabled": false,
+    "loginAccount": "13226113513",
+    "accountLabel": "",
+    "currentRank": "\u767D\u91D11[11]-0\u2605 \u00B7 \u00D72",
+    "gameMode": "standard",
+    "deckId": 9547175843,
+    "deckName": "\u672A\u77E5\u5361\u7EC4",
+    "deckCode": "AAECAa0GBsCEB/ypB4CqB4SqB\u002BfYB6rZBwfwnwTRngbD/waFhgedrQevyQes2QcAAA==",
+    "deckHeroClass": "PRIEST",
+    "opponentClass": "WARLOCK"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 200389,
+      "sha256": "8a89ebf418cea3a7d4a6c8b2347f79ada0003483ab3048b7e4568e98ff3b30eb"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 127570,
+      "sha256": "81e6a6aeea5df44ba7f26956a15fb72efb9f7baef303ced5034ee6496e9ad4ea"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 748783,
+      "sha256": "785b343a414ef4a2b219fa7b9385a5cafa5215e84e72c4ddc90b9decd9f2b630"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=6192"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
