@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.12.0",
+  "eventName": "LIVE_DIRECT_STATUS",
+  "timestampUtc": "2026-10-28T07:22:29.6950864+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u65E0\u6CD5\u751F\u6210\u6709\u6548\u52A8\u4F5C\uFF1A\u670D\u52A1\u8FD4\u56DE\u7684\u63A8\u8350\u672A\u88AB\u63A5\u7EB3\uFF0C\u5177\u4F53\u539F\u56E0\u672A\u786E\u5B9A\uFF1B\u670D\u52A1\u6D88\u606F\uFF1A\u6807\u51C6AI\u6253\u6CD5\u9884\u6D4B\u5931\u8D25[1]",
+  "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u00220410fc60-8c8c-410a-b5e8-45c4e0d720ab\u0022,\u0022gameIdentity\u0022:\u00226e83fd22-004a-40d9-9182-84fb27ac9af7\u0022,\u0022decisionKey\u0022:\u00221B8B8F47DA8DCB00F5E0E882535748F560BF58CB5A89F8FF3DEF074708BEB03A\u0022,\u0022historyWatermark\u0022:37,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u0022fde4191e-7678-4646-bbb0-5c16f7472259\u0022,\u0022requestStage\u0022:\u0022ResponseDecoded\u0022,\u0022networkSuccess\u0022:true,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-5; transport=attempts=1,connectMs=0,headers=true,failure=none,connectAttempts=0,connectTimeouts=0\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:0,\u0022responseHeaders\u0022:true,\u0022failure\u0022:null,\u0022connectAttempts\u0022:0,\u0022connectTimeouts\u0022:0,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:200},\u0022serviceMessage\u0022:\u0022\\u6807\\u51C6AI\\u6253\\u6CD5\\u9884\\u6D4B\\u5931\\u8D25[1]\u0022,\u0022automationEpoch\u0022:\u00225d530da4-936f-442d-9de4-76cbdebb99be\u0022,\u0022executionAuthorized\u0022:false}",
+  "exceptionIncidentId": "fde4191e-7678-4646-bbb0-5c16f7472259",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\MACHENIKE\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261028-121459-878.log",
+    "originalBytes": 48927832,
+    "offset": 48403544,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 154,
+    "truncated": true
+  },
+  "processId": 10552,
+  "sessionId": "78d79727-b9c8-4884-886e-54a4a6e732d1",
+  "gameEpoch": "b7918a77-aa7f-48bd-952a-5cc3bada0146",
+  "automationEpoch": "5d530da4-936f-442d-9de4-76cbdebb99be",
+  "eventPayload": {
+    "context": {
+      "captureId": "0410fc60-8c8c-410a-b5e8-45c4e0d720ab",
+      "gameIdentity": "6e83fd22-004a-40d9-9182-84fb27ac9af7",
+      "decisionKey": "1B8B8F47DA8DCB00F5E0E882535748F560BF58CB5A89F8FF3DEF074708BEB03A",
+      "historyWatermark": 37,
+      "sessionGeneration": 1
+    },
+    "decisionOrigin": "service",
+    "exceptionIncidentId": "fde4191e-7678-4646-bbb0-5c16f7472259",
+    "requestStage": "ResponseDecoded",
+    "networkSuccess": true,
+    "businessSuccess": false,
+    "structureSuccess": false,
+    "sceneBindingSuccess": false,
+    "actionsSupported": false,
+    "actionCount": 0,
+    "recommendationActionCount": 0,
+    "payloadFailureDetail": "AI\u8BA1\u7B97\u5F02\u5E38\uFF0C\u6682\u65E0\u53EF\u7528\u63A8\u8350\u3002error:-5; transport=attempts=1,connectMs=0,headers=true,failure=none,connectAttempts=0,connectTimeouts=0",
+    "transportEvidence": {
+      "attempts": 1,
+      "connectMs": 0,
+      "responseHeaders": true,
+      "failure": null,
+      "connectAttempts": 0,
+      "connectTimeouts": 0,
+      "timeoutMs": 12000,
+      "httpStatus": 200
+    },
+    "serviceMessage": "\u6807\u51C6AI\u6253\u6CD5\u9884\u6D4B\u5931\u8D25[1]",
+    "automationEpoch": "5d530da4-936f-442d-9de4-76cbdebb99be",
+    "executionAuthorized": false
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": 4,
+  "actionId": 1208,
+  "runtimeState": {
+    "battleTag": "\u4E0B\u68CB\u5C0F\u5929\u624D#5160",
+    "turn": 4,
+    "actionId": 1208,
+    "processId": 10552,
+    "sessionId": "78d79727-b9c8-4884-886e-54a4a6e732d1",
+    "gameEpoch": "b7918a77-aa7f-48bd-952a-5cc3bada0146",
+    "automationEpoch": "5d530da4-936f-442d-9de4-76cbdebb99be",
+    "matchmakingRequestId": "2670bfce-0c61-40ac-a2c8-60f6d9cb09ec-postgame-40",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13358134385",
+    "accountLabel": "3316979425167002494",
+    "currentRank": "\u94BB\u77F33[3]-1\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9559444762,
+    "deckName": "\u5F03\u724C\u672F1",
+    "deckCode": "AAEBAa35AwbUswKPggPV0QP5xgX2oQbGsgcMzge1uQPQ4QOYkgWrkgWVygbXlweEmQekrQfWvgfZvgfPvwcAAA==",
+    "deckHeroClass": "WARLOCK",
+    "opponentClass": "DRUID"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 389505,
+      "sha256": "29acfafbe0fa2011dee2150fd1b3d2563698fc1175800db2d773eaaf314b43d5"
+    },
+    {
+      "name": "events/20261028T0722296950864-ca25db9f860443aeb663e9593034bed3.json",
+      "bytes": 4776,
+      "sha256": "e3bfddf43d1021aa7ba9c3b5acb3f29322aad3f4c0427ea47363f253c77debc9"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 217235,
+      "sha256": "f9d222eb548caca08d8dd5e500bd079b5eef7e21cef31852a8d4787c0d776c04"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 1398837,
+      "sha256": "a9c68bf53772f871ee7df1e947903d7c2df10d5bb5d7e47e1761d5fa713c6cdb"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=10552"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
