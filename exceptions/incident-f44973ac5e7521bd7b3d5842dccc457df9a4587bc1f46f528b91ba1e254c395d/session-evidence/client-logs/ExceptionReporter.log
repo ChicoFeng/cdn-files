@@ -1,0 +1,77 @@
+I 00:30:43.0330262 Version 2.0.5
+I 00:30:43.0330262 Trying to clean up the old screenshot files.
+I 00:30:43.0330262 Loaded exception data
+I 00:30:43.8250757 Checking the exceptions from previous launch.
+I 00:30:43.8250757 Saved exception data(Count: 0)
+I 00:46:56.7025053 Record an exception Hash dcf07bdf25b56d9d3aea5be16f4bbd0875de1b25, ReportUUID 6AB3B255-DA09-44DB-8F15-9271F4DCBC43
+NullReferenceException: Object reference not set to an instance of an object.
+At:
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at UnityEngine.Component.get_transform () [0x00006] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at ZoneHand.FocusCard (Card cardMousedOver, System.Int32 overrideCardCount) [0x00201] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout (Card cardMousedOver, System.Boolean forced, System.Int32 overrideCardCount) [0x001ec] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout () [0x00044] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneChangeList.ZoneHand_UpdateLayout (ZoneHand zoneHand, System.Threading.CancellationToken token) [0x000c6] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+I 00:46:56.7025053 Loading assets(oldest one first):
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+Instantiating prefabs(oldest one first):
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+I 00:46:56.7025053 Saved exception data(Count: 1)
+I 00:46:57.1514719 Trying to clean up the old zip files.
+I 00:46:57.7177336 Record an exception Hash 6670a41291e9cfa7b6f07c79c04b2e7416932730, ReportUUID DEA7C981-DD96-4287-9BDA-1D2EDAEBF34B
+NullReferenceException: Object reference not set to an instance of an object.
+At:
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at UnityEngine.Component.get_transform () [0x00006] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at ZoneHand.FocusCard (Card cardMousedOver, System.Int32 overrideCardCount) [0x00201] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout (Card cardMousedOver, System.Boolean forced, System.Int32 overrideCardCount) [0x001ec] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout () [0x00044] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at TurnStartManager+<RunTurnEventsWithTiming>d__48.MoveNext () [0x00154] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+I 00:46:57.7177336 Loading assets(oldest one first):
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+Instantiating prefabs(oldest one first):
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+I 00:46:57.7177336 Saved exception data(Count: 1)
+I 00:46:57.7844638 Trying to clean up the old zip files.
+I 01:04:36.2683042 Record an exception Hash 30f2e48c694a6e4940b52e5a084f2ee8f1bc5fb6, ReportUUID 71534FB1-1B4D-4195-B07A-717D4B7791B0
+NullReferenceException: Object reference not set to an instance of an object.
+At:
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at UnityEngine.Component.get_transform () [0x00006] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at ZoneHand.FocusCard (Card cardMousedOver, System.Int32 overrideCardCount) [0x00201] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout (Card cardMousedOver, System.Boolean forced, System.Int32 overrideCardCount) [0x001ec] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout (Card cardMousedOver) [0x00000] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.HandleInput () [0x0014d] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at InputManager.HandleUpdateWhileNotHoldingCard () [0x0001a] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at InputManager.Update () [0x00093] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+I 01:04:36.2683042 Loading assets(oldest one first):
+  HS14-017_M.psd:ab53791dfaabb7a449dafe9eac5eb978
+  BOTIcon.tif:9b29040b835c7f44f8ff7afb06682b08
+  GenFX_Card_Inhand_Warlock.tif:494dcfdfb53188945b038401c6777566
+  BOT_226.prefab:1aa5da6eaf60480aa89a8bbe369ffce8
+  HS14-017_M.psd:ab53791dfaabb7a449dafe9eac5eb978
+Instantiating prefabs(oldest one first):
+  BaseCard
+  Emote_Threaten
+  Card_Play_Ally_DeathSplat
+  Card_Play_Ally_DamageSplat
+  Card_Hand_Ally
+I 01:04:36.2683042 Saved exception data(Count: 1)
+I 01:04:36.5664289 Trying to clean up the old zip files.
