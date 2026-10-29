@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.18.0",
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-10-29T17:43:37.9516647+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u8FDE\u63A5\u5F02\u5E38\uFF1A\u539F\u56E0\u672A\u786E\u5B9A\uFF08\u539F\u56E0\u7801\uFF1Abridge_stop:HSLaunchBootstrapStop returned Win32 status 5023\uFF09",
+  "technicalDetail": "bridge_stop:HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True. | bridge_unload_skipped:bridge_stop_incomplete",
+  "exceptionIncidentId": "a5bf6478-2c66-4ac0-acdd-45d438f0dbf8",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\zhaof\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261030-001818-161.log",
+    "originalBytes": 30128479,
+    "offset": 29604191,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 14,
+    "truncated": true
+  },
+  "processId": 39488,
+  "sessionId": "16533434-45e8-467f-8689-a3736d989917",
+  "gameEpoch": "ae86f81e-9a74-42d5-aee6-c83d6a0b34c7",
+  "automationEpoch": "191a2a90-9e8c-45f0-8902-1c9b74d858cf",
+  "eventPayload": {
+    "code": "attached_runtime_cleanup_failed",
+    "finalCleanup": true,
+    "component": "cleanup",
+    "operation": "dispose_attached_runtime",
+    "recoverable": true,
+    "message": "bridge_stop:HSLaunchBootstrapStop returned Win32 status 5023; parameter memory released=True. | bridge_unload_skipped:bridge_stop_incomplete",
+    "sessionEvidence": {
+      "id": "a5bf6478-2c66-4ac0-acdd-45d438f0dbf8",
+      "relativeDirectory": "20261030-014337-004-SESSION_FAULT-a5bf64782c664ac0acdd45d438f0dbf8",
+      "processId": 39488,
+      "sessionId": "16533434-45e8-467f-8689-a3736d989917",
+      "gameEpoch": "ae86f81e-9a74-42d5-aee6-c83d6a0b34c7",
+      "automationEpoch": "191a2a90-9e8c-45f0-8902-1c9b74d858cf",
+      "faultedAtUtc": "2026-10-29T17:43:37.0047061\u002B00:00"
+    }
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": 9,
+  "actionId": 571,
+  "runtimeState": {
+    "battleTag": "\u767B\u5F92\u4E36\u5B50#5318",
+    "turn": 9,
+    "actionId": 571,
+    "processId": 39488,
+    "sessionId": "16533434-45e8-467f-8689-a3736d989917",
+    "gameEpoch": "ae86f81e-9a74-42d5-aee6-c83d6a0b34c7",
+    "automationEpoch": "191a2a90-9e8c-45f0-8902-1c9b74d858cf",
+    "matchmakingRequestId": "a3688469-e83a-4fd1-83f7-5adc548b4be0-postgame-18",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "15042905500",
+    "accountLabel": "",
+    "currentRank": "\u94BB\u77F31[1]-3\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9561475345,
+    "deckName": "\u6D77\u76D7\u6218",
+    "deckCode": "AAEBAa3yBwSRvALr1gey2Aer4AcN\u002Bw\u002BCsALpsAOktgOvoAT/2wS\u002B4gTQngb8qAatxQao4Aep4Af74AcAAA==",
+    "deckHeroClass": "WARRIOR",
+    "opponentClass": "WARLOCK"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 484679,
+      "sha256": "94245b9f87d755fe4162750601610d8bfb494f95f3aadeba19a6c2476cbf48e9"
+    },
+    {
+      "name": "events/20261029T1743379516647-05a8eec880ef48ce9ebf9fe5fd77b7fe.json",
+      "bytes": 2838,
+      "sha256": "9b74ea0b17a66dc06c96134e9d7edb96856e09d4c26beb9b9cd7832a6c8bf746"
+    },
+    {
+      "name": "events/20261029T1743379542103-765154ac91b142469c8811c1368a11c0.json",
+      "bytes": 2527,
+      "sha256": "d0161d1389d59f2bfd13cda26772087766ee4bac824bfb2ee8a36205174bbdcc"
+    },
+    {
+      "name": "session-evidence/bridge-snapshot.json",
+      "bytes": 6095,
+      "sha256": "65bc5e54157aa670ccc9843b1748e5a6a1464cf33d21433caee2467278a5a387"
+    },
+    {
+      "name": "session-evidence/client-logs.json",
+      "bytes": 2204,
+      "sha256": "d3a9cfcfea53b21963c73b41d9cc786fb493f04173b6ac756322cc3a1d8f4040"
+    },
+    {
+      "name": "session-evidence/client-logs/ExceptionReporter.log",
+      "bytes": 258,
+      "sha256": "abb43ee0b3ed9e08a25887b4dcffa25fdda33f317ac341872fd0d7740fbfa6f9"
+    },
+    {
+      "name": "session-evidence/client-logs/GameNetLogger.log",
+      "bytes": 29780,
+      "sha256": "c804abd3d8b3c09a74c8e38e7663be7f07c5dd74ac65221654f6aa76491f68f2"
+    },
+    {
+      "name": "session-evidence/client-logs/Hearthstone.log",
+      "bytes": 262144,
+      "sha256": "7ed1a072d19794fd3384f9a69977c53b0f5bf6312c60716b4e2d0713514aac79"
+    },
+    {
+      "name": "session-evidence/client-logs/Login.log",
+      "bytes": 197,
+      "sha256": "0ee8f26561849322d293acaf29347bbef3971621ad8a2178cce8017eaa7e193a"
+    },
+    {
+      "name": "session-evidence/client-logs/Player.log",
+      "bytes": 262144,
+      "sha256": "fcbc11cab155b943930fd1c0390e3fc8e871f57171584bcb52827ae81e107939"
+    },
+    {
+      "name": "session-evidence/client-logs/native-bootstrap.json",
+      "bytes": 1568,
+      "sha256": "b456e4e9d0786251186f7c777267ca090c065c829708c8f9f8d80dcba2ebe123"
+    },
+    {
+      "name": "session-evidence/fault.json",
+      "bytes": 1022,
+      "sha256": "8b91dc0b3cd43d583f1c8c93804aa30c43516da4aa8aea2d347879a3089bf796"
+    },
+    {
+      "name": "session-evidence/manifest.json",
+      "bytes": 3547,
+      "sha256": "2fe7045dc72f0a7004441056e3827687d1d143535bc5779db257981abec76546"
+    },
+    {
+      "name": "session-evidence/popup-response.json",
+      "bytes": 55,
+      "sha256": "4f918391b36d4452400a0731d13088f5ee7991c5b2ba79fc77e2cf982c79a1b5"
+    },
+    {
+      "name": "session-evidence/screenshot-attempt.json",
+      "bytes": 3194,
+      "sha256": "fc3a3248795ef227ff23d48f0772548595b6ac5245eed3b638a8856140aa5902"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 213931,
+      "sha256": "721083768e5d425b0811c817862218247184203d64f131627d34e12c84326a52"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "System.InvalidOperationException: failed: System.AggregateException: \u7089\u77F3\u539F\u751F\u622A\u56FE\u4E0E\u540E\u53F0\u7A97\u53E3\u622A\u56FE\u5747\u5931\u8D25\u3002 (System.InvalidOperationException: native_channel_unavailable\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)) (\u7A97\u53E3\u4E0D\u53EF\u7528\u6216\u65E0\u6CD5\u8BFB\u53D6\u5C3A\u5BF8)\r\n ---\u003E System.InvalidOperationException: System.InvalidOperationException: native_channel_unavailable\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\r\n   --- End of inner exception stack trace ---\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline, Boolean nativeAvailable)\r\n ---\u003E (Inner Exception #1) System.InvalidOperationException: \u7A97\u53E3\u4E0D\u53EF\u7528\u6216\u65E0\u6CD5\u8BFB\u53D6\u5C3A\u5BF8\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ReadWindowGeometry(IntPtr handle)\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.CaptureWindow(IntPtr handle, String path, CancellationToken cancellationToken, Boolean allowScreenFallback)\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.BackgroundWindowCapture.\u003C\u003Ec__DisplayClass1_0.\u003CCaptureAsync\u003Eb__0()\r\n   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)\r\n--- End of stack trace from previous location ---\r\n   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)\r\n   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task\u0026 currentTaskSlot, Thread threadPoolThread)\r\n--- End of stack trace from previous location ---\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureWindowAsync(Int32 processId, IntPtr window, String path, CancellationToken cancellation)\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\u003C---\r\n\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ImportSessionEvidence(String directory, FeatureRuntimeEvent value, Boolean captureImages, List\u00601 screenshots, List\u00601 images, List\u00601 diagnostics)"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": [
+    "\u6E05\u7406\u524D\u73B0\u573A\u5BFC\u5165\u5931\u8D25\uFF1ASystem.InvalidOperationException: failed: System.AggregateException: \u7089\u77F3\u539F\u751F\u622A\u56FE\u4E0E\u540E\u53F0\u7A97\u53E3\u622A\u56FE\u5747\u5931\u8D25\u3002 (System.InvalidOperationException: native_channel_unavailable\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)) (\u7A97\u53E3\u4E0D\u53EF\u7528\u6216\u65E0\u6CD5\u8BFB\u53D6\u5C3A\u5BF8)\r\n ---\u003E System.InvalidOperationException: System.InvalidOperationException: native_channel_unavailable\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\r\n   --- End of inner exception stack trace ---\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline, Boolean nativeAvailable)\r\n ---\u003E (Inner Exception #1) System.InvalidOperationException: \u7A97\u53E3\u4E0D\u53EF\u7528\u6216\u65E0\u6CD5\u8BFB\u53D6\u5C3A\u5BF8\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ReadWindowGeometry(IntPtr handle)\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.CaptureWindow(IntPtr handle, String path, CancellationToken cancellationToken, Boolean allowScreenFallback)\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.BackgroundWindowCapture.\u003C\u003Ec__DisplayClass1_0.\u003CCaptureAsync\u003Eb__0()\r\n   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)\r\n--- End of stack trace from previous location ---\r\n   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)\r\n   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task\u0026 currentTaskSlot, Thread threadPoolThread)\r\n--- End of stack trace from previous location ---\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureWindowAsync(Int32 processId, IntPtr window, String path, CancellationToken cancellation)\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\u003C---\r\n\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ImportSessionEvidence(String directory, FeatureRuntimeEvent value, Boolean captureImages, List\u00601 screenshots, List\u00601 images, List\u00601 diagnostics)"
+  ]
+}
