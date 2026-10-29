@@ -1,0 +1,35 @@
+{
+  "evidence": {
+    "id": "dc629f79-4d2b-4200-b666-721fd16a8b1c",
+    "relativeDirectory": "20261030-044735-270-SESSION_FAULT-dc629f794d2b4200b666721fd16a8b1c",
+    "processId": 12376,
+    "sessionId": "46fbab54-f77b-4e1f-8cb8-242cc654fd30",
+    "gameEpoch": "915cfe78-a2bc-4af0-afa3-2ca88d28db17",
+    "automationEpoch": "ca4a86e8-b699-4555-b79e-bf92f9980f4e",
+    "faultedAtUtc": "2026-10-29T20:47:35.2705923+00:00"
+  },
+  "termination": {
+    "kind": 4,
+    "component": "game_session",
+    "detail": "client_fatal_error; nativeReason=BNET_FATAL; nativeMessage=\u54CE\u54DF\uFF01\u8C03\u76AE\u7684\u5C0F\u7CBE\u7075\u5E72\u6270\u4E86\u300A\u7089\u77F3\u4F20\u8BF4\u300B\u4E0E\u670D\u52A1\u5668\u7684\u8FDE\u63A5\u3002\u8BF7\u7A0D\u7B49\u7247\u523B\uFF0C\u5728\u5B83\u4EEC\u6D88\u6563\u4E4B\u540E\u518D\u6B21\u5C1D\u8BD5\u3002",
+    "code": "client_fatal_error",
+    "isNormal": false,
+    "evidence": null,
+    "evidenceError": null
+  },
+  "process": {
+    "phase": "fault_evidence_before_cleanup",
+    "kind": "ClientSessionFault",
+    "component": "game_session",
+    "code": "client_fatal_error",
+    "detail": "client_fatal_error; nativeReason=BNET_FATAL; nativeMessage=\u54CE\u54DF\uFF01\u8C03\u76AE\u7684\u5C0F\u7CBE\u7075\u5E72\u6270\u4E86\u300A\u7089\u77F3\u4F20\u8BF4\u300B\u4E0E\u670D\u52A1\u5668\u7684\u8FDE\u63A5\u3002\u8BF7\u7A0D\u7B49\u7247\u523B\uFF0C\u5728\u5B83\u4EEC\u6D88\u6563\u4E4B\u540E\u518D\u6B21\u5C1D\u8BD5\u3002",
+    "closeMethod": "",
+    "processState": {
+      "exited": false,
+      "exitCode": null,
+      "exitCodeHex": null,
+      "error": ""
+    }
+  },
+  "snapshotMissing": false
+}
