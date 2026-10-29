@@ -1,0 +1,40 @@
+D 13:41:04.8141233 LoginServise Initialize: Done WaitForGameDownloadManagerAvailable
+D 13:41:04.8141233 Using Desktop Token Fetcher
+D 13:41:04.8141233 Constructing DesktopLoginTokenFetcher
+D 13:41:04.8141233 Trying to use token from token fetcher.
+D 13:41:04.8141233 Trying to use stored launch option WEB_TOKEN
+D 13:41:04.8141233 LoginServise Initialize: SetShouldBeConnectedToAurora(true)
+D 13:41:04.9561026 Trying to use token from token fetcher.
+D 13:41:04.9561026 Trying to use stored launch option WEB_TOKEN
+D 13:41:04.9561026 Entering Login flow.
+I 13:41:04.9561026 Beginning processing login challenges
+D 13:41:05.1564291 LoginManager started Job_WaitForLogin
+D 13:41:05.5189204 SplashScreen: Job_ShowLoginQueue
+D 13:41:05.5189204 SplashScreen: wait OnQueueModified position 0
+D 13:41:05.5347412 SplashScreen: done wait OnQueueModified position 0
+I 13:41:06.1538522 We are now logged in, stopping processing challenges
+D 13:41:06.1538522 LoginManager: Generating new SSO login token.
+D 13:41:06.1538522 LoginManager: OnLoginComplete
+D 13:41:06.2606354 LoginManager: CollectionManager is initialized.
+D 13:41:06.2606354 LoginManager: Requesting assets version and initial client state.
+D 13:41:06.2606354 OnGenerateWebCredentialsResponse() - OldToken= | NewToken=CN-7aad03020b5c3f101a76c631a9921a8e-212920575 | ResponseTime=0.1067832
+D 13:41:08.3192813 LoginManager: Assets Version Check Completed
+D 13:41:08.5684941 Login.cs: OnLoginStateResolved Show box animation
+D 13:41:09.9129756 LoginManager: Net Cache Ready
+D 13:41:09.9482857 LoginManager: Achieves Loaded
+D 13:41:16.5007836 Login.cs: OnStartupHubSpellFinished
+D 13:41:16.5007836 Login.cs: OnStartupHubSpellFinished CompleteLoginFlow
+D 13:41:16.5173092 LoginManager: Showing Intro Popups
+I 13:41:16.5173092 Initial download done, Waiting Intro popup...
+D 13:41:16.6043302 LoginManager: Complete Login Flow
+D 17:11:06.1673197 LoginManager: Generating new SSO login token.
+D 17:11:06.2350429 OnGenerateWebCredentialsResponse() - OldToken=CN-7aad03020b5c3f101a76c631a9921a8e-212920575 | NewToken=CN-c06e0235728b5b0373f928a5c73c7b83-212920575 | ResponseTime=0.0677232
+D 19:03:33.6628305 Entering Login flow.
+I 19:03:33.6628305 Beginning processing login challenges
+D 19:03:33.6815477 LoginManager started Job_WaitForLogin
+I 19:03:34.8176400 We are now logged in, stopping processing challenges
+D 19:03:34.8176400 LoginManager: OnLoginComplete
+D 19:03:34.8176400 LoginManager: CollectionManager is initialized.
+D 19:03:34.8176400 LoginManager: Requesting assets version and initial client state.
+D 19:03:36.2186099 LoginManager: Assets Version Check Completed
+D 19:03:37.1046124 LoginManager: Net Cache Ready
