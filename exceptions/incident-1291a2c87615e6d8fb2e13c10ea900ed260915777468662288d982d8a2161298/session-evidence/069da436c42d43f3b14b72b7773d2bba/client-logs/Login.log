@@ -1,0 +1,29 @@
+D 19:54:52.8524599 LoginServise Initialize: Done WaitForGameDownloadManagerAvailable
+D 19:54:52.8524599 Using Desktop Token Fetcher
+D 19:54:52.8524599 Constructing DesktopLoginTokenFetcher
+D 19:54:52.8524599 Trying to use token from token fetcher.
+D 19:54:52.8524599 Trying to use stored launch option WEB_TOKEN
+D 19:54:52.8524599 LoginServise Initialize: SetShouldBeConnectedToAurora(true)
+D 19:54:52.9869639 Trying to use token from token fetcher.
+D 19:54:52.9869639 Trying to use stored launch option WEB_TOKEN
+D 19:54:52.9869639 Entering Login flow.
+I 19:54:52.9869639 Beginning processing login challenges
+D 19:54:53.1644204 LoginManager started Job_WaitForLogin
+D 19:54:53.5399041 SplashScreen: Job_ShowLoginQueue
+D 19:54:53.5399041 SplashScreen: wait OnQueueModified position 0
+D 19:54:53.5547769 SplashScreen: done wait OnQueueModified position 0
+I 19:54:54.1059427 We are now logged in, stopping processing challenges
+D 19:54:54.1059427 LoginManager: Generating new SSO login token.
+D 19:54:54.1059427 LoginManager: OnLoginComplete
+D 19:54:54.2070942 LoginManager: CollectionManager is initialized.
+D 19:54:54.2070942 LoginManager: Requesting assets version and initial client state.
+D 19:54:54.2070942 OnGenerateWebCredentialsResponse() - OldToken= | NewToken=CN-8baa6327f5411a8f9f10052c55c792a8-212920575 | ResponseTime=0.1011515
+D 19:54:56.0522255 LoginManager: Assets Version Check Completed
+D 19:54:56.2862263 Login.cs: OnLoginStateResolved Show box animation
+D 19:54:57.5738738 LoginManager: Net Cache Ready
+D 19:54:57.6071080 LoginManager: Achieves Loaded
+D 19:55:04.1567781 Login.cs: OnStartupHubSpellFinished
+D 19:55:04.1567781 Login.cs: OnStartupHubSpellFinished CompleteLoginFlow
+D 19:55:04.1726100 LoginManager: Showing Intro Popups
+I 19:55:04.1726100 Initial download done, Waiting Intro popup...
+D 19:55:04.2611545 LoginManager: Complete Login Flow
