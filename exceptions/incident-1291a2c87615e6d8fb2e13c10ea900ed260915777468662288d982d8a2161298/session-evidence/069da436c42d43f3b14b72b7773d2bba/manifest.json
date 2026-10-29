@@ -1,0 +1,29 @@
+{
+  "eventName": "SESSION_FAULT",
+  "timestampUtc": "2026-10-29T12:57:59.2354749+00:00",
+  "evidence": {
+    "id": "069da436-c42d-43f3-b14b-72b7773d2bba",
+    "relativeDirectory": "20261029-205759-235-SESSION_FAULT-069da436c42d43f3b14b72b7773d2bba",
+    "processId": 16248,
+    "sessionId": "9d03424e-629c-423e-b98e-e080214a07fa",
+    "gameEpoch": "93af62f3-5774-4488-a129-d098ee128a98",
+    "automationEpoch": "294bf7ef-8951-4312-af1d-ccd095222ad1",
+    "faultedAtUtc": "2026-10-29T12:57:59.2354749+00:00"
+  },
+  "termination": {
+    "kind": 4,
+    "component": "game_session",
+    "detail": "client_progress_timeout; incidentId=63e1eabe3b8c469f887edb90a05442bf; elapsedMs=60021.9441; cause=client_progress_unknown",
+    "code": "client_progress_timeout",
+    "isNormal": false,
+    "evidence": null,
+    "evidenceError": null
+  },
+  "snapshotMissing": false,
+  "screenshot": {
+    "outcome": "captured",
+    "detail": "native",
+    "captured": true
+  },
+  "logs": "client-logs.json"
+}
