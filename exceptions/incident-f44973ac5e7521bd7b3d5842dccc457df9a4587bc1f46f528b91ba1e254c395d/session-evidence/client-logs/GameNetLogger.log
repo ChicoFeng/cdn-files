@@ -1,0 +1,73 @@
+I 00:31:02.9432977 GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 00:31:03.0948462 GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 00:31:05.6204894 GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_DELAYED
+I 00:31:05.6204894 Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 00:31:05.6204894 Network.GotoGameServe() - address= 121.40.181.190:3724, game=557230, client=102994733, spectateKey=FgFKjl reconnecting=False
+I 00:31:10.3440209 Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 00:31:10.3440209 Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 00:31:10.3440209 Network.SendGameServerHandshake()
+I 00:31:10.5429122 GameMgr.OnGameSetup()
+I 00:31:10.5429122 GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 00:31:10.5429122 GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
+I 00:35:04.8939895 Player conceded the game
+I 00:35:10.7357734 Network.DisconnectFromGameServer() - Reason: EndGameScreen 
+I 00:35:10.7357734 Network.OnGameServerDisconnectEvent() - Disconnected from game server with BNet error: ERROR_OK socket error: Success, Message: 
+I 00:35:20.2792846 GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 00:35:20.4748907 GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 00:35:25.0072441 GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_DELAYED
+I 00:35:25.0072441 Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 00:35:25.0072441 Network.GotoGameServe() - address= 47.98.148.7:3724, game=556325, client=102994733, spectateKey=kmbpjj reconnecting=False
+I 00:35:29.7372311 Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 00:35:29.7372311 Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 00:35:29.7372311 Network.SendGameServerHandshake()
+I 00:35:35.8132062 GameMgr.OnGameSetup()
+I 00:35:35.8132062 GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 00:35:35.8132062 GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
+I 00:41:13.9536240 Network.DisconnectFromGameServer() - Reason: EndGameScreen 
+I 00:41:13.9536240 Network.OnGameServerDisconnectEvent() - Disconnected from game server with BNet error: ERROR_OK socket error: Success, Message: 
+I 00:41:23.2295781 GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 00:41:23.3611218 GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 00:41:25.5262645 GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_DELAYED
+I 00:41:25.5262645 Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 00:41:25.5262645 Network.GotoGameServe() - address= 118.31.57.120:3724, game=560839, client=102994733, spectateKey=PNidBp reconnecting=False
+I 00:41:30.2525144 Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 00:41:30.2525144 Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 00:41:30.2525144 Network.SendGameServerHandshake()
+I 00:41:30.4855933 GameMgr.OnGameSetup()
+I 00:41:30.4855933 GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 00:41:30.4855933 GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
+I 00:45:16.6285821 Network.DisconnectFromGameServer() - Reason: EndGameScreen 
+I 00:45:16.6285821 Network.OnGameServerDisconnectEvent() - Disconnected from game server with BNet error: ERROR_OK socket error: Success, Message: 
+I 00:45:25.6824858 GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 00:45:25.8109983 GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 00:45:27.4592645 GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_DELAYED
+I 00:45:27.4592645 Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 00:45:27.4592645 Network.GotoGameServe() - address= 116.62.23.102:3724, game=565065, client=102994733, spectateKey=iiIogN reconnecting=False
+I 00:45:32.2022117 Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 00:45:32.2022117 Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 00:45:32.2022117 Network.SendGameServerHandshake()
+I 00:45:32.4349744 GameMgr.OnGameSetup()
+I 00:45:32.4349744 GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 00:45:32.4349744 GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
+E 00:51:02.7685893 RpcController.OnSocketError - Receive,ConnectionAborted ConnectionAborted, 
+I 00:51:02.7811499 Network.OnGameServerDisconnectEvent() - Disconnected from game server with BNet error: ERROR_RPC_PEER_UNKNOWN socket error: ConnectionAborted, Message: 
+I 01:04:29.2857214 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:29.2857214 RpcController.SendData() - Not connected
+I 01:04:36.2007637 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:36.2007637 RpcController.SendData() - Not connected
+I 01:04:36.5501805 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:36.5501805 RpcController.SendData() - Not connected
+I 01:04:37.8683719 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:37.8683719 RpcController.SendData() - Not connected
+I 01:04:38.2346744 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:38.2346744 RpcController.SendData() - Not connected
+I 01:04:39.0672054 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:39.0672054 RpcController.SendData() - Not connected
+I 01:04:39.7006685 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:39.7006685 RpcController.SendData() - Not connected
+I 01:04:58.3421927 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:58.3421927 RpcController.SendData() - Not connected
+I 01:04:58.7090485 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:58.7090485 RpcController.SendData() - Not connected
+I 01:04:59.0765507 Trying to send a packet while disconnected. ID 15 , PegasusGame.UserUI
+E 01:04:59.0765507 RpcController.SendData() - Not connected
