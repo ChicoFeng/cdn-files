@@ -1,0 +1,16 @@
+capturedAtUtc=2026-10-29T18:14:26.5919868+00:00
+eventName=HP_UPDATE_RESUME_FAILED
+summary=[错误]  更新已完成，自动接续未完成：更新期间计划内容已变化，请核对后手动开始。；本机数据保留，请处理后手动开始
+technicalDetail=System.InvalidOperationException: 更新期间计划内容已变化，请核对后手动开始。
+   at HSLaunch.MvpLauncher.MainViewModel.ResumeUpdateCoreAsync(String root, String id, CancellationToken cancellation)
+turn=-1
+actionId=0
+--- launcher log tail ---
+[2026-10-30 02:14:26.035] #000001 INFO DRAG_TIMING_CONFIG_LOADED message="[02:14:26]  [诊断]  已读取保存的设置"
+[2026-10-30 02:14:26.039] #000002 INFO RANDOM_INTERACTION_CONFIG_LOADED message="[02:14:26]  [诊断]  已读取保存的随机交互设置"
+[2026-10-30 02:14:26.487] #000003 INFO HOST_STARTING message="[02:14:26]  [诊断]  正在启动后台服务"
+[2026-10-30 02:14:26.504] #000004 INFO CONTEXT session="5a3806ee-9c60-42e4-a996-059ee88f92a9" gameEpoch="054ca0bd-c64e-4102-a401-75ac5b7f1662"
+[2026-10-30 02:14:26.504] #000005 INFO LIVE_SUPERVISOR_START state={"session":"Starting>WaitingForComponents"} data={"phase":"WaitingForGame","automationEnabled":false,"automationEpoch":"9e0e9ac0-b8ea-45c4-9917-35db4fe38d95","recommendationSource":"direct"}
+[2026-10-30 02:14:26.516] #000006 INFO LIVE_SUPERVISOR_WAITING message="[系统]  正在等待炉石启动" data={"reason":"automation_disabled"}
+[2026-10-30 02:14:26.579] #000007 ERROR HP_UPDATE_RESUME_FAILED message="[02:14:26]  [错误]  更新已完成，自动接续未完成：更新期间计划内容已变化，请核对后手动开始。；本机数据保留，请处理后手动开始" detail="System.InvalidOperationException: 更新期间计划内容已变化，请核对后手动开始。\r\n   at HSLaunch.MvpLauncher.MainViewModel.ResumeUpdateCoreAsync(String root, String id, CancellationToken cancellation)"
+[2026-10-30 02:14:26.585] #000008 INFO FEATURE_EXCEPTION_ARTIFACT_CAPTURING message="[02:14:26]  [功能]  正在保存异常现场" detail="; exceptionLogKey=event-844819445ae145398e9db4174781c9ed; partId=2f58e08320c44052aa9bdb0048c3e62f; sourceTimestampUtc=2026-10-29T18:14:26.5790934+00:00; sourceMatchId=; sourceMatchSequence=0; sourceActionId=0; progressStage=capturing; supplement=False; deliveryEnabled=True"
