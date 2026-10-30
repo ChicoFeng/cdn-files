@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.22.0",
+  "eventName": "MATCHMAKING_FAILED",
+  "timestampUtc": "2026-10-30T10:36:42.5387909+00:00",
+  "summary": "[\u9519\u8BEF]  \u5339\u914D\u5931\u8D25\uFF1A\u7089\u77F3\u5339\u914D\u8FD4\u56DE\u5931\u8D25\u72B6\u6001\uFF1ACLIENT_CANCELED",
+  "technicalDetail": "\u7089\u77F3\u5339\u914D\u8FD4\u56DE\u5931\u8D25\u72B6\u6001\uFF1ACLIENT_CANCELED; findGameState=CLIENT_CANCELED; nativeError=0; nativeErrorObservation=captured_in_find_game_callback; requestId=6ed2d47f-bfc1-4d60-aa7b-4de086bee7c8-postgame-6; mode=standard; deckId=9562367561",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\HASEE\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261030-180540-349.log",
+    "originalBytes": 7644147,
+    "offset": 7119859,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 57,
+    "truncated": true
+  },
+  "processId": 5812,
+  "sessionId": "b6f56d3a-9c98-4732-acf6-bdd41dfc33c9",
+  "gameEpoch": "b9a63f83-73aa-409c-8172-6f88e4ffdd33",
+  "automationEpoch": "d47dbcf8-50a0-484c-b409-f69a878eac8b",
+  "eventPayload": null,
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": -1,
+  "actionId": 179,
+  "runtimeState": {
+    "battleTag": "\u5F90\u672A\u51C9#5396",
+    "turn": -1,
+    "actionId": 179,
+    "processId": 5812,
+    "sessionId": "b6f56d3a-9c98-4732-acf6-bdd41dfc33c9",
+    "gameEpoch": "b9a63f83-73aa-409c-8172-6f88e4ffdd33",
+    "automationEpoch": "d47dbcf8-50a0-484c-b409-f69a878eac8b",
+    "matchmakingRequestId": "6ed2d47f-bfc1-4d60-aa7b-4de086bee7c8-postgame-6",
+    "matchState": "NotStarted",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "17600903963",
+    "accountLabel": "\u95F2\u9C7CtbNick_bje8a",
+    "currentRank": "\u94BB\u77F32[2]-3\u2605 \u00B7 \u00D71",
+    "gameMode": "standard",
+    "deckId": 9562367561,
+    "deckName": "\u52A8\u7269\u56ED\u672F",
+    "deckCode": "AAECAYj/BwTDgwfb4Aeg9gft\u002BQcN0J4G054G15cHhJkHoq0HpK0HqK0H9sEHgfYHivYHjfYH6fkH6/kHAAA=",
+    "deckHeroClass": "WARLOCK",
+    "opponentClass": ""
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 419324,
+      "sha256": "dbd0b3d8d8c6ae8f3bf047ba56cdc067013226cc4572de79606a655148285e88"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 127929,
+      "sha256": "58275c131090ede313d180fadc739f047bc20dd7e2b688c323972889460f6d50"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 26161,
+      "sha256": "7b20486150d880fadc5ab6daf63308d6f1bbd265665888364f8508d0af0307b3"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=5812"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
