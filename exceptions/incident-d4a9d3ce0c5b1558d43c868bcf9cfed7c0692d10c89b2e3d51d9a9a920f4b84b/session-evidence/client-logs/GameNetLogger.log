@@ -1,0 +1,25 @@
+I 07:32:15.6507757 GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 07:32:15.8238110 GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 07:32:16.5875777 GameMgr.ChangeFindGameState() - state: BNET_QUEUE_UPDATED, previous state: BNET_QUEUE_DELAYED
+I 07:32:21.3810876 GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_UPDATED
+I 07:32:21.3810876 Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 07:32:21.3810876 Network.GotoGameServe() - address= 47.97.60.102:3724, game=632467, client=139231576, spectateKey=ldmDbO reconnecting=False
+I 07:32:26.0859466 Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 07:32:26.0859466 Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 07:32:26.0859466 Network.SendGameServerHandshake()
+I 07:32:26.3187914 GameMgr.OnGameSetup()
+I 07:32:26.3187914 GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 07:32:26.3187914 GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
+I 07:39:58.9725730 Network.DisconnectFromGameServer() - Reason: EndGameScreen 
+I 07:39:58.9725730 Network.OnGameServerDisconnectEvent() - Disconnected from game server with BNet error: ERROR_OK socket error: Success, Message: 
+I 07:40:06.7019915 GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 07:40:06.8518035 GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 07:40:10.4601479 GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_DELAYED
+I 07:40:10.4601479 Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 07:40:10.4601479 Network.GotoGameServe() - address= 47.98.150.36:3724, game=631901, client=139231576, spectateKey=fjMChI reconnecting=False
+I 07:40:15.0659235 Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 07:40:15.0659235 Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 07:40:15.0659235 Network.SendGameServerHandshake()
+I 07:40:15.3011879 GameMgr.OnGameSetup()
+I 07:40:15.3011879 GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 07:40:15.3011879 GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
