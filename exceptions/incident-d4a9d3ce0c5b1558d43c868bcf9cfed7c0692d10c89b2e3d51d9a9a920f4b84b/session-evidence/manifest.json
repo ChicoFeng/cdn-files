@@ -1,0 +1,29 @@
+{
+  "eventName": "SESSION_FAULT",
+  "timestampUtc": "2026-10-30T23:45:37.0803902+00:00",
+  "evidence": {
+    "id": "7d9fd507-a96f-4033-b0e4-50dc8e434e12",
+    "relativeDirectory": "20261031-074537-080-SESSION_FAULT-7d9fd507a96f4033b0e450dc8e434e12",
+    "processId": 35472,
+    "sessionId": "99a84c3f-c58b-45af-92ae-5094becd8362",
+    "gameEpoch": "389fe02d-5409-4b98-8ccd-962a49e45d4f",
+    "automationEpoch": "365f9b42-eb4f-4480-b9c1-ca3dac19b70c",
+    "faultedAtUtc": "2026-10-30T23:45:37.0803902+00:00"
+  },
+  "termination": {
+    "kind": 3,
+    "component": "bridge",
+    "detail": "bridge_pipe_eof",
+    "code": "bridge_pipe_eof",
+    "isNormal": false,
+    "evidence": null,
+    "evidenceError": null
+  },
+  "snapshotMissing": false,
+  "screenshot": {
+    "outcome": "failed",
+    "detail": "System.AggregateException: \u7089\u77F3\u539F\u751F\u622A\u56FE\u4E0E\u540E\u53F0\u7A97\u53E3\u622A\u56FE\u5747\u5931\u8D25\u3002 (System.InvalidOperationException: native_channel_unavailable\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)) (\u7A97\u53E3\u4E0D\u53EF\u7528\u6216\u65E0\u6CD5\u8BFB\u53D6\u5C3A\u5BF8)\r\n ---\u003E System.InvalidOperationException: System.InvalidOperationException: native_channel_unavailable\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\r\n   --- End of inner exception stack trace ---\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureSessionEvidenceAsync(SessionFaultEvidenceReference evidence, DateTimeOffset deadline, Boolean nativeAvailable)\r\n ---\u003E (Inner Exception #1) System.InvalidOperationException: \u7A97\u53E3\u4E0D\u53EF\u7528\u6216\u65E0\u6CD5\u8BFB\u53D6\u5C3A\u5BF8\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.ReadWindowGeometry(IntPtr handle)\r\n   at HearthPilot.Features.ExceptionPush.ExceptionArtifactCapture.CaptureWindow(IntPtr handle, String path, CancellationToken cancellationToken, Boolean allowScreenFallback)\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.BackgroundWindowCapture.\u003C\u003Ec__DisplayClass1_0.\u003CCaptureAsync\u003Eb__0()\r\n   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)\r\n--- End of stack trace from previous location ---\r\n   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)\r\n   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task\u0026 currentTaskSlot, Thread threadPoolThread)\r\n--- End of stack trace from previous location ---\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureWindowAsync(Int32 processId, IntPtr window, String path, CancellationToken cancellation)\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)\u003C---\r\n",
+    "captured": false
+  },
+  "logs": "client-logs.json"
+}
