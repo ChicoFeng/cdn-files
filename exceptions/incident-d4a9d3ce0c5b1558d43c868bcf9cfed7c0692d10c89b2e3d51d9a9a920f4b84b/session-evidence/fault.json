@@ -1,0 +1,35 @@
+{
+  "evidence": {
+    "id": "7d9fd507-a96f-4033-b0e4-50dc8e434e12",
+    "relativeDirectory": "20261031-074537-080-SESSION_FAULT-7d9fd507a96f4033b0e450dc8e434e12",
+    "processId": 35472,
+    "sessionId": "99a84c3f-c58b-45af-92ae-5094becd8362",
+    "gameEpoch": "389fe02d-5409-4b98-8ccd-962a49e45d4f",
+    "automationEpoch": "365f9b42-eb4f-4480-b9c1-ca3dac19b70c",
+    "faultedAtUtc": "2026-10-30T23:45:37.0803902+00:00"
+  },
+  "termination": {
+    "kind": 3,
+    "component": "bridge",
+    "detail": "bridge_pipe_eof",
+    "code": "bridge_pipe_eof",
+    "isNormal": false,
+    "evidence": null,
+    "evidenceError": null
+  },
+  "process": {
+    "phase": "fault_evidence_before_cleanup",
+    "kind": "BridgeDisconnected",
+    "component": "bridge",
+    "code": "bridge_pipe_eof",
+    "detail": "bridge_pipe_eof",
+    "closeMethod": "",
+    "processState": {
+      "exited": false,
+      "exitCode": null,
+      "exitCodeHex": null,
+      "error": ""
+    }
+  },
+  "snapshotMissing": false
+}
