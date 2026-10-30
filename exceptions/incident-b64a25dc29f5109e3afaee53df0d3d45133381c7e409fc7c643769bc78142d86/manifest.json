@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.22.0",
+  "eventName": "LIVE_CLIENT_PROGRESS_STALLED",
+  "timestampUtc": "2026-10-30T07:42:26.713773+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u573A\u9762\u5904\u7406\u6301\u7EED\u672A\u89C1\u8FDB\u5C55\uFF0C\u5DF2\u8BB0\u5F55\u7591\u4F3C\u505C\u6EDE\uFF1B\u8D85\u65F6\u540E\u5C06\u81EA\u52A8\u91CD\u542F\u7089\u77F3",
+  "technicalDetail": "incidentId=16bca41fda9741e3a14c7c042ea228a5; elapsedMs=10019.5012\n{\u0022incidentId\u0022:\u002216bca41fda9741e3a14c7c042ea228a5\u0022,\u0022startedAtUtc\u0022:\u00222026-10-30T07:42:16.6914768\u002B00:00\u0022,\u0022elapsedMs\u0022:10019.5012,\u0022reportAfterMs\u0022:10000,\u0022restartAfterMs\u0022:60000,\u0022receivedTurn\u0022:{\u0022history\u0022:\u002228d7e9d8-c300-4c22-a9a1-dccee0593b47\u0022,\u0022game\u0022:\u0022e1f3a4cc-4a8e-4a7b-af05-01c8bfb74641\u0022,\u0022packet\u0022:118,\u0022turn\u0022:13,\u0022currentPlayer\u0022:1,\u0022friendlyPlayerAiControlled\u0022:false,\u0022playerControlRevision\u0022:0,\u0022demonicProject\u0022:null},\u0022firstSnapshot\u0022:{\u0022revision\u0022:8083,\u0022isTraditionalMode\u0022:true,\u0022lifecycle\u0022:\u0022in_progress\u0022,\u0022turn\u0022:12,\u0022currentPlayerId\u0022:2,\u0022responseMode\u0022:\u0022NONE\u0022,\u0022optionId\u0022:-1,\u0022choiceId\u0022:-1,\u0022mulliganActive\u0022:false,\u0022entities\u0022:[{\u0022entityId\u0022:12,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:1,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:39,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:3,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:41,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:2,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:55,\u0022cardId\u0022:\u0022JAIL_225\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:3,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u52AB\\u6301\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:70,\u0022cardId\u0022:\u0022DED_004\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:4,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u9ED1\\u6C34\\u5F2F\\u5200\u0022,\u0022cardType\u0022:\u0022WEAPON\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:76,\u0022cardId\u0022:\u0022WC_017\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:1,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u7F8E\\u5473\\u53D8\\u5F02\\u9C7C\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:77,\u0022cardId\u0022:\u0022EX1_144\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:2,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u6697\\u5F71\\u6B65\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:88,\u0022cardId\u0022:\u0022HERO_07bz\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:0,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022\\u5BA0\\u7269\\u4F34\\u4FA3\\u739B\\u5C14\\u52A0\\u5C3C\\u65AF\u0022,\u0022cardType\u0022:\u0022HERO\u0022,\u0022inputZone\u0022:\u0022PLAY\u0022},{\u0022entityId\u0022:90,\u0022cardId\u0022:\u0022HERO_03bg\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:0,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u82D4\\u4E1D\\u00B7\\u683C\\u96F7\\u8FC8\\u6069\u0022,\u0022cardType\u0022:\u0022HERO\u0022,\u0022inputZone\u0022:\u0022PLAY\u0022},{\u0022entityId\u0022:141,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:4,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:211,\u0022cardId\u0022:\u0022GIL_118\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:1,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u766B\\u72C2\\u7684\\u533B\\u751F\u0022,\u0022cardType\u0022:\u0022MINION\u0022,\u0022inputZone\u0022:\u0022PLAY\u0022},{\u0022entityId\u0022:223,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:5,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:224,\u0022cardId\u0022:\u0022CORE_YOD_026\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:5,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u90AA\\u9B54\\u4EC6\\u4ECE\u0022,\u0022cardType\u0022:\u0022MINION\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:226,\u0022cardId\u0022:\u0022CORE_YOD_026\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:2,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u90AA\\u9B54\\u4EC6\\u4ECE\u0022,\u0022cardType\u0022:\u0022MINION\u0022,\u0022inputZone\u0022:\u0022PLAY\u0022},{\u0022entityId\u0022:228,\u0022cardId\u0022:\u0022TRL_541t\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:6,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u5815\\u843D\\u4E4B\\u8840\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022INVALID\u0022}],\u0022legalActions\u0022:[],\u0022mulliganSelectedEntityIds\u0022:[],\u0022error\u0022:\u0022\u0022,\u0022errorStage\u0022:\u0022\u0022,\u0022errorDetail\u0022:\u0022\u0022,\u0022clientFaultCode\u0022:\u0022\u0022,\u0022gameIdentity\u0022:\u0022e1f3a4cc-4a8e-4a7b-af05-01c8bfb74641\u0022,\u0022profileError\u0022:\u0022\u0022,\u0022profileRevision\u0022:15,\u0022friendlyPlayerId\u0022:2,\u0022friendlyPlayerIsCurrent\u0022:true,\u0022friendlyPlayState\u0022:\u0022INVALID\u0022,\u0022clientConnectionState\u0022:\u0022connected\u0022,\u0022turnPhase\u0022:\u0022MAIN_START\u0022,\u0022actionReadinessKnown\u0022:true,\u0022decisionInputPermitted\u0022:true,\u0022responsePacketBlocked\u0022:true,\u0022gameStateBusy\u0022:false,\u0022powerTasksPending\u0022:true,\u0022localPowerProgress\u0022:\u0022481:13\u0022,\u0022gameResetPending\u0022:false,\u0022gameOverPending\u0022:false,\u0022starshipUiVisible\u0022:false,\u0022endTurnButtonFound\u0022:true,\u0022endTurnButtonInputBlocked\u0022:false,\u0022endTurnButtonDisabled\u0022:false,\u0022choiceType\u0022:\u0022\u0022,\u0022choiceMin\u0022:0,\u0022choiceMax\u0022:0,\u0022choiceInputReady\u0022:false,\u0022choiceInputState\u0022:\u0022inactive\u0022,\u0022mulliganInputReady\u0022:false,\u0022mulliganInputState\u0022:\u0022inactive\u0022,\u0022choiceEntityIds\u0022:[],\u0022mulliganCandidateEntityIds\u0022:[],\u0022automationEpoch\u0022:\u00228b91a32e-eaad-4870-a96d-ea53a6c41117\u0022,\u0022decks\u0022:[{\u0022deckId\u0022:9562104063,\u0022name\u0022:\u0022\\u6069\\u4F50\\u65AF\\u8D3C\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022ROGUE\u0022},{\u0022deckId\u0022:9562044358,\u0022name\u0022:\u0022\\u5F03\\u724C\\u672F\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:false,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARLOCK\u0022},{\u0022deckId\u0022:9562102390,\u0022name\u0022:\u0022\\u6D77\\u76D7\\u6218\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:false,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARRIOR\u0022},{\u0022deckId\u0022:9562043827,\u0022name\u0022:\u0022\\u94FA\\u573A\\u9A91\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:false,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022PALADIN\u0022},{\u0022deckId\u0022:9562100947,\u0022name\u0022:\u0022\\u52A8\\u7269\\u56ED\\u672F\u0022,\u0022format\u0022:\u0022FT_STANDARD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:true,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARLOCK\u0022},{\u0022deckId\u0022:9557227211,\u0022name\u0022:\u0022\\u732A\\u732A\\u8D3C\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022ROGUE\u0022},{\u0022deckId\u0022:9556571750,\u0022name\u0022:\u0022\\u5B87\\u5B99\\u6495\\u724C\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARLOCK\u0022},{\u0022deckId\u0022:9555705922,\u0022name\u0022:\u0022\\u533A\\u533A\\uFF01\\uFF1F\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022PRIEST\u0022},{\u0022deckId\u0022:9482262657,\u0022name\u0022:\u0022\\u7206\\u724C\\u5FB7\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022DRUID\u0022},{\u0022deckId\u0022:9482262170,\u0022name\u0022:\u0022\\u4EFB\\u52A1\\u778E\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022DEMONHUNTER\u0022},{\u0022deckId\u0022:9479773331,\u0022name\u0022:\u0022\\u810F\\u7267\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022PRIEST\u0022},{\u0022deckId\u0022:9335828689,\u0022name\u0022:\u0022\\u5076\\u6570\\u8428\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022SHAMAN\u0022}],\u0022deckCatalogRevision\u0022:1,\u0022decksReady\u0022:true,\u0022matchmakingRequestId\u0022:\u0022511e368c-be99-4c2c-ab42-6a6ef2d4c2f2-postgame-7\u0022,\u0022matchmakingMode\u0022:\u0022wild\u0022,\u0022matchmakingDeckId\u0022:9562104063,\u0022matchmakingState\u0022:\u0022game_started\u0022,\u0022matchmakingStage\u0022:\u0022Completed\u0022,\u0022matchmakingErrorCode\u0022:\u0022\u0022},\u0022snapshot\u0022:{\u0022revision\u0022:8129,\u0022isTraditionalMode\u0022:true,\u0022lifecycle\u0022:\u0022in_progress\u0022,\u0022turn\u0022:12,\u0022currentPlayerId\u0022:2,\u0022responseMode\u0022:\u0022NONE\u0022,\u0022optionId\u0022:-1,\u0022choiceId\u0022:-1,\u0022mulliganActive\u0022:false,\u0022entities\u0022:[{\u0022entityId\u0022:12,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:1,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:39,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:3,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:41,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:2,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022INVALID\u0022},{\u0022entityId\u0022:55,\u0022cardId\u0022:\u0022JAIL_225\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:3,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u52AB\\u6301\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:70,\u0022cardId\u0022:\u0022DED_004\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:4,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u9ED1\\u6C34\\u5F2F\\u5200\u0022,\u0022cardType\u0022:\u0022WEAPON\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:76,\u0022cardId\u0022:\u0022WC_017\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:1,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u7F8E\\u5473\\u53D8\\u5F02\\u9C7C\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:77,\u0022cardId\u0022:\u0022EX1_144\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:2,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u6697\\u5F71\\u6B65\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:88,\u0022cardId\u0022:\u0022HERO_07bz\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:0,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022\\u5BA0\\u7269\\u4F34\\u4FA3\\u739B\\u5C14\\u52A0\\u5C3C\\u65AF\u0022,\u0022cardType\u0022:\u0022HERO\u0022,\u0022inputZone\u0022:\u0022PLAY\u0022},{\u0022entityId\u0022:90,\u0022cardId\u0022:\u0022HERO_03bg\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:0,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u82D4\\u4E1D\\u00B7\\u683C\\u96F7\\u8FC8\\u6069\u0022,\u0022cardType\u0022:\u0022HERO\u0022,\u0022inputZone\u0022:\u0022PLAY\u0022},{\u0022entityId\u0022:141,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:4,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:211,\u0022cardId\u0022:\u0022GIL_118\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:1,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u766B\\u72C2\\u7684\\u533B\\u751F\u0022,\u0022cardType\u0022:\u0022MINION\u0022,\u0022inputZone\u0022:\u0022INVALID\u0022},{\u0022entityId\u0022:223,\u0022cardId\u0022:\u0022\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:5,\u0022owner\u0022:\u0022opponent\u0022,\u0022cardName\u0022:\u0022UNKNOWN ENTITY [cardType=INVALID]\u0022,\u0022cardType\u0022:\u0022INVALID\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:224,\u0022cardId\u0022:\u0022CORE_YOD_026\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:5,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u90AA\\u9B54\\u4EC6\\u4ECE\u0022,\u0022cardType\u0022:\u0022MINION\u0022,\u0022inputZone\u0022:\u0022HAND\u0022},{\u0022entityId\u0022:226,\u0022cardId\u0022:\u0022CORE_YOD_026\u0022,\u0022zone\u0022:\u0022PLAY\u0022,\u0022position\u0022:2,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u90AA\\u9B54\\u4EC6\\u4ECE\u0022,\u0022cardType\u0022:\u0022MINION\u0022,\u0022inputZone\u0022:\u0022INVALID\u0022},{\u0022entityId\u0022:228,\u0022cardId\u0022:\u0022TRL_541t\u0022,\u0022zone\u0022:\u0022HAND\u0022,\u0022position\u0022:6,\u0022owner\u0022:\u0022friendly\u0022,\u0022cardName\u0022:\u0022\\u5815\\u843D\\u4E4B\\u8840\u0022,\u0022cardType\u0022:\u0022SPELL\u0022,\u0022inputZone\u0022:\u0022INVALID\u0022}],\u0022legalActions\u0022:[],\u0022mulliganSelectedEntityIds\u0022:[],\u0022error\u0022:\u0022\u0022,\u0022errorStage\u0022:\u0022\u0022,\u0022errorDetail\u0022:\u0022\u0022,\u0022clientFaultCode\u0022:\u0022\u0022,\u0022gameIdentity\u0022:\u0022e1f3a4cc-4a8e-4a7b-af05-01c8bfb74641\u0022,\u0022profileError\u0022:\u0022\u0022,\u0022profileRevision\u0022:15,\u0022friendlyPlayerId\u0022:2,\u0022friendlyPlayerIsCurrent\u0022:true,\u0022friendlyPlayState\u0022:\u0022INVALID\u0022,\u0022clientConnectionState\u0022:\u0022connected\u0022,\u0022turnPhase\u0022:\u0022MAIN_START\u0022,\u0022actionReadinessKnown\u0022:true,\u0022decisionInputPermitted\u0022:true,\u0022responsePacketBlocked\u0022:true,\u0022gameStateBusy\u0022:false,\u0022powerTasksPending\u0022:true,\u0022localPowerProgress\u0022:\u0022481:13\u0022,\u0022gameResetPending\u0022:false,\u0022gameOverPending\u0022:false,\u0022starshipUiVisible\u0022:false,\u0022endTurnButtonFound\u0022:true,\u0022endTurnButtonInputBlocked\u0022:false,\u0022endTurnButtonDisabled\u0022:false,\u0022choiceType\u0022:\u0022\u0022,\u0022choiceMin\u0022:0,\u0022choiceMax\u0022:0,\u0022choiceInputReady\u0022:false,\u0022choiceInputState\u0022:\u0022inactive\u0022,\u0022mulliganInputReady\u0022:false,\u0022mulliganInputState\u0022:\u0022inactive\u0022,\u0022choiceEntityIds\u0022:[],\u0022mulliganCandidateEntityIds\u0022:[],\u0022automationEpoch\u0022:\u00228b91a32e-eaad-4870-a96d-ea53a6c41117\u0022,\u0022decks\u0022:[{\u0022deckId\u0022:9562104063,\u0022name\u0022:\u0022\\u6069\\u4F50\\u65AF\\u8D3C\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022ROGUE\u0022},{\u0022deckId\u0022:9562044358,\u0022name\u0022:\u0022\\u5F03\\u724C\\u672F\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:false,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARLOCK\u0022},{\u0022deckId\u0022:9562102390,\u0022name\u0022:\u0022\\u6D77\\u76D7\\u6218\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:false,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARRIOR\u0022},{\u0022deckId\u0022:9562043827,\u0022name\u0022:\u0022\\u94FA\\u573A\\u9A91\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:false,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022PALADIN\u0022},{\u0022deckId\u0022:9562100947,\u0022name\u0022:\u0022\\u52A8\\u7269\\u56ED\\u672F\u0022,\u0022format\u0022:\u0022FT_STANDARD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:true,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARLOCK\u0022},{\u0022deckId\u0022:9557227211,\u0022name\u0022:\u0022\\u732A\\u732A\\u8D3C\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022ROGUE\u0022},{\u0022deckId\u0022:9556571750,\u0022name\u0022:\u0022\\u5B87\\u5B99\\u6495\\u724C\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022WARLOCK\u0022},{\u0022deckId\u0022:9555705922,\u0022name\u0022:\u0022\\u533A\\u533A\\uFF01\\uFF1F\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022PRIEST\u0022},{\u0022deckId\u0022:9482262657,\u0022name\u0022:\u0022\\u7206\\u724C\\u5FB7\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022DRUID\u0022},{\u0022deckId\u0022:9482262170,\u0022name\u0022:\u0022\\u4EFB\\u52A1\\u778E\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022DEMONHUNTER\u0022},{\u0022deckId\u0022:9479773331,\u0022name\u0022:\u0022\\u810F\\u7267\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022PRIEST\u0022},{\u0022deckId\u0022:9335828689,\u0022name\u0022:\u0022\\u5076\\u6570\\u8428\u0022,\u0022format\u0022:\u0022FT_WILD\u0022,\u0022isValidForRuleset\u0022:true,\u0022isValidForStandard\u0022:false,\u0022isValidForWild\u0022:true,\u0022heroClass\u0022:\u0022SHAMAN\u0022}],\u0022deckCatalogRevision\u0022:1,\u0022decksReady\u0022:true,\u0022matchmakingRequestId\u0022:\u0022511e368c-be99-4c2c-ab42-6a6ef2d4c2f2-postgame-7\u0022,\u0022matchmakingMode\u0022:\u0022wild\u0022,\u0022matchmakingDeckId\u0022:9562104063,\u0022matchmakingState\u0022:\u0022game_started\u0022,\u0022matchmakingStage\u0022:\u0022Completed\u0022,\u0022matchmakingErrorCode\u0022:\u0022\u0022},\u0022failureReason\u0022:{\u0022code\u0022:\u0022client_progress_unknown\u0022,\u0022summary\u0022:\u0022\u0022,\u0022detail\u0022:\u0022current_process_log_unavailable\u0022,\u0022exceptionAtUtc\u0022:null,\u0022cardPlay\u0022:null}}",
+  "exceptionIncidentId": "16bca41f-da97-41e3-a14c-7c042ea228a5",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\zhaof\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261030-150931-091.log",
+    "originalBytes": 12842438,
+    "offset": 12318150,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 0,
+    "truncated": true
+  },
+  "processId": 54640,
+  "sessionId": "58b5e014-1527-48ad-a9d9-df1196031ff1",
+  "gameEpoch": "9652ec07-6ec9-4aaa-93cf-5a4a8d8216f0",
+  "automationEpoch": "8b91a32e-eaad-4870-a96d-ea53a6c41117",
+  "eventPayload": {
+    "incidentId": "16bca41fda9741e3a14c7c042ea228a5",
+    "startedAtUtc": "2026-10-30T07:42:16.6914768\u002B00:00",
+    "elapsedMs": 10019.5012,
+    "reportAfterMs": 10000,
+    "restartAfterMs": 60000,
+    "receivedTurn": {
+      "history": "28d7e9d8-c300-4c22-a9a1-dccee0593b47",
+      "game": "e1f3a4cc-4a8e-4a7b-af05-01c8bfb74641",
+      "packet": 118,
+      "turn": 13,
+      "currentPlayer": 1,
+      "friendlyPlayerAiControlled": false,
+      "playerControlRevision": 0,
+      "demonicProject": null
+    },
+    "firstSnapshot": {
+      "revision": 8083,
+      "isTraditionalMode": true,
+      "lifecycle": "in_progress",
+      "turn": 12,
+      "currentPlayerId": 2,
+      "responseMode": "NONE",
+      "optionId": -1,
+      "choiceId": -1,
+      "mulliganActive": false,
+      "entities": [
+        {
+          "entityId": 12,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 1,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 39,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 3,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 41,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 2,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 55,
+          "cardId": "JAIL_225",
+          "zone": "HAND",
+          "position": 3,
+          "owner": "friendly",
+          "cardName": "\u52AB\u6301",
+          "cardType": "SPELL",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 70,
+          "cardId": "DED_004",
+          "zone": "HAND",
+          "position": 4,
+          "owner": "friendly",
+          "cardName": "\u9ED1\u6C34\u5F2F\u5200",
+          "cardType": "WEAPON",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 76,
+          "cardId": "WC_017",
+          "zone": "HAND",
+          "position": 1,
+          "owner": "friendly",
+          "cardName": "\u7F8E\u5473\u53D8\u5F02\u9C7C",
+          "cardType": "SPELL",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 77,
+          "cardId": "EX1_144",
+          "zone": "HAND",
+          "position": 2,
+          "owner": "friendly",
+          "cardName": "\u6697\u5F71\u6B65",
+          "cardType": "SPELL",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 88,
+          "cardId": "HERO_07bz",
+          "zone": "PLAY",
+          "position": 0,
+          "owner": "opponent",
+          "cardName": "\u5BA0\u7269\u4F34\u4FA3\u739B\u5C14\u52A0\u5C3C\u65AF",
+          "cardType": "HERO",
+          "inputZone": "PLAY"
+        },
+        {
+          "entityId": 90,
+          "cardId": "HERO_03bg",
+          "zone": "PLAY",
+          "position": 0,
+          "owner": "friendly",
+          "cardName": "\u82D4\u4E1D\u00B7\u683C\u96F7\u8FC8\u6069",
+          "cardType": "HERO",
+          "inputZone": "PLAY"
+        },
+        {
+          "entityId": 141,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 4,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 211,
+          "cardId": "GIL_118",
+          "zone": "PLAY",
+          "position": 1,
+          "owner": "friendly",
+          "cardName": "\u766B\u72C2\u7684\u533B\u751F",
+          "cardType": "MINION",
+          "inputZone": "PLAY"
+        },
+        {
+          "entityId": 223,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 5,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 224,
+          "cardId": "CORE_YOD_026",
+          "zone": "HAND",
+          "position": 5,
+          "owner": "friendly",
+          "cardName": "\u90AA\u9B54\u4EC6\u4ECE",
+          "cardType": "MINION",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 226,
+          "cardId": "CORE_YOD_026",
+          "zone": "PLAY",
+          "position": 2,
+          "owner": "friendly",
+          "cardName": "\u90AA\u9B54\u4EC6\u4ECE",
+          "cardType": "MINION",
+          "inputZone": "PLAY"
+        },
+        {
+          "entityId": 228,
+          "cardId": "TRL_541t",
+          "zone": "HAND",
+          "position": 6,
+          "owner": "friendly",
+          "cardName": "\u5815\u843D\u4E4B\u8840",
+          "cardType": "SPELL",
+          "inputZone": "INVALID"
+        }
+      ],
+      "legalActions": [],
+      "mulliganSelectedEntityIds": [],
+      "error": "",
+      "errorStage": "",
+      "errorDetail": "",
+      "clientFaultCode": "",
+      "gameIdentity": "e1f3a4cc-4a8e-4a7b-af05-01c8bfb74641",
+      "profileError": "",
+      "profileRevision": 15,
+      "friendlyPlayerId": 2,
+      "friendlyPlayerIsCurrent": true,
+      "friendlyPlayState": "INVALID",
+      "clientConnectionState": "connected",
+      "turnPhase": "MAIN_START",
+      "actionReadinessKnown": true,
+      "decisionInputPermitted": true,
+      "responsePacketBlocked": true,
+      "gameStateBusy": false,
+      "powerTasksPending": true,
+      "localPowerProgress": "481:13",
+      "gameResetPending": false,
+      "gameOverPending": false,
+      "starshipUiVisible": false,
+      "endTurnButtonFound": true,
+      "endTurnButtonInputBlocked": false,
+      "endTurnButtonDisabled": false,
+      "choiceType": "",
+      "choiceMin": 0,
+      "choiceMax": 0,
+      "choiceInputReady": false,
+      "choiceInputState": "inactive",
+      "mulliganInputReady": false,
+      "mulliganInputState": "inactive",
+      "choiceEntityIds": [],
+      "mulliganCandidateEntityIds": [],
+      "automationEpoch": "8b91a32e-eaad-4870-a96d-ea53a6c41117",
+      "decks": [
+        {
+          "deckId": 9562104063,
+          "name": "\u6069\u4F50\u65AF\u8D3C",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "ROGUE"
+        },
+        {
+          "deckId": 9562044358,
+          "name": "\u5F03\u724C\u672F",
+          "format": "FT_WILD",
+          "isValidForRuleset": false,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "WARLOCK"
+        },
+        {
+          "deckId": 9562102390,
+          "name": "\u6D77\u76D7\u6218",
+          "format": "FT_WILD",
+          "isValidForRuleset": false,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "WARRIOR"
+        },
+        {
+          "deckId": 9562043827,
+          "name": "\u94FA\u573A\u9A91",
+          "format": "FT_WILD",
+          "isValidForRuleset": false,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "PALADIN"
+        },
+        {
+          "deckId": 9562100947,
+          "name": "\u52A8\u7269\u56ED\u672F",
+          "format": "FT_STANDARD",
+          "isValidForRuleset": true,
+          "isValidForStandard": true,
+          "isValidForWild": true,
+          "heroClass": "WARLOCK"
+        },
+        {
+          "deckId": 9557227211,
+          "name": "\u732A\u732A\u8D3C",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "ROGUE"
+        },
+        {
+          "deckId": 9556571750,
+          "name": "\u5B87\u5B99\u6495\u724C",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "WARLOCK"
+        },
+        {
+          "deckId": 9555705922,
+          "name": "\u533A\u533A\uFF01\uFF1F",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "PRIEST"
+        },
+        {
+          "deckId": 9482262657,
+          "name": "\u7206\u724C\u5FB7",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "DRUID"
+        },
+        {
+          "deckId": 9482262170,
+          "name": "\u4EFB\u52A1\u778E",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "DEMONHUNTER"
+        },
+        {
+          "deckId": 9479773331,
+          "name": "\u810F\u7267",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "PRIEST"
+        },
+        {
+          "deckId": 9335828689,
+          "name": "\u5076\u6570\u8428",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "SHAMAN"
+        }
+      ],
+      "deckCatalogRevision": 1,
+      "decksReady": true,
+      "matchmakingRequestId": "511e368c-be99-4c2c-ab42-6a6ef2d4c2f2-postgame-7",
+      "matchmakingMode": "wild",
+      "matchmakingDeckId": 9562104063,
+      "matchmakingState": "game_started",
+      "matchmakingStage": "Completed",
+      "matchmakingErrorCode": ""
+    },
+    "snapshot": {
+      "revision": 8129,
+      "isTraditionalMode": true,
+      "lifecycle": "in_progress",
+      "turn": 12,
+      "currentPlayerId": 2,
+      "responseMode": "NONE",
+      "optionId": -1,
+      "choiceId": -1,
+      "mulliganActive": false,
+      "entities": [
+        {
+          "entityId": 12,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 1,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 39,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 3,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 41,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 2,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "INVALID"
+        },
+        {
+          "entityId": 55,
+          "cardId": "JAIL_225",
+          "zone": "HAND",
+          "position": 3,
+          "owner": "friendly",
+          "cardName": "\u52AB\u6301",
+          "cardType": "SPELL",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 70,
+          "cardId": "DED_004",
+          "zone": "HAND",
+          "position": 4,
+          "owner": "friendly",
+          "cardName": "\u9ED1\u6C34\u5F2F\u5200",
+          "cardType": "WEAPON",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 76,
+          "cardId": "WC_017",
+          "zone": "HAND",
+          "position": 1,
+          "owner": "friendly",
+          "cardName": "\u7F8E\u5473\u53D8\u5F02\u9C7C",
+          "cardType": "SPELL",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 77,
+          "cardId": "EX1_144",
+          "zone": "HAND",
+          "position": 2,
+          "owner": "friendly",
+          "cardName": "\u6697\u5F71\u6B65",
+          "cardType": "SPELL",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 88,
+          "cardId": "HERO_07bz",
+          "zone": "PLAY",
+          "position": 0,
+          "owner": "opponent",
+          "cardName": "\u5BA0\u7269\u4F34\u4FA3\u739B\u5C14\u52A0\u5C3C\u65AF",
+          "cardType": "HERO",
+          "inputZone": "PLAY"
+        },
+        {
+          "entityId": 90,
+          "cardId": "HERO_03bg",
+          "zone": "PLAY",
+          "position": 0,
+          "owner": "friendly",
+          "cardName": "\u82D4\u4E1D\u00B7\u683C\u96F7\u8FC8\u6069",
+          "cardType": "HERO",
+          "inputZone": "PLAY"
+        },
+        {
+          "entityId": 141,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 4,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 211,
+          "cardId": "GIL_118",
+          "zone": "PLAY",
+          "position": 1,
+          "owner": "friendly",
+          "cardName": "\u766B\u72C2\u7684\u533B\u751F",
+          "cardType": "MINION",
+          "inputZone": "INVALID"
+        },
+        {
+          "entityId": 223,
+          "cardId": "",
+          "zone": "HAND",
+          "position": 5,
+          "owner": "opponent",
+          "cardName": "UNKNOWN ENTITY [cardType=INVALID]",
+          "cardType": "INVALID",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 224,
+          "cardId": "CORE_YOD_026",
+          "zone": "HAND",
+          "position": 5,
+          "owner": "friendly",
+          "cardName": "\u90AA\u9B54\u4EC6\u4ECE",
+          "cardType": "MINION",
+          "inputZone": "HAND"
+        },
+        {
+          "entityId": 226,
+          "cardId": "CORE_YOD_026",
+          "zone": "PLAY",
+          "position": 2,
+          "owner": "friendly",
+          "cardName": "\u90AA\u9B54\u4EC6\u4ECE",
+          "cardType": "MINION",
+          "inputZone": "INVALID"
+        },
+        {
+          "entityId": 228,
+          "cardId": "TRL_541t",
+          "zone": "HAND",
+          "position": 6,
+          "owner": "friendly",
+          "cardName": "\u5815\u843D\u4E4B\u8840",
+          "cardType": "SPELL",
+          "inputZone": "INVALID"
+        }
+      ],
+      "legalActions": [],
+      "mulliganSelectedEntityIds": [],
+      "error": "",
+      "errorStage": "",
+      "errorDetail": "",
+      "clientFaultCode": "",
+      "gameIdentity": "e1f3a4cc-4a8e-4a7b-af05-01c8bfb74641",
+      "profileError": "",
+      "profileRevision": 15,
+      "friendlyPlayerId": 2,
+      "friendlyPlayerIsCurrent": true,
+      "friendlyPlayState": "INVALID",
+      "clientConnectionState": "connected",
+      "turnPhase": "MAIN_START",
+      "actionReadinessKnown": true,
+      "decisionInputPermitted": true,
+      "responsePacketBlocked": true,
+      "gameStateBusy": false,
+      "powerTasksPending": true,
+      "localPowerProgress": "481:13",
+      "gameResetPending": false,
+      "gameOverPending": false,
+      "starshipUiVisible": false,
+      "endTurnButtonFound": true,
+      "endTurnButtonInputBlocked": false,
+      "endTurnButtonDisabled": false,
+      "choiceType": "",
+      "choiceMin": 0,
+      "choiceMax": 0,
+      "choiceInputReady": false,
+      "choiceInputState": "inactive",
+      "mulliganInputReady": false,
+      "mulliganInputState": "inactive",
+      "choiceEntityIds": [],
+      "mulliganCandidateEntityIds": [],
+      "automationEpoch": "8b91a32e-eaad-4870-a96d-ea53a6c41117",
+      "decks": [
+        {
+          "deckId": 9562104063,
+          "name": "\u6069\u4F50\u65AF\u8D3C",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "ROGUE"
+        },
+        {
+          "deckId": 9562044358,
+          "name": "\u5F03\u724C\u672F",
+          "format": "FT_WILD",
+          "isValidForRuleset": false,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "WARLOCK"
+        },
+        {
+          "deckId": 9562102390,
+          "name": "\u6D77\u76D7\u6218",
+          "format": "FT_WILD",
+          "isValidForRuleset": false,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "WARRIOR"
+        },
+        {
+          "deckId": 9562043827,
+          "name": "\u94FA\u573A\u9A91",
+          "format": "FT_WILD",
+          "isValidForRuleset": false,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "PALADIN"
+        },
+        {
+          "deckId": 9562100947,
+          "name": "\u52A8\u7269\u56ED\u672F",
+          "format": "FT_STANDARD",
+          "isValidForRuleset": true,
+          "isValidForStandard": true,
+          "isValidForWild": true,
+          "heroClass": "WARLOCK"
+        },
+        {
+          "deckId": 9557227211,
+          "name": "\u732A\u732A\u8D3C",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "ROGUE"
+        },
+        {
+          "deckId": 9556571750,
+          "name": "\u5B87\u5B99\u6495\u724C",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "WARLOCK"
+        },
+        {
+          "deckId": 9555705922,
+          "name": "\u533A\u533A\uFF01\uFF1F",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "PRIEST"
+        },
+        {
+          "deckId": 9482262657,
+          "name": "\u7206\u724C\u5FB7",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "DRUID"
+        },
+        {
+          "deckId": 9482262170,
+          "name": "\u4EFB\u52A1\u778E",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "DEMONHUNTER"
+        },
+        {
+          "deckId": 9479773331,
+          "name": "\u810F\u7267",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "PRIEST"
+        },
+        {
+          "deckId": 9335828689,
+          "name": "\u5076\u6570\u8428",
+          "format": "FT_WILD",
+          "isValidForRuleset": true,
+          "isValidForStandard": false,
+          "isValidForWild": true,
+          "heroClass": "SHAMAN"
+        }
+      ],
+      "deckCatalogRevision": 1,
+      "decksReady": true,
+      "matchmakingRequestId": "511e368c-be99-4c2c-ab42-6a6ef2d4c2f2-postgame-7",
+      "matchmakingMode": "wild",
+      "matchmakingDeckId": 9562104063,
+      "matchmakingState": "game_started",
+      "matchmakingStage": "Completed",
+      "matchmakingErrorCode": ""
+    },
+    "failureReason": {
+      "code": "client_progress_unknown",
+      "summary": "",
+      "detail": "current_process_log_unavailable",
+      "exceptionAtUtc": null,
+      "cardPlay": null
+    }
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": 12,
+  "actionId": 8129,
+  "runtimeState": {
+    "battleTag": "\u796D\u9152#51543",
+    "turn": 12,
+    "actionId": 8129,
+    "processId": 54640,
+    "sessionId": "58b5e014-1527-48ad-a9d9-df1196031ff1",
+    "gameEpoch": "9652ec07-6ec9-4aaa-93cf-5a4a8d8216f0",
+    "automationEpoch": "8b91a32e-eaad-4870-a96d-ea53a6c41117",
+    "matchmakingRequestId": "511e368c-be99-4c2c-ab42-6a6ef2d4c2f2-postgame-7",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "18567073904",
+    "accountLabel": "5127895117160009119",
+    "currentRank": "\u94BB\u77F34[4]-2\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9562104063,
+    "deckName": "\u6069\u4F50\u65AF\u8D3C",
+    "deckCode": "AAEBAau2BwTw5gLj0wSI2QeF6wcN7QL1uwLn3QP\u002B7gP/7gO9gAT3nwS3swT13QTungatpwbBlweD1QcAAA==",
+    "deckHeroClass": "ROGUE",
+    "opponentClass": "WARLOCK"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 533857,
+      "sha256": "852f3791bf586581d9b26d6525f82a442c922cb04dee70892732f4efa620a7ca"
+    },
+    {
+      "name": "events/20261030T0742267137730-d0241490a1204ab5938267f0ba18a3e6.json",
+      "bytes": 43529,
+      "sha256": "39d0d9339ec5e876d81563b1dfafdcdbbcd2b5e7980df18920d679540cc0c5ee"
+    },
+    {
+      "name": "events/20261030T0742268824358-a2269d5ee8fe4c9faf25542d39e629a6.json",
+      "bytes": 5304,
+      "sha256": "54ff8fe7eb860db7ec11c741fbf508976763dd251a28ebd9c5db871009705829"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 236684,
+      "sha256": "ef34f84566ba2542359ea35994a04a0e35fcfad81810f144caa0de5efd81676e"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 1350548,
+      "sha256": "49538bd69c54f0dd5faff5de9527c9ba32a5c6847f222b2238f9da9df3bd1616"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=54640"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
