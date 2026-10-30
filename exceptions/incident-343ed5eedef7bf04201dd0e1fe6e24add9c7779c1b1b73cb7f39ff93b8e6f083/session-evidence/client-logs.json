@@ -1,0 +1,65 @@
+{
+  "byteLimitPerFile": 262144,
+  "files": [
+    {
+      "name": "client-logs/Hearthstone.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_30_07_28_23\\Hearthstone.log",
+      "captured": true,
+      "originalBytes": 1183076,
+      "offset": 920932,
+      "copiedBytes": 262144,
+      "truncated": true,
+      "lastWriteTimeUtc": "2026-10-30T01:11:21.108251Z"
+    },
+    {
+      "name": "client-logs/GameNetLogger.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_30_07_28_23\\GameNetLogger.log",
+      "captured": true,
+      "originalBytes": 27382,
+      "offset": 0,
+      "copiedBytes": 27382,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-30T01:11:21.104267Z"
+    },
+    {
+      "name": "client-logs/Login.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_30_07_28_23\\Login.log",
+      "captured": true,
+      "originalBytes": 197,
+      "offset": 0,
+      "copiedBytes": 197,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-29T23:29:50.7460926Z"
+    },
+    {
+      "name": "client-logs/ExceptionReporter.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_30_07_28_23\\ExceptionReporter.log",
+      "captured": true,
+      "originalBytes": 258,
+      "offset": 0,
+      "copiedBytes": 258,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-29T23:28:27.2914211Z"
+    },
+    {
+      "name": "client-logs/Player.log",
+      "source": "C:\\Users\\HASEE\\AppData\\LocalLow\\Blizzard Entertainment\\Hearthstone\\Player.log",
+      "captured": true,
+      "originalBytes": 1120972,
+      "offset": 858828,
+      "copiedBytes": 262144,
+      "truncated": true,
+      "lastWriteTimeUtc": "2026-10-30T01:11:21.5554099Z"
+    },
+    {
+      "name": "client-logs/native-bootstrap.json",
+      "source": "C:\\Users\\HASEE\\Desktop\\HearthPilot\\artifacts\\logs\\bootstrap\\native-bootstrap-3344.json",
+      "captured": true,
+      "originalBytes": 1566,
+      "offset": 0,
+      "copiedBytes": 1566,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-29T23:28:28.342322Z"
+    }
+  ]
+}
