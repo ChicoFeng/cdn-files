@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.26.0",
+  "eventName": "LIVE_DIRECT_STATUS",
+  "timestampUtc": "2026-10-30T14:07:24.2409888+00:00",
+  "summary": "[\u9519\u8BEF]  \u76F4\u8FDE\u63A8\u8350\u5931\u8D25\uFF1A\u5EFA\u7ACB\u7F51\u7EDC\u8FDE\u63A5\u5931\u8D25\uFF1A\u5355\u6B21\u5EFA\u8FDE\u8D85\u65F6\uFF08attempt_timeout\uFF09",
+  "technicalDetail": "traditional_recommendation_rejected\n{\u0022context\u0022:{\u0022captureId\u0022:\u002261dac4dd-1d33-45ec-871a-dc6b89ede799\u0022,\u0022gameIdentity\u0022:\u0022e8e071bd-aefb-446e-8575-705dac120405\u0022,\u0022decisionKey\u0022:\u00220B6349BE1B508D64776A92F01589E1D525401287AEE5EB5B7616FBF7FBFF32E9\u0022,\u0022historyWatermark\u0022:22,\u0022sessionGeneration\u0022:1},\u0022decisionOrigin\u0022:\u0022service\u0022,\u0022exceptionIncidentId\u0022:\u00229ddac60c-0189-4eec-bcba-1987e8c97829\u0022,\u0022requestStage\u0022:\u0022PostStarted\u0022,\u0022networkSuccess\u0022:false,\u0022businessSuccess\u0022:false,\u0022structureSuccess\u0022:false,\u0022sceneBindingSuccess\u0022:false,\u0022actionsSupported\u0022:false,\u0022actionCount\u0022:0,\u0022recommendationActionCount\u0022:0,\u0022payloadFailureDetail\u0022:\u0022AI\\u8BA1\\u7B97\\u5F02\\u5E38\\uFF0C\\u6682\\u65E0\\u53EF\\u7528\\u63A8\\u8350\\u3002error:-1; transport=attempts=1,connectMs=10576.8,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7\u0022,\u0022transportEvidence\u0022:{\u0022attempts\u0022:1,\u0022connectMs\u0022:10576.8,\u0022responseHeaders\u0022:false,\u0022failure\u0022:\u0022connect:attempt_timeout\u0022,\u0022connectAttempts\u0022:7,\u0022connectTimeouts\u0022:7,\u0022timeoutMs\u0022:12000,\u0022httpStatus\u0022:null,\u0022connectionTraceId\u0022:null,\u0022connectionPhasePending\u0022:0,\u0022connectionPhaseSamples\u0022:0,\u0022connectionPhaseOmission\u0022:null},\u0022serviceMessage\u0022:null,\u0022automationEpoch\u0022:\u0022f1e2eeb2-154e-4419-9206-124af10342a9\u0022,\u0022executionAuthorized\u0022:false}",
+  "exceptionIncidentId": "9ddac60c-0189-4eec-bcba-1987e8c97829",
+  "eventDirectory": "events",
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\HASEE\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261030-210537-387.log",
+    "originalBytes": 15281358,
+    "offset": 14757070,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 94,
+    "truncated": true
+  },
+  "processId": 11496,
+  "sessionId": "6c875832-9a07-4ff3-9acf-e68438424b27",
+  "gameEpoch": "d6e21718-6b51-4c89-b113-8646964f6cbd",
+  "automationEpoch": "f1e2eeb2-154e-4419-9206-124af10342a9",
+  "eventPayload": {
+    "context": {
+      "captureId": "61dac4dd-1d33-45ec-871a-dc6b89ede799",
+      "gameIdentity": "e8e071bd-aefb-446e-8575-705dac120405",
+      "decisionKey": "0B6349BE1B508D64776A92F01589E1D525401287AEE5EB5B7616FBF7FBFF32E9",
+      "historyWatermark": 22,
+      "sessionGeneration": 1
+    },
+    "decisionOrigin": "service",
+    "exceptionIncidentId": "9ddac60c-0189-4eec-bcba-1987e8c97829",
+    "requestStage": "PostStarted",
+    "networkSuccess": false,
+    "businessSuccess": false,
+    "structureSuccess": false,
+    "sceneBindingSuccess": false,
+    "actionsSupported": false,
+    "actionCount": 0,
+    "recommendationActionCount": 0,
+    "payloadFailureDetail": "AI\u8BA1\u7B97\u5F02\u5E38\uFF0C\u6682\u65E0\u53EF\u7528\u63A8\u8350\u3002error:-1; transport=attempts=1,connectMs=10576.8,headers=false,failure=connect:attempt_timeout,connectAttempts=7,connectTimeouts=7",
+    "transportEvidence": {
+      "attempts": 1,
+      "connectMs": 10576.8,
+      "responseHeaders": false,
+      "failure": "connect:attempt_timeout",
+      "connectAttempts": 7,
+      "connectTimeouts": 7,
+      "timeoutMs": 12000,
+      "httpStatus": null,
+      "connectionTraceId": null,
+      "connectionPhasePending": 0,
+      "connectionPhaseSamples": 0,
+      "connectionPhaseOmission": null
+    },
+    "serviceMessage": null,
+    "automationEpoch": "f1e2eeb2-154e-4419-9206-124af10342a9",
+    "executionAuthorized": false
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": 4,
+  "actionId": 332,
+  "runtimeState": {
+    "battleTag": "\u85AF\u7247#51161",
+    "turn": 4,
+    "actionId": 332,
+    "processId": 11496,
+    "sessionId": "6c875832-9a07-4ff3-9acf-e68438424b27",
+    "gameEpoch": "d6e21718-6b51-4c89-b113-8646964f6cbd",
+    "automationEpoch": "f1e2eeb2-154e-4419-9206-124af10342a9",
+    "matchmakingRequestId": "b4403d77-8039-4361-94cb-db984e990141-postgame-9",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "zz18816666@163.com",
+    "accountLabel": "3316982197081016098",
+    "currentRank": "\u767D\u91D13[13]-1\u2605 \u00B7 \u00D71",
+    "gameMode": "standard",
+    "deckId": 9562559160,
+    "deckName": "\u52A8\u7269\u56ED\u672F",
+    "deckCode": "AAECAb/lBwLb4Aft\u002BQcO0J4G15cHhJkHoq0HpK0Hpa0HqK0H9sEHxfAHgfYHivYHjfYH6fkH6/kHAAA=",
+    "deckHeroClass": "WARLOCK",
+    "opponentClass": "DEATHKNIGHT"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 339796,
+      "sha256": "8f66a61de6860e6f88c8dc80768a7dc9d2dface9650f0fc076977355f80b7877"
+    },
+    {
+      "name": "events/20261030T1407242409888-74a21537bcd7470390f4688407daef98.json",
+      "bytes": 5023,
+      "sha256": "9b9032f9027c7490bb05b5bc5ee6c0c6944c8fdeda91d4723f128aa30afd7b5e"
+    },
+    {
+      "name": "events/20261030T1407244317312-c3dd7d9701a444d6b0c599409ebea6d9.json",
+      "bytes": 2487,
+      "sha256": "028d489b53003777da671b24288f3167cc732d7e1c2bf0885d43135c2b246530"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 134779,
+      "sha256": "ba77f0adfbb6ba4dbd7679cb9b015883a81c385ad0b3b58e5c696ca36f8f87ac"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 40566,
+      "sha256": "7c56700f2e03a2643db7bb2533ae4b5a50dbc91ccf91af9218cbdc7607af4a4f"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=11496"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
