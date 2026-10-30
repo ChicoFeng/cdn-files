@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.26.0",
+  "eventName": "ACTION_EXECUTION_FAILED",
+  "timestampUtc": "2026-10-30T15:42:46.8787083+00:00",
+  "summary": "[\u5931\u8D25]  \u4F7F\u7528\u82F1\u96C4\u6280\u80FD \u9668\u70EC\u4E4B\u6012 \u2718 \u539F\u56E0=\u7089\u77F3\u672A\u5F00\u59CB\u6267\u884C\u539F\u751F\u64CD\u4F5C\uFF0C\u672C\u6B21\u64CD\u4F5C\u5DF2\u505C\u6B62",
+  "technicalDetail": "native_input_not_started: phase=source_click; previousReadinessCheck=source_click_pending; actionKind=hero_power; sourceEntity=143; targetEntity=0; targetModeSource=not_checked; immediateTargetModeEntered=False; heldPointerHitBattlefield=not_checked; nativeSideEffectStarted=False; timing=none; hero_power_input_disabled; readinessCheck=hero_power_input_disabled; gameOverNowOrPending=False; friendlyPreGameOverPlayState=INVALID; opposingPreGameOverPlayState=INVALID; nativeChoice=not_observed; nativeChoiceReceipt=not_observed; bridgeMvid=ae90b438-f296-42cc-8fdd-e68b20340f2b; clientMvid=fca79a63-f7c9-4b6d-a204-d19f1c7a6d7f; nativeSideEffectStarted=false; cleanupStatus=completed; recommendationHash=B7B89AA2CB98A46C498A9B43AACEF5144CD40E55EE586A727B4553E5255EF44B; snapshotRevision=39945; action={\u0022Kind\u0022:\u0022hero_power\u0022,\u0022SourceEntityId\u0022:143,\u0022TargetEntityId\u0022:null,\u0022Position\u0022:null,\u0022SourceCardName\u0022:\u0022\\u9668\\u70EC\\u4E4B\\u6012\u0022,\u0022SourceCardId\u0022:\u0022AV_204p\u0022,\u0022TargetCardName\u0022:\u0022\u0022,\u0022TargetCardId\u0022:\u0022\u0022,\u0022SourcePosition\u0022:null,\u0022TargetPosition\u0022:null,\u0022SourceZone\u0022:\u0022PLAY\u0022,\u0022TargetZone\u0022:\u0022\u0022,\u0022SourceCardType\u0022:\u0022HERO_POWER\u0022,\u0022TargetCardType\u0022:\u0022\u0022,\u0022SubOptionIndex\u0022:null,\u0022SubOptionEntityId\u0022:null,\u0022SubOptionCardId\u0022:\u0022\u0022,\u0022SubOptionPosition\u0022:null,\u0022TargetSnapshotPosition\u0022:null,\u0022SubOptionCardName\u0022:null,\u0022ChoiceId\u0022:null,\u0022ChosenEntityIds\u0022:null,\u0022IsMagnetic\u0022:false}; automationEpoch=2ec406d2-768d-45fa-bbfc-6583d87d95b3; actionElapsedMs=213; gameEpoch=987e16a3-dcc0-4377-bfb0-2ce50d928809; stableReason=native_input_not_started",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\MACHENIKE\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261030-210818-804.log",
+    "originalBytes": 43051236,
+    "offset": 42526948,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 0,
+    "truncated": true
+  },
+  "processId": 4808,
+  "sessionId": "49506852-f973-444f-ad3b-c58f9e3ca9c6",
+  "gameEpoch": "987e16a3-dcc0-4377-bfb0-2ce50d928809",
+  "automationEpoch": "2ec406d2-768d-45fa-bbfc-6583d87d95b3",
+  "eventPayload": {
+    "kind": "hero_power",
+    "sourceEntityId": 143,
+    "targetEntityId": null,
+    "position": null,
+    "sourceCardName": "\u9668\u70EC\u4E4B\u6012",
+    "sourceCardId": "AV_204p",
+    "targetCardName": "",
+    "targetCardId": "",
+    "sourcePosition": null,
+    "targetPosition": null,
+    "sourceZone": "PLAY",
+    "targetZone": "",
+    "sourceCardType": "HERO_POWER",
+    "targetCardType": "",
+    "subOptionIndex": null,
+    "subOptionEntityId": null,
+    "subOptionCardId": "",
+    "subOptionPosition": null,
+    "targetSnapshotPosition": null,
+    "subOptionCardName": null,
+    "choiceId": null,
+    "chosenEntityIds": null,
+    "isMagnetic": false
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": 16,
+  "actionId": 1023,
+  "runtimeState": {
+    "battleTag": "\u4F60\u505C\u6B62\u6536\u8BAF\u53F7#5618",
+    "turn": 16,
+    "actionId": 1023,
+    "processId": 4808,
+    "sessionId": "49506852-f973-444f-ad3b-c58f9e3ca9c6",
+    "gameEpoch": "987e16a3-dcc0-4377-bfb0-2ce50d928809",
+    "automationEpoch": "2ec406d2-768d-45fa-bbfc-6583d87d95b3",
+    "matchmakingRequestId": "cbccfcaf-7e09-4464-afbc-2d35a795445d-postgame-57",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "18015434445",
+    "accountLabel": "\u95F2\u9C7CLXYXL",
+    "currentRank": "\u94BB\u77F310[10]-0\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9562423628,
+    "deckName": "\u6D77\u76D7\u778E",
+    "deckCode": "AAEBAZD8BgaRvAL51QOHiwS4xQX8wAaH4gYM\u002Bw/psAPyyQPltgSl4gSr4gSVqgX8qAbYwAb2wAatxQax6wYAAA==",
+    "deckHeroClass": "DEMONHUNTER",
+    "opponentClass": "DEMONHUNTER"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 525607,
+      "sha256": "8c9455babe75c80ae107900c739c19f4084380e91dabe97086a33dc0495e639c"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 242745,
+      "sha256": "7572867d1547684551a4ff5c312ff254e09cb2b15db144e49b0b75e58410fce3"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 1352636,
+      "sha256": "d0b71d48b094a6f4f1da414b0262901528e0b7da14a25db1bd5ec5acf82c45ff"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=4808"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
