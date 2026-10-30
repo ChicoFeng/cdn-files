@@ -1,0 +1,961 @@
+I 07:30:04.9003280 Application paused: False
+I 07:30:06.9345215 Current working dir=D:\Battle.net\Hearthstone
+I 07:30:06.9345215 SetLocale: zhCN
+I 07:30:06.9345215 [Jobs Fallback logger]: [JobQueue.QueueJob] Job (DeeplinkService.PostFullLoginJobs(ID:1)) QUEUED
+I 07:30:06.9345215 [Jobs Fallback logger]: [JobQueue.QueueJob] Dependency (WaitForFullLoginFlowComplete) added for queued job (DeeplinkService.PostFullLoginJobs(ID:1))
+I 07:30:06.9345215 Command Line: -launch -uid hs_beta
+W 07:30:06.9345215 UberText LoadCachedData() failed: The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+I 07:30:07.9261183 Main thread: True
+I 07:30:07.9261183 System Info:
+I 07:30:07.9261183 SystemInfo - Device Name: DESKTOP-TAC9UTB
+I 07:30:07.9261183 SystemInfo - Device Model: JIGUANG Series (MECHREVO)
+I 07:30:07.9261183 SystemInfo - OS: Windows 11  (10.0.26300)
+I 07:30:07.9261183 SystemInfo - CPU Type: 13th Gen Intel(R) Core(TM) i7-13700HX
+I 07:30:07.9261183 SystemInfo - CPU Cores: 24
+I 07:30:07.9261183 SystemInfo - System Memory: 16095
+I 07:30:07.9261183 SystemInfo - Screen Resolution: 2560x1600
+I 07:30:07.9261183 SystemInfo - Screen DPI: 144
+I 07:30:07.9261183 SystemInfo - GPU ID: 11545
+I 07:30:07.9261183 SystemInfo - GPU Name: NVIDIA GeForce RTX 5060 Laptop GPU
+I 07:30:07.9261183 SystemInfo - GPU Vendor: NVIDIA
+I 07:30:07.9261183 SystemInfo - GPU Memory: 7899
+I 07:30:07.9261183 SystemInfo - GPU Shader Level: 50
+I 07:30:07.9261183 SystemInfo - GPU NPOT Support: Full
+I 07:30:07.9261183 SystemInfo - Graphics API (version): Direct3D 11.0 [level 11.1]
+I 07:30:07.9261183 SystemInfo - Graphics API (type): Direct3D11
+I 07:30:07.9261183 SystemInfo - Graphics Supported Render Target Count: 8
+I 07:30:07.9261183 SystemInfo - Graphics Supports 3D Textures: True
+I 07:30:07.9261183 SystemInfo - Graphics Supports Compute Shaders: True
+I 07:30:07.9261183 SystemInfo - Graphics Supports Shadows: True
+I 07:30:07.9261183 SystemInfo - Graphics Supports Sparse Textures: True
+I 07:30:07.9261183 SystemInfo - Graphics RenderTextureFormat.ARGBHalf: True
+I 07:30:07.9261183 SystemInfo - Graphics Metal Support: False
+I 07:30:08.3777483 [Startup] Startup stage Start
+I 07:30:08.3777483 [Downloader] *** Loading DBF
+E 07:30:08.6494893 BLACK_MARKET_ITEM_REFRESH_EVENT DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 07:30:08.6494893 BLACK_MARKET_ITEM_REFRESH_EVENT_POOL DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 07:30:08.6494893 BLACK_MARKET_LIVE_MESSAGE DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 07:30:09.6914269 GAME_SAVE_SUBKEY DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 07:30:09.6914269 GLOBAL DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+E 07:30:09.8538999 STAT_VALIDATORS DBF Asset has 0 records! Something went wrong generating it. Try checking the generated XMLs in the DBF folder.
+I 07:30:10.1108052 *** BattleNet version: Product = 37.0.0.0, Data = 37002
+I 07:30:10.2905605 [Login] Beginning processing login challenges
+I 07:30:10.2905605 [Startup] Startup stage ConnectingToBattlenet
+I 07:30:10.2905605 CPU Benchmark Result (Average Frame Time): 126ms
+I 07:30:10.4096029 GPU Benchmark Result (Average Frame Time): 32ms
+I 07:30:11.3198841 [Login] We are now logged in, stopping processing challenges
+I 07:30:11.3198841 Region: CN
+I 07:30:11.3198841 Braze is supported  for this build: False
+I 07:30:11.3198841 [Startup] Startup stage ConnectingToHearthstone
+W 07:30:12.6401646 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 07:30:12.6401646 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 07:30:13.2567635 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 07:30:13.2567635 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 07:30:13.2567635 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+W 07:30:13.2567635 Attempting to get decks from CollectionManager, even though NetCacheDecks is not ready (meaning it's waiting for the decks to be updated)!
+I 07:30:13.2567635 [Startup] Startup stage LaunchGame
+I 07:30:13.2567635 RegisterScreenBox tempGuardianVars=NetCache+NetCacheFeatures
+I 07:30:13.4453950 [Spj] JournalButton: Created and bound journal metadata to the button widget.
+I 07:30:22.4615001 [Login] Initial download done, Waiting Intro popup...
+I 07:30:22.5121919 Hiding notification HelpTooltip_Tutorial because something else is being shown.
+I 07:30:23.3990005 Hiding notification HelpTooltip_Tutorial because something else is being shown.
+I 07:30:24.1178024 Hiding notification HelpTooltip_Tutorial because something else is being shown.
+I 07:30:25.0887484 Hiding notification HelpTooltip_Tutorial because something else is being shown.
+I 07:30:33.2327401 [LuckyDraw] LuckyDrawManager status: Received instruction to initialize or update. Starting now.
+I 07:30:33.2327401 [LuckyDraw] LuckyDrawManager status: Waiting for store to initialize...
+I 07:31:09.3144431 [LuckyDraw] LuckyDrawManager status: Received instruction to initialize or update. Starting now.
+E 07:31:13.7584119 Coroutine couldn't be started because the the game object 'ShopNewNotice' is inactive!
+I 07:31:13.8531554 [LuckyDraw] LuckyDrawManager status: Requested lucky draw data from Hearthstone server. Waiting for a response...
+I 07:31:14.1611068 [LuckyDraw] LuckyDrawManager status: Processing lucky draws received from the server. Creating data models etc.
+I 07:31:14.1611068 [LuckyDraw] Lucky Draw Box 84 status: Initializing. Creating lucky draw box state from Hearthstone server response.
+I 07:31:14.1611068 [LuckyDraw] Lucky Draw Box 84 status: 亚煞极 is fully initialised.
+I 07:31:14.1611068 [LuckyDraw] Lucky Draw Box 88 status: Initializing. Creating lucky draw box state from Hearthstone server response.
+I 07:31:14.1611068 [LuckyDraw] Lucky Draw Box 88 status: 帝国之眼合集 is fully initialised.
+I 07:31:14.1611068 [LuckyDraw] LuckyDrawManager status: DFT system is fully initialized and ready!
+E 07:31:35.6875634 [Narrative] Narrative Sequence Popup is not currently showing. Unable to "stop all narrative sequences".
+I 07:31:36.8525315 [LuckyDraw] LuckyDrawManager status: Received instruction to initialize or update. Starting now.
+I 07:31:36.8525315 [LuckyDraw] LuckyDrawManager status: Waiting for store to initialize...
+I 07:31:36.8525315 [LuckyDraw] LuckyDrawManager status: Requested lucky draw data from Hearthstone server. Waiting for a response...
+I 07:31:37.1231476 [LuckyDraw] LuckyDrawManager status: Processing lucky draws received from the server. Creating data models etc.
+I 07:31:37.1231476 [LuckyDraw] Lucky Draw Box 84 status: Initializing. Creating lucky draw box state from Hearthstone server response.
+I 07:31:37.1231476 [LuckyDraw] Lucky Draw Box 84 status: 亚煞极 is fully initialised.
+I 07:31:37.1231476 [LuckyDraw] Lucky Draw Box 88 status: Initializing. Creating lucky draw box state from Hearthstone server response.
+I 07:31:37.1231476 [LuckyDraw] Lucky Draw Box 88 status: 帝国之眼合集 is fully initialised.
+I 07:31:37.1231476 [LuckyDraw] LuckyDrawManager status: DFT system is fully initialized and ready!
+E 07:31:37.9756031 Coroutine couldn't be started because the the game object 'Card_Hero_Skin' is inactive!
+E 07:32:05.2259209 [Narrative] Narrative Sequence Popup is not currently showing. Unable to "stop all narrative sequences".
+I 07:32:06.3886322 [LuckyDraw] LuckyDrawManager status: Received instruction to initialize or update. Starting now.
+I 07:32:06.3886322 [LuckyDraw] LuckyDrawManager status: Waiting for store to initialize...
+I 07:32:06.3886322 [LuckyDraw] LuckyDrawManager status: Requested lucky draw data from Hearthstone server. Waiting for a response...
+I 07:32:06.6264475 [LuckyDraw] LuckyDrawManager status: Processing lucky draws received from the server. Creating data models etc.
+I 07:32:06.6264475 [LuckyDraw] Lucky Draw Box 84 status: Initializing. Creating lucky draw box state from Hearthstone server response.
+I 07:32:06.6264475 [LuckyDraw] Lucky Draw Box 84 status: 亚煞极 is fully initialised.
+I 07:32:06.6264475 [LuckyDraw] Lucky Draw Box 88 status: Initializing. Creating lucky draw box state from Hearthstone server response.
+I 07:32:06.6264475 [LuckyDraw] Lucky Draw Box 88 status: 帝国之眼合集 is fully initialised.
+I 07:32:06.6264475 [LuckyDraw] LuckyDrawManager status: DFT system is fully initialized and ready!
+E 07:32:07.1141047 Coroutine couldn't be started because the the game object 'Card_Hero_Skin' is inactive!
+I 07:32:15.6507757 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 07:32:15.8238110 [GameNetLogger] GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 07:32:16.5875777 [GameNetLogger] GameMgr.ChangeFindGameState() - state: BNET_QUEUE_UPDATED, previous state: BNET_QUEUE_DELAYED
+I 07:32:21.3810876 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_UPDATED
+I 07:32:21.3810876 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 07:32:21.3810876 [GameNetLogger] Network.GotoGameServe() - address= 47.97.60.102:3724, game=632467, client=139231576, spectateKey=ldmDbO reconnecting=False
+I 07:32:21.3810876 TcpConnection - possible ip address: 47.97.60.102
+I 07:32:26.0859466 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 07:32:26.0859466 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 07:32:26.0859466 [GameNetLogger] Network.SendGameServerHandshake()
+I 07:32:26.3187914 [GameNetLogger] GameMgr.OnGameSetup()
+I 07:32:26.3187914 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 07:32:26.3187914 SERVER_GAME_STARTED event - Loading Gameplay Scene
+I 07:32:26.3187914 [GameNetLogger] GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
+I 07:32:26.3905176 Gameplay.Awake() - CurrentMode=GAMEPLAY, PrevMode=TOURNAMENT
+W 07:32:27.2455066 CardBackManager SetDeckCardBack(): cardBack is null!
+I 07:32:27.4856815 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.4856815 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.4856815 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5163828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5163828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5163828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5498361 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5498361 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5498361 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5834811 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5834811 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.5834811 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6181020 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6181020 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6181020 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6496374 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6496374 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6496374 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6872407 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6872407 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.6872407 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7171713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7171713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7171713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7500629 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7500629 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7500629 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7846011 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7846011 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.7846011 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8180316 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8180316 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8180316 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8509907 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8509907 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8509907 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8842772 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8842772 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.8842772 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9168923 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9168923 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9168923 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9513841 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9513841 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9513841 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9842400 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9842400 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:27.9842400 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0179924 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0179924 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0179924 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0508465 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0508465 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0508465 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0841887 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0841887 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.0841887 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1211899 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1211899 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1211899 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1510524 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1510524 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1510524 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1836657 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1836657 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.1836657 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2176664 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2176664 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2176664 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2502912 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2502912 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2502912 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2848787 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2848787 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.2848787 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3177359 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3177359 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3177359 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3513463 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3513463 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3513463 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3854338 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3854338 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.3854338 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4175760 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4175760 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4175760 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4502516 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4502516 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4502516 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4846631 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4846631 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.4846631 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5166917 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5166917 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5166917 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5547390 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5547390 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5547390 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5838600 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5838600 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.5838600 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6174468 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6174468 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6174468 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6506749 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6506749 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6506749 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6844763 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6844763 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.6844763 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7184252 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7184252 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7184252 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7518457 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7518457 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7518457 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7845349 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7845349 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.7845349 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8175570 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8175570 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8175570 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8519325 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8519325 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8519325 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8858089 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8858089 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.8858089 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9177547 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9177547 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9177547 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9522817 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9522817 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9522817 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9886812 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9886812 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:28.9886812 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0195398 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0195398 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0195398 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0528334 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0528334 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0528334 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0864439 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0864439 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.0864439 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1196314 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1196314 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1196314 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1527377 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1527377 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1527377 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1857196 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1857196 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.1857196 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2199852 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2199852 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2199852 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2523536 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2523536 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2523536 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2859891 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2859891 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.2859891 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3187733 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3187733 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3187733 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3519436 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3519436 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3519436 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3866719 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3866719 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.3866719 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.4221386 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.4221386 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.4221386 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.4523339 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.4523339 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:29.4523339 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1123696 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1123696 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1123696 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1123696 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1123696 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1123696 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1123696 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1476191 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1476191 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1476191 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1476191 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1476191 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1476191 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1476191 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1793797 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1793797 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1793797 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1793797 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1793797 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1793797 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:32:31.1793797 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3363603 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3363603 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3363603 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3363603 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3363603 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3363603 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3363603 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.3682984 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.4016033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.4016033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:12.4016033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:17.1392288 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:17.1392288 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:17.1392288 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:17.1538917 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:17.1538917 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:23.8554156 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: False, usedPremium: NORMAL
+I 07:33:23.8554156 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:23.8554156 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:23.8554156 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:23.8554156 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:23.8688699 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:23.8688699 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:24.9366037 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:24.9366037 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:25.0534275 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:25.0534275 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:26.2129472 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:26.2129472 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:31.1881469 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:31.1881469 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:31.1881469 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:31.2023169 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:31.2023169 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:34.4027843 GetPortraitTexture Null asset path for CardDef: DINO_411(Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:33:35.9873587 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:35.9873587 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:35.9873587 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:36.0022455 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:36.0022455 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:42.5907347 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:42.5907347 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:42.5907347 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:42.6056025 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:42.6056025 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:48.1428371 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: False, usedPremium: NORMAL
+I 07:33:48.1428371 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:48.1428371 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:48.1428371 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:48.1428371 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:48.1564106 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:48.1564106 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:49.2231282 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:49.2231282 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:49.3731299 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:49.3731299 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:50.4904261 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:50.4904261 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:50.4904261 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:50.4904261 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:58.4408962 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:58.4408962 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:58.4408962 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:58.4526569 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:33:58.4526569 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:07.6403877 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: False, usedPremium: NORMAL
+I 07:34:07.6403877 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:07.6403877 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:07.6403877 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:07.6403877 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:07.6537690 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:07.6537690 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:08.7208673 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:08.7208673 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:08.8716152 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:08.8716152 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:09.9887640 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:09.9887640 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+W 07:34:21.5760071 Card_Hand_Ability_CardsCostCorpses(Clone) (Spell).BuildFsmStateMap() - SpellStateType IDLE is missing a SpellStateAction.
+I 07:34:31.5818386 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:31.5818386 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:31.5818386 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:31.5940254 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:34:31.5940254 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:04.5831352 GetPortraitTexture Null asset path for CardDef: CORE_CS1_130(Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+W 07:35:20.7516048 Card_Hand_Ability_CardsCostCorpses(Clone) (Spell).BuildFsmStateMap() - SpellStateType IDLE is missing a SpellStateAction.
+W 07:35:25.4359522 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.4517096 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.4678705 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.4850398 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.5009122 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.5174040 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.5342226 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.5507457 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.5674133 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.5846476 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.6014725 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.6176650 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.6347693 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.6508470 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.6674536 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.6845637 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.7010716 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.7183828 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.7341965 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.7509142 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.7685382 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.7850074 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.8018459 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.8180852 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.8348348 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.8510009 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.8674675 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.8841479 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.9016917 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.9174793 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.9346836 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.9513356 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.9674792 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:25.9842100 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.0004559 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.0184299 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.0341888 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.0510576 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.0682022 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.0841070 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.1016605 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.1175128 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.1339174 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.1517551 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.1680738 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.1858930 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.2018796 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.2192009 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.2361260 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.2520489 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.2684890 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.2859259 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.3025468 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.3185425 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.3356687 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.3525416 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.3694251 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.3862449 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.4025669 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.4190496 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.4357189 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.4521761 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.4681848 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.4856690 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.5028543 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.5188957 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.5359447 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.5532438 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.5684826 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.5862620 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.6026495 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.6189499 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.6358584 The AnimationClip 'Taunt_Signature_Evergreen_Destroyed_Anim 1' used by the Animation component 'Taunt_Signature_Evergreen_Shield_Destroyed_Model' must be marked as Legacy.
+W 07:35:26.9543798 ParticlePlayAction.OnEnter() - ReuseFX_ShadowSpirit_Rise_Impact(Clone) (UnityEngine.GameObject) has no ParticleSystem component. Owner=ReuseFX_ShadowSpirit_Rise_Impact(Clone) (UnityEngine.GameObject)
+I 07:35:28.7456320 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:28.7456320 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:28.7456320 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:28.7593771 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:28.7593771 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:38.7915680 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:38.7915680 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:38.7915680 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:38.8068714 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:38.8068714 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:42.8487683 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:42.8487683 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:42.8487683 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:42.8625281 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:42.8625281 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:43.6836030 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:43.6836030 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:43.6836030 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:44.6316051 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:44.6316051 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:44.6316051 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:44.6316051 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:44.6316051 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:35:44.6316051 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:00.7562131 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:00.7562131 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:00.7562131 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:00.7700325 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:00.7700325 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:08.2188189 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:08.2188189 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:08.2188189 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:08.2318678 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:08.2318678 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:20.3405795 GetPortraitTexture Null asset path for CardDef: CORE_EX1_197(Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:36:22.1446418 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:22.1446418 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:22.1446418 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:22.1590906 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:22.1590906 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:47.4283891 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:47.4283891 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:47.4283891 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:47.4420349 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:36:47.4420349 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+W 07:37:08.7356964 ParticlePlayAction.OnEnter() - ReuseFX_ShadowSpirit_Rise_Impact(Clone) (UnityEngine.GameObject) has no ParticleSystem component. Owner=ReuseFX_ShadowSpirit_Rise_Impact(Clone) (UnityEngine.GameObject)
+I 07:37:10.5741747 GetPortraitTexture Null asset path for CardDef: EDR_449p (Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:11.6888033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:13.5469928 GetPortraitTexture Null asset path for CardDef: BE_223(Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:37:27.0659123 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:27.0659123 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:27.0659123 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:27.0793912 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:27.0793912 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:41.7674226 GetPortraitTexture Null asset path for CardDef: EDR_449p (Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:37:42.8832834 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:38:18.0319512 GetPortraitTexture Null asset path for CardDef: JAIL_913(Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:38:36.5904409 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:38:36.5904409 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:38:36.5904409 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:38:36.6042992 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:38:36.6042992 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:14.1763524 GetPortraitTexture Null asset path for CardDef: EDR_449p (Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:15.2916251 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:22.3318579 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:22.3318579 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:22.3318579 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:22.3318579 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:22.3318579 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:22.3318579 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:39:22.3318579 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+W 07:39:28.0036432 ASSEMBLEFX_Assembled_Intro_NEW (Spell).BuildFsmStateMap() - SpellStateType DEATH is missing a SpellStateAction.
+W 07:39:28.4544051 Button_FloatyButton (Spell).BuildFsmStateMap() - SpellStateType ACTION is missing a SpellStateAction.
+W 07:39:28.4544051 Button_FloatyButton (Spell).BuildFsmStateMap() - SpellStateType DEATH is missing a SpellStateAction.
+W 07:39:30.3570919 ASSEMBLEFX_AssembleButton_ClickBurst (Spell).BuildFsmStateMap() - SpellStateType ACTION is missing a SpellStateAction.
+I 07:39:58.9725730 [GameNetLogger] Network.DisconnectFromGameServer() - Reason: EndGameScreen 
+I 07:39:58.9725730 [GameNetLogger] Network.OnGameServerDisconnectEvent() - Disconnected from game server with BNet error: ERROR_OK socket error: Success, Message: 
+I 07:39:58.9725730 Hiding notification HelpTooltip_Tutorial because something else is being shown.
+I 07:40:02.9169890 RegisterScreenBox tempGuardianVars=NetCache+NetCacheFeatures
+I 07:40:02.9773973 [Spj] JournalButton: Created and bound journal metadata to the button widget.
+I 07:40:06.7019915 [GameNetLogger] GameMgr.ChangeFindGameState() - state: CLIENT_STARTED, previous state: INVALID
+I 07:40:06.8518035 [GameNetLogger] GameMgr.ChangeFindGameState() - state: BNET_QUEUE_DELAYED, previous state: CLIENT_STARTED
+I 07:40:10.4601479 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_CONNECTING, previous state: BNET_QUEUE_DELAYED
+I 07:40:10.4601479 [GameNetLogger] Network.GotoGameServe() - gameConnectionDisconnected True, IsRestoringGameState: False
+I 07:40:10.4601479 [GameNetLogger] Network.GotoGameServe() - address= 47.98.150.36:3724, game=631901, client=139231576, spectateKey=fjMChI reconnecting=False
+I 07:40:10.4601479 TcpConnection - possible ip address: 47.98.150.36
+I 07:40:15.0659235 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with error code ERROR_OK
+I 07:40:15.0659235 [GameNetLogger] Network.OnGameServerConnectEvent() - Connected to game server with socket error: Success, Message: Client: Connected
+I 07:40:15.0659235 [GameNetLogger] Network.SendGameServerHandshake()
+I 07:40:15.3011879 [GameNetLogger] GameMgr.OnGameSetup()
+I 07:40:15.3011879 [GameNetLogger] GameMgr.ChangeFindGameState() - state: SERVER_GAME_STARTED, previous state: SERVER_GAME_CONNECTING
+I 07:40:15.3011879 SERVER_GAME_STARTED event - Loading Gameplay Scene
+I 07:40:15.3011879 [GameNetLogger] GameMgr.ChangeFindGameState() - state: INVALID, previous state: SERVER_GAME_STARTED
+I 07:40:15.3532076 Gameplay.Awake() - CurrentMode=GAMEPLAY, PrevMode=TOURNAMENT
+I 07:40:16.0133395 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0133395 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0133395 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0469899 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0469899 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0469899 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0777656 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0777656 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.0777656 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1104705 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1104705 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1104705 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1467033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1467033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1467033 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1843300 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1843300 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.1843300 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2125506 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2125506 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2125506 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2460029 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2460029 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2460029 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2795010 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2795010 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.2795010 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3140606 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3140606 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3140606 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3467941 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3467941 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3467941 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3787991 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3787991 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.3787991 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4134769 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4134769 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4134769 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4459216 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4459216 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4459216 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4807273 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4807273 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.4807273 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5146154 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5146154 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5146154 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5463905 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5463905 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5463905 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5808272 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5808272 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.5808272 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6164508 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6164508 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6164508 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6473062 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6473062 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6473062 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6920239 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6920239 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.6920239 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7143279 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7143279 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7143279 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7466959 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7466959 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7466959 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7804018 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7804018 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.7804018 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8135628 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8135628 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8135628 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8462226 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8462226 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8462226 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8801470 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8801470 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.8801470 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9136476 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9136476 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9136476 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9468717 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9468717 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9468717 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9803661 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9803661 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:16.9803661 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0142645 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0142645 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0142645 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0504774 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0504774 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0504774 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0815083 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0815083 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.0815083 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1141619 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1141619 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1141619 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1480665 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1480665 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1480665 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1811934 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1811934 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.1811934 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2138773 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2138773 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2138773 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2475913 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2475913 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2475913 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2817974 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2817974 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.2817974 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3138677 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3138677 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3138677 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3469734 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3469734 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3469734 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3805221 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3805221 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.3805221 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4144389 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4144389 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4144389 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4468677 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4468677 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4468677 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4851308 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4851308 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.4851308 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5143945 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5143945 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5143945 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5481900 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5481900 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5481900 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5811457 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5811457 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.5811457 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6153537 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6153537 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6153537 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6486237 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6486237 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6486237 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6812649 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6812649 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.6812649 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7141675 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7141675 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7141675 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7477382 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7477382 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7477382 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7819824 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7819824 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.7819824 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8142927 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8142927 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8142927 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8488328 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8488328 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8488328 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8812687 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8812687 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.8812687 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9175145 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9175145 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9175145 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9484842 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9484842 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9484842 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9814802 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9814802 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:17.9814802 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5480265 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5480265 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5480265 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5480265 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5480265 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5480265 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5480265 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5816200 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5816200 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5816200 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5816200 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5816200 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5816200 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.5816200 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.6151948 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.6151948 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.6151948 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.6151948 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.6151948 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.6151948 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:19.6151948 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8119828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8119828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8119828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8119828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8119828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8119828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8119828 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8433175 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8433175 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:42.8433175 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:52.3398469 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:52.3398469 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:52.3398469 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:52.3546732 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:40:52.3546732 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:00.9524089 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:00.9524089 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:00.9524089 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:00.9660383 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:00.9660383 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:06.0269745 GetPortraitTexture Null asset path for CardDef: DINO_411(Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:41:07.6628141 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:07.6628141 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:07.6628141 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:07.6768388 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:07.6768388 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:15.8619002 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:15.8619002 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:15.8619002 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:15.8745569 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:15.8745569 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:25.9881713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: False, usedPremium: NORMAL
+I 07:41:25.9881713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:25.9881713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:25.9881713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:25.9881713 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:26.0020304 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:26.0020304 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:27.0700897 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:27.0700897 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:27.2210771 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:27.2210771 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:28.3394842 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:28.3394842 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:28.3394842 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:28.3394842 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:39.7742890 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:39.7742890 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:39.7742890 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:39.7881421 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:39.7881421 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:47.6337688 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:47.6337688 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:47.6337688 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:47.6468196 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:41:47.6468196 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+W 07:42:05.1756660 ASSEMBLEFX_Assembled_Intro_NEW (Spell).BuildFsmStateMap() - SpellStateType DEATH is missing a SpellStateAction.
+W 07:42:05.6505012 Button_FloatyButton (Spell).BuildFsmStateMap() - SpellStateType ACTION is missing a SpellStateAction.
+W 07:42:05.6505012 Button_FloatyButton (Spell).BuildFsmStateMap() - SpellStateType DEATH is missing a SpellStateAction.
+W 07:42:07.4846350 ASSEMBLEFX_AssembleButton_ClickBurst (Spell).BuildFsmStateMap() - SpellStateType ACTION is missing a SpellStateAction.
+I 07:42:11.5859268 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:11.5859268 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:11.5859268 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:11.5985280 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:11.5985280 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:24.4356053 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:24.4356053 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:24.4356053 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:24.4496066 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:24.4496066 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:28.9259165 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:28.9259165 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:28.9259165 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:28.9407695 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:28.9407695 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:52.1318343 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:52.1318343 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:52.1318343 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:52.1459270 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:52.1459270 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.6983083 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.6983083 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.6983083 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.9116752 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.9116752 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.9116752 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.9116752 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.9116752 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:42:53.9116752 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:04.7410965 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:04.7410965 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:04.7410965 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:04.7542494 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:04.7542494 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:21.2124242 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:21.2124242 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:21.2124242 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:21.2276667 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:21.2276667 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+W 07:43:22.7284537 Card_Hand_Ability_CardsCostCorpses(Clone) (Spell).BuildFsmStateMap() - SpellStateType IDLE is missing a SpellStateAction.
+I 07:43:41.3320936 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3320936 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3320936 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3466138 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3466138 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3466138 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3466138 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3660600 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3660600 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:41.3660600 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:43.1321565 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:43.1321565 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:43.1321565 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:43.1321565 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:43.1321565 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:43:43.1321565 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:44:01.7321176 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:44:01.7321176 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:44:01.7321176 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:44:01.7443508 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:44:01.7443508 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:44:30.4243220 GetPortraitTexture Null asset path for CardDef: CORE_RLK_712(Clone), premium level: GOLDEN, fallbackToLowerClass: False, usedPremium: GOLDEN
+I 07:45:10.1708379 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.1708379 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.1708379 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.1846870 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.1846870 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.1846870 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.1846870 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.2049663 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.2049663 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:10.2049663 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:11.9720963 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:11.9720963 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:11.9720963 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:11.9720963 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:11.9720963 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:11.9720963 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:25.4781339 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:25.4781339 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:25.4781339 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:25.4921092 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+I 07:45:25.4921092 GetPortraitTexture Null asset path for CardDef: HiddenCard (Clone), premium level: NORMAL, fallbackToLowerClass: True, usedPremium: NORMAL
+E 07:45:36.4809767 Releasing render texture that is set as Camera.targetTexture!
