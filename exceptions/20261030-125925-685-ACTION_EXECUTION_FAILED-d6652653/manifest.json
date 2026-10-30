@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.21.0",
+  "eventName": "ACTION_EXECUTION_FAILED",
+  "timestampUtc": "2026-10-30T04:59:25.6858664+00:00",
+  "summary": "[\u5931\u8D25]  \u6253\u51FA [2]\u5E78\u8FD0\u5E01 \u2718 \u539F\u56E0=\u7089\u77F3\u672A\u5F00\u59CB\u6267\u884C\u539F\u751F\u64CD\u4F5C\uFF0C\u672C\u6B21\u64CD\u4F5C\u5DF2\u505C\u6B62",
+  "technicalDetail": "native_input_not_started: phase=grab_precheck; previousReadinessCheck=client_input_not_ready; actionKind=play_card; sourceEntity=72; targetEntity=0; targetModeSource=not_checked; immediateTargetModeEntered=False; heldPointerHitBattlefield=not_checked; nativeSideEffectStarted=False; timing=none; client_input_not_ready; readinessCheck=client_input_not_ready; gameOverNowOrPending=False; friendlyPreGameOverPlayState=INVALID; opposingPreGameOverPlayState=INVALID; nativeChoice=not_observed; nativeChoiceReceipt=not_observed; bridgeMvid=ea33aa64-981f-4e17-a278-65f8179f5a94; clientMvid=fca79a63-f7c9-4b6d-a204-d19f1c7a6d7f; nativeSideEffectStarted=false; cleanupStatus=completed; recommendationHash=FDA5DB05EBA8C4C6861B8E20B7A9A836C65E51BBB614F7FFECC6BA883867F4EA; snapshotRevision=2371; action={\u0022Kind\u0022:\u0022play_card\u0022,\u0022SourceEntityId\u0022:72,\u0022TargetEntityId\u0022:null,\u0022Position\u0022:null,\u0022SourceCardName\u0022:\u0022\\u5E78\\u8FD0\\u5E01\u0022,\u0022SourceCardId\u0022:\u0022REV_COIN2\u0022,\u0022TargetCardName\u0022:\u0022\u0022,\u0022TargetCardId\u0022:\u0022\u0022,\u0022SourcePosition\u0022:2,\u0022TargetPosition\u0022:null,\u0022SourceZone\u0022:\u0022HAND\u0022,\u0022TargetZone\u0022:\u0022\u0022,\u0022SourceCardType\u0022:\u0022SPELL\u0022,\u0022TargetCardType\u0022:\u0022\u0022,\u0022SubOptionIndex\u0022:null,\u0022SubOptionEntityId\u0022:null,\u0022SubOptionCardId\u0022:\u0022\u0022,\u0022SubOptionPosition\u0022:null,\u0022TargetSnapshotPosition\u0022:null,\u0022SubOptionCardName\u0022:null,\u0022ChoiceId\u0022:null,\u0022ChosenEntityIds\u0022:null,\u0022IsMagnetic\u0022:false}; automationEpoch=795e71d3-6a19-49d3-9997-383c5aa01859; actionElapsedMs=213; gameEpoch=5a678ffd-0637-46a0-8c61-2228af298067; stableReason=native_input_not_started",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\zhaof\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261030-125159-324.log",
+    "originalBytes": 3121028,
+    "offset": 2596740,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 16,
+    "truncated": true
+  },
+  "processId": 27636,
+  "sessionId": "0c3adf56-cefb-4928-b5e9-24e24e061993",
+  "gameEpoch": "5a678ffd-0637-46a0-8c61-2228af298067",
+  "automationEpoch": "795e71d3-6a19-49d3-9997-383c5aa01859",
+  "eventPayload": {
+    "kind": "play_card",
+    "sourceEntityId": 72,
+    "targetEntityId": null,
+    "position": null,
+    "sourceCardName": "\u5E78\u8FD0\u5E01",
+    "sourceCardId": "REV_COIN2",
+    "targetCardName": "",
+    "targetCardId": "",
+    "sourcePosition": 2,
+    "targetPosition": null,
+    "sourceZone": "HAND",
+    "targetZone": "",
+    "sourceCardType": "SPELL",
+    "targetCardType": "",
+    "subOptionIndex": null,
+    "subOptionEntityId": null,
+    "subOptionCardId": "",
+    "subOptionPosition": null,
+    "targetSnapshotPosition": null,
+    "subOptionCardName": null,
+    "choiceId": null,
+    "chosenEntityIds": null,
+    "isMagnetic": false
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": 6,
+  "actionId": 58,
+  "runtimeState": {
+    "battleTag": "\u796D\u9152#51543",
+    "turn": 6,
+    "actionId": 58,
+    "processId": 27636,
+    "sessionId": "0c3adf56-cefb-4928-b5e9-24e24e061993",
+    "gameEpoch": "5a678ffd-0637-46a0-8c61-2228af298067",
+    "automationEpoch": "795e71d3-6a19-49d3-9997-383c5aa01859",
+    "matchmakingRequestId": "136d4d3e-1b60-4eee-b92c-63409142d98b-postgame-1",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "18567073904",
+    "accountLabel": "5127895117160009119",
+    "currentRank": "\u94BB\u77F39[9]-1\u2605 \u00B7 \u00D71",
+    "gameMode": "wild",
+    "deckId": 9562104063,
+    "deckName": "\u6069\u4F50\u65AF\u8D3C",
+    "deckCode": "AAEBAau2BwTw5gLj0wSI2QeF6wcN7QL1uwLn3QP\u002B7gP/7gO9gAT3nwS3swT13QTungatpwbBlweD1QcAAA==",
+    "deckHeroClass": "ROGUE",
+    "opponentClass": "DEMONHUNTER"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 495963,
+      "sha256": "2043f502b6503f047f85f3c89fa9d21af12d5c70b5ec7332d074176470732565"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 199796,
+      "sha256": "430e0e17431d1a468e485a2a3389d03b0bb7f32a99af6df3584d9fac419c5217"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 1413290,
+      "sha256": "bf96b9ad7371f28968cda2ef34e521fbda566749cd6fa8cbebc4cc4ffcff4940"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=27636"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
