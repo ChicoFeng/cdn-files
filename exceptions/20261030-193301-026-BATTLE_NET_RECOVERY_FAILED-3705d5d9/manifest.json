@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.22.0",
+  "eventName": "BATTLE_NET_RECOVERY_FAILED",
+  "timestampUtc": "2026-10-30T11:33:01.0260791+00:00",
+  "summary": "[\u9519\u8BEF]  \u6218\u7F51\u6062\u590D\u5931\u8D25\uFF0C\u81EA\u52A8\u64CD\u4F5C\u5DF2\u505C\u6B62\uFF1A\u5C1A\u672A\u786E\u8BA4\u9700\u8981\u6062\u590D\u7684\u7089\u77F3\u8D26\u53F7\uFF0C\u8BF7\u5728 HP \u4E2D\u6388\u6743\u5E76\u8FDB\u5165\u4E00\u6B21\u7089\u77F3",
+  "technicalDetail": "{\u0022code\u0022:\u0022battlenet_recovery_failed\u0022,\u0022recoveryId\u0022:\u0022abe0fc22-3173-42bd-992f-b635ace73cc9\u0022,\u0022evidence\u0022:null,\u0022exception\u0022:\u0022HSLaunch.Mvp.HearthstoneLoginRequiredException: \\u5C1A\\u672A\\u786E\\u8BA4\\u9700\\u8981\\u6062\\u590D\\u7684\\u7089\\u77F3\\u8D26\\u53F7\\uFF0C\\u8BF7\\u5728 HP \\u4E2D\\u6388\\u6743\\u5E76\\u8FDB\\u5165\\u4E00\\u6B21\\u7089\\u77F3\\u3002\\r\\n   at HSLaunch.Mvp.Program.\\u003C\\u003Ec__DisplayClass6_2.\\u003C\\u003CRunLiveSupervisorAsync\\u003Eb__5\\u003Ed.MoveNext()\\r\\n--- End of stack trace from previous loca\u2026",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\Administrator\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261030-150542-317.log",
+    "originalBytes": 72222635,
+    "offset": 71698347,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 16,
+    "truncated": true
+  },
+  "processId": 0,
+  "sessionId": "aef446ae-bf8f-4635-a6fd-a3b020b7718f",
+  "gameEpoch": "8a224403-a910-474f-b172-372d57bdce0b",
+  "automationEpoch": "70a3afe3-ed2d-44cd-aa5b-4cc4138f307f",
+  "eventPayload": null,
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": -1,
+  "actionId": 0,
+  "runtimeState": {
+    "battleTag": "",
+    "turn": -1,
+    "actionId": 0,
+    "processId": 0,
+    "sessionId": "aef446ae-bf8f-4635-a6fd-a3b020b7718f",
+    "gameEpoch": "8a224403-a910-474f-b172-372d57bdce0b",
+    "automationEpoch": "70a3afe3-ed2d-44cd-aa5b-4cc4138f307f",
+    "matchmakingRequestId": "ca150f3a-8742-4ad2-b46a-30ffbb4de14b-postgame-53",
+    "matchState": "NotStarted",
+    "gameResult": "",
+    "automationEnabled": false,
+    "loginAccount": "",
+    "accountLabel": "",
+    "currentRank": "",
+    "gameMode": "standard",
+    "deckId": 9561934557,
+    "deckName": "",
+    "deckCode": "",
+    "deckHeroClass": "",
+    "opponentClass": "DEATHKNIGHT"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 513009,
+      "sha256": "60c11f28b25f9a1db071077f9c410a4da63e56e9e134485e50d80eaa813a765b"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 89017,
+      "sha256": "1cab4d4ec83ca4ea85deb44571893d24f7fca1b23076c1c1c4bbf1a324da05ee"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
