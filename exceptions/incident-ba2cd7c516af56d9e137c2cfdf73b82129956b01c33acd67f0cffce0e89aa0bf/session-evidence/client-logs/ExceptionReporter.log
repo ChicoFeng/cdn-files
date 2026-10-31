@@ -1,0 +1,29 @@
+I 21:05:44.9016695 Version 2.0.5
+I 21:05:44.9016695 Trying to clean up the old screenshot files.
+I 21:05:44.9016695 Loaded exception data
+I 21:05:45.7715190 Checking the exceptions from previous launch.
+I 21:05:45.7715190 Saved exception data(Count: 0)
+I 21:23:39.8692043 Record an exception Hash 6670a41291e9cfa7b6f07c79c04b2e7416932730, ReportUUID 9886A026-9FD0-480F-BC78-FA32158D1B02
+NullReferenceException: Object reference not set to an instance of an object.
+At:
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at UnityEngine.Component.get_transform () [0x00006] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+  at ZoneHand.FocusCard (Card cardMousedOver, System.Int32 overrideCardCount) [0x00201] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout (Card cardMousedOver, System.Boolean forced, System.Int32 overrideCardCount) [0x001ec] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at ZoneHand.UpdateLayout () [0x00044] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at TurnStartManager+<RunTurnEventsWithTiming>d__48.MoveNext () [0x00154] in <fca79a63f7c94b6da204d19f1c7a6d7f>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <c6e0a581e1804079bcbc6c2914d9ea3f>:0 
+I 21:23:39.8692043 Loading assets(oldest one first):
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Collider_Standin.prefab:06f88b48f6884bf4cafbd6696a28ede4
+  Card_Hand_Ability_SummonIn.prefab:58d7bdf9c104f4c1fb04bd97e3435ebc
+Instantiating prefabs(oldest one first):
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Collider_Standin
+  Card_Hand_Ability_SummonIn
+I 21:23:39.8692043 Saved exception data(Count: 1)
+I 21:24:01.1607197 Trying to clean up the old zip files.
