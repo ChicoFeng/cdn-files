@@ -1,0 +1,10 @@
+{
+  "records": [
+    {
+      "incidentId": "7e55cafe7f0e4155964c9ab6cbea6260",
+      "request": "{\u0022type\u0022:\u0022CAPTURE_CLIENT_PROGRESS\u0022,\u0022incidentId\u0022:\u00227e55cafe7f0e4155964c9ab6cbea6260\u0022,\u0022sessionId\u0022:\u0022bc39696d-93c7-4878-9c65-e8aa0ce7f60f\u0022,\u0022gameEpoch\u0022:\u0022c66ca2f4-726c-4e2a-9700-7f9385006f9c\u0022,\u0022automationEpoch\u0022:\u0022f56851d4-78b0-4fbc-be61-4a89e69e0519\u0022,\u0022gameIdentity\u0022:\u0022e7c59b35-36fd-454b-bcc9-fcf272a4cbd5\u0022,\u0022turn\u0022:18,\u0022localPowerProgress\u0022:\u0022964:10\u0022,\u0022requestedAtUtc\u0022:\u00222026-10-31T13:25:06.0258769\u002B00:00\u0022}",
+      "outcome": "disabled",
+      "raw": "{\u0022type\u0022:\u0022CAPTURE_CLIENT_PROGRESS\u0022,\u0022incidentId\u0022:\u00227e55cafe7f0e4155964c9ab6cbea6260\u0022,\u0022sessionId\u0022:\u0022bc39696d-93c7-4878-9c65-e8aa0ce7f60f\u0022,\u0022gameEpoch\u0022:\u0022c66ca2f4-726c-4e2a-9700-7f9385006f9c\u0022,\u0022automationEpoch\u0022:\u0022f56851d4-78b0-4fbc-be61-4a89e69e0519\u0022,\u0022gameIdentity\u0022:\u0022e7c59b35-36fd-454b-bcc9-fcf272a4cbd5\u0022,\u0022turn\u0022:18,\u0022localPowerProgress\u0022:\u0022964:10\u0022,\u0022requestedAtUtc\u0022:\u00222026-10-31T13:25:06.0258769\u002B00:00\u0022}"
+    }
+  ]
+}
