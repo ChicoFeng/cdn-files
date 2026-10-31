@@ -1,0 +1,65 @@
+{
+  "byteLimitPerFile": 262144,
+  "files": [
+    {
+      "name": "client-logs/Hearthstone.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_31_21_05_42\\Hearthstone.log",
+      "captured": true,
+      "originalBytes": 994631,
+      "offset": 732487,
+      "copiedBytes": 262144,
+      "truncated": true,
+      "lastWriteTimeUtc": "2026-10-31T13:25:16.6959161Z"
+    },
+    {
+      "name": "client-logs/GameNetLogger.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_31_21_05_42\\GameNetLogger.log",
+      "captured": true,
+      "originalBytes": 6750,
+      "offset": 0,
+      "copiedBytes": 6750,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-31T13:16:39.2156903Z"
+    },
+    {
+      "name": "client-logs/Login.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_31_21_05_42\\Login.log",
+      "captured": true,
+      "originalBytes": 1901,
+      "offset": 0,
+      "copiedBytes": 1901,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-31T13:06:02.611816Z"
+    },
+    {
+      "name": "client-logs/ExceptionReporter.log",
+      "source": "D:\\Battle.net\\Hearthstone\\Logs\\Hearthstone_2026_10_31_21_05_42\\ExceptionReporter.log",
+      "captured": true,
+      "originalBytes": 2035,
+      "offset": 0,
+      "copiedBytes": 2035,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-31T13:24:01.1607197Z"
+    },
+    {
+      "name": "client-logs/Player.log",
+      "source": "C:\\Users\\MACHENIKE\\AppData\\LocalLow\\Blizzard Entertainment\\Hearthstone\\Player.log",
+      "captured": true,
+      "originalBytes": 1251090,
+      "offset": 988946,
+      "copiedBytes": 262144,
+      "truncated": true,
+      "lastWriteTimeUtc": "2026-10-31T13:25:17.3525949Z"
+    },
+    {
+      "name": "client-logs/native-bootstrap.json",
+      "source": "C:\\Users\\MACHENIKE\\Desktop\\HearthPilot\\artifacts\\logs\\bootstrap\\native-bootstrap-3096.json",
+      "captured": true,
+      "originalBytes": 1571,
+      "offset": 0,
+      "copiedBytes": 1571,
+      "truncated": false,
+      "lastWriteTimeUtc": "2026-10-31T13:05:46.9998837Z"
+    }
+  ]
+}
