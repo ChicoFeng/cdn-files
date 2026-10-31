@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.27.0",
+  "eventName": "LIVE_SESSION_ERROR",
+  "timestampUtc": "2026-10-31T13:41:57.5401422+00:00",
+  "summary": "[\u9519\u8BEF]  \u7089\u77F3\u8FDE\u63A5\u5F02\u5E38\uFF1A\u5185\u90E8\u5BF9\u8C61\u4E3A\u7A7A\uFF08System.NullReferenceException: Object reference not set to an instance of an object.\uFF09",
+  "technicalDetail": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at HSLaunch.Mvp.HearthstoneRuntimeReadiness.WaitAsync(Process process, TimeSpan timeout, CancellationToken cancellation)\r\n   at HSLaunch.Mvp.Program.WaitForHearthstoneRuntimeAsync(Process process, CancellationToken cancellation)\r\n   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func\u00602 cleanupEventSink, WindowedSize recoveryWindowSize)\r\n   at HSLaunch.Mvp.Program.RunLiveSupervisorAsync(MvpConfiguration config, Boolean autoExecute, Boolean stdinControl, TextReader controlInput, CancellationToken cancellation, Action\u00601 deferredCleanupObserver, Func\u00602 cleanupEventSink, Func\u00601 findGame, HearthstoneUpdateGuard clientUpdates, Func\u00604 launchGame, LiveSupervisorState supervisorState)",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\Administrator\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261031-195328-762.log",
+    "originalBytes": 60292,
+    "offset": 0,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 0,
+    "truncated": false
+  },
+  "processId": 2372,
+  "sessionId": "4468b3b6-1dfa-42ed-8b40-3541ebf5be7c",
+  "gameEpoch": "0905c9de-87e1-452e-9c29-a01ac513cfbb",
+  "automationEpoch": "",
+  "eventPayload": {
+    "kind": "ComponentFault",
+    "component": "attachment",
+    "code": null,
+    "normal": false,
+    "detail": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at HSLaunch.Mvp.HearthstoneRuntimeReadiness.WaitAsync(Process process, TimeSpan timeout, CancellationToken cancellation)\r\n   at HSLaunch.Mvp.Program.WaitForHearthstoneRuntimeAsync(Process process, CancellationToken cancellation)\r\n   at HSLaunch.Mvp.Program.AttachGameAsync(MvpConfiguration config, Process hearthstone, Guid sessionId, LiveSupervisorState state, String bootstrapPath, String bridgePath, String hookDllPath, CancellationToken shutdown, Func\u00602 cleanupEventSink, WindowedSize recoveryWindowSize)\r\n   at HSLaunch.Mvp.Program.RunLiveSupervisorAsync(MvpConfiguration config, Boolean autoExecute, Boolean stdinControl, TextReader controlInput, CancellationToken cancellation, Action\u00601 deferredCleanupObserver, Func\u00602 cleanupEventSink, Func\u00601 findGame, HearthstoneUpdateGuard clientUpdates, Func\u00604 launchGame, LiveSupervisorState supervisorState)",
+    "sessionEvidence": null,
+    "evidenceError": null
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": -1,
+  "actionId": 0,
+  "runtimeState": {
+    "battleTag": "",
+    "turn": -1,
+    "actionId": 0,
+    "processId": 2372,
+    "sessionId": "4468b3b6-1dfa-42ed-8b40-3541ebf5be7c",
+    "gameEpoch": "0905c9de-87e1-452e-9c29-a01ac513cfbb",
+    "automationEpoch": "",
+    "matchmakingRequestId": "",
+    "matchState": "NotStarted",
+    "gameResult": "",
+    "automationEnabled": false,
+    "loginAccount": "",
+    "accountLabel": "",
+    "currentRank": "",
+    "gameMode": "",
+    "deckId": 0,
+    "deckName": "",
+    "deckCode": "",
+    "deckHeroClass": "",
+    "opponentClass": ""
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 61529,
+      "sha256": "60797b8866262aecc8239837a70ce615c61c3b473174da72dac62cdf7513ff68"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 48512,
+      "sha256": "279018af523da0c961bdb3a08eebbe9927d6a774d845ef7df5f9b56f96ab3ff2"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": false,
+      "detail": "AggregateException: \u7089\u77F3\u539F\u751F\u622A\u56FE\u4E0E\u540E\u53F0\u7A97\u53E3\u622A\u56FE\u5747\u5931\u8D25\u3002 (System.InvalidOperationException: \u7089\u77F3\u8FDE\u63A5\u5C1A\u672A\u5C31\u7EEA\u6216\u6B63\u5728\u542F\u505C\u3002\r\n   at HSLaunch.MvpLauncher.MvpSessionController.SendScreenshotAsync(String workflow, String operation, CancellationToken cancellation, String destinationPath, Int32 expectedProcessId, String expectedGameEpoch, MvpViewState targetRankState)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.MvpSessionController.CaptureNativeScreenshotCoreAsync(Int32 processId, String path, String workflowId, CancellationToken cancellation, TimeSpan cleanupTimeout)\r\n   at HSLaunch.MvpLauncher.HearthstoneFaultScreenshotCapture.CaptureAsync(Int32 processId, String path, Func\u00602 native, CancellationToken cancellation, Nullable\u00601 nativeBudget)) (\u539F\u7089\u77F3\u8FDB\u7A0B\u6CA1\u6709\u53EF\u622A\u56FE\u7684\u7A97\u53E3\uFF0C\u53EF\u80FD\u5DF2\u7ECF\u9000\u51FA\u3002)"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
