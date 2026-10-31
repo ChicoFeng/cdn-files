@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "applicationVersion": "1.1.27.0",
+  "eventName": "ACTION_EXECUTION_FAILED",
+  "timestampUtc": "2026-10-31T13:08:45.230265+00:00",
+  "summary": "[\u5931\u8D25]  \u6253\u51FA [4]\u6D3B\u529B\u5206\u6D41 \u2718 \u539F\u56E0=\u7089\u77F3\u539F\u751F\u64CD\u4F5C\u672A\u5B8C\u6210\uFF0C\u672C\u6B21\u64CD\u4F5C\u5DF2\u505C\u6B62",
+  "technicalDetail": "native_interaction_failed: phase=drag; readinessCheck=drag_pending; actionKind=play_card; sourceEntity=63; targetEntity=0; targetModeSource=not_checked; immediateTargetModeEntered=False; heldPointerHitBattlefield=False; nativeSideEffectStarted=True; timing=none; System.InvalidOperationException: The Hearthstone pointer did not reach the native play zone.; exceptionDetail=System.InvalidOperationException: The Hearthstone pointer did not reach the native play zone.\r\n  at HSLaunch.Bridge.NativeInteractionRuntime\u002BNativeAction.UpdateHandDrag () [0x00561] in \u003Caf3e4b88f11f48e7a7e55e76417ee776\u003E:0 \r\n  at HSLaunch.Bridge.NativeInteractionRuntime\u002BNativeAction.Update () [0x00273] in \u003Caf3e4b88f11f48e7a7e55e76417ee776\u003E:0 \r\n  at HSLaunch.Bridge.NativeInteractionRuntime.UpdateCore () [0x00409] in \u003Caf3e4b88f11f48e7a7e55e76417ee776\u003E:0 ; gameOverNowOrPending=False; friendlyPreGameOverPlayState=INVALID; opposingPreGameOverPlayState=INVALID; nativeChoice=not_observed; nativeChoiceReceipt=not_observed; bridgeMvid=af3e4b88-f11f-48e7-a7e5-5e76417ee776; clientMvid=fca79a63-f7c9-4b6d-a204-d19f1c7a6d7f; nativeSideEffectStarted=true; cleanupStatus=completed; recommendationHash=8AFDCBC6D0CB46463EE76DF37C1DB7AC86EF6D9D249BF9962B0BA9C6887B46C8; snapshotRevision=67424; action={\u0022Kind\u0022:\u0022play_card\u0022,\u0022SourceEntityId\u0022:63,\u0022TargetEntityId\u0022:null,\u0022Position\u0022:null,\u0022SourceCardName\u0022:\u0022\\u6D3B\\u529B\\u5206\\u6D41\u0022,\u0022SourceCardId\u0022:\u0022CORE_RLK_712\u0022,\u0022TargetCardName\u0022:\u0022\u0022,\u0022TargetCardId\u0022:\u0022\u0022,\u0022SourcePosition\u0022:4,\u0022TargetPosition\u0022:null,\u0022SourceZone\u0022:\u0022HAND\u0022,\u0022TargetZone\u0022:\u0022\u0022,\u0022SourceCardType\u0022:\u0022SPELL\u0022,\u0022TargetCardType\u0022:\u0022\u0022,\u0022SubOptionIndex\u0022:null,\u0022SubOptionEntityId\u0022:null,\u0022SubOptionCardId\u0022:\u0022\u0022,\u0022SubOptionPosition\u0022:null,\u0022TargetSnapshotPosition\u0022:null,\u0022SubOptionCardName\u0022:null,\u0022ChoiceId\u0022:null,\u0022ChosenEntityIds\u0022:null,\u0022IsMagnetic\u0022:false}; automationEpoch=fe4bc262-d676-4f23-b6da-cbbfdbdae122; actionElapsedMs=645; gameEpoch=0f813ba7-523c-45c0-8388-551d7ebefdba; stableReason=native_interaction_failed",
+  "exceptionIncidentId": null,
+  "eventDirectory": null,
+  "captureOutcome": "completed",
+  "contextSource": {
+    "outcome": "captured",
+    "path": "C:\\Users\\zhaof\\Desktop\\HearthPilot\\artifacts\\logs\\launcher-20261031-210515-456.log",
+    "originalBytes": 679746,
+    "offset": 155458,
+    "byteLimit": 524288,
+    "lineLimit": 240,
+    "omittedLines": 7,
+    "truncated": true
+  },
+  "processId": 36032,
+  "sessionId": "a3de061f-64ab-454c-8c8f-259cf391fb78",
+  "gameEpoch": "0f813ba7-523c-45c0-8388-551d7ebefdba",
+  "automationEpoch": "fe4bc262-d676-4f23-b6da-cbbfdbdae122",
+  "eventPayload": {
+    "kind": "play_card",
+    "sourceEntityId": 63,
+    "targetEntityId": null,
+    "position": null,
+    "sourceCardName": "\u6D3B\u529B\u5206\u6D41",
+    "sourceCardId": "CORE_RLK_712",
+    "targetCardName": "",
+    "targetCardId": "",
+    "sourcePosition": 4,
+    "targetPosition": null,
+    "sourceZone": "HAND",
+    "targetZone": "",
+    "sourceCardType": "SPELL",
+    "targetCardType": "",
+    "subOptionIndex": null,
+    "subOptionEntityId": null,
+    "subOptionCardId": "",
+    "subOptionPosition": null,
+    "targetSnapshotPosition": null,
+    "subOptionCardName": null,
+    "choiceId": null,
+    "chosenEntityIds": null,
+    "isMagnetic": false
+  },
+  "eventPayloadParseError": null,
+  "eventPayloadText": null,
+  "turn": 9,
+  "actionId": 1759,
+  "runtimeState": {
+    "battleTag": "\u827A\u80FD\u4EBA\u91D1\u5E7F\u53D1#5314",
+    "turn": 9,
+    "actionId": 1759,
+    "processId": 36032,
+    "sessionId": "a3de061f-64ab-454c-8c8f-259cf391fb78",
+    "gameEpoch": "0f813ba7-523c-45c0-8388-551d7ebefdba",
+    "automationEpoch": "fe4bc262-d676-4f23-b6da-cbbfdbdae122",
+    "matchmakingRequestId": "9262cd8b-9b0a-4fa7-95fb-3cf32233cb63",
+    "matchState": "InProgress",
+    "gameResult": "",
+    "automationEnabled": true,
+    "loginAccount": "13422336196",
+    "accountLabel": "",
+    "currentRank": "\u4F20\u8BF4 - \u6392\u540D 68055",
+    "gameMode": "standard",
+    "deckId": 9560605643,
+    "deckName": "\u6C61\u624BDK ",
+    "deckCode": "AAECAYPPBgaH9gTgnQefngeHvwfa1wf7\u002BwcM054G1\u002BUG2eUGl4IHupUH7awH4rEHk78Hm8UHtNoHhfwHpIEIAAA=",
+    "deckHeroClass": "DEATHKNIGHT",
+    "opponentClass": "DEMONHUNTER"
+  },
+  "inventoryScope": "initial_capture; later related records are immutable files under events/",
+  "files": [
+    {
+      "name": "context.log",
+      "bytes": 512519,
+      "sha256": "2244636f93d13e347aa98ca9778d87b7c7edba524945a07a0790b02be040da3d"
+    },
+    {
+      "name": "hearthpilot.png",
+      "bytes": 186530,
+      "sha256": "883e703c3e35d10fc353846bde90cdb94b6a6cd45bddc8dcefef78c9ce396748"
+    },
+    {
+      "name": "hearthstone.png",
+      "bytes": 1303791,
+      "sha256": "6acae5b5344d1f8260906f62b345fc9a169e765bac5ac8424bcd86a66976c4aa"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "hearthstone.png",
+      "captured": true,
+      "detail": "pid=36032"
+    },
+    {
+      "name": "box.png",
+      "captured": false,
+      "detail": "InvalidOperationException: \u672A\u627E\u5230\u53EF\u622A\u56FE\u7684\u8FDB\u7A0B\u7A97\u53E3"
+    },
+    {
+      "name": "hearthpilot.png",
+      "captured": true,
+      "detail": "\u7A97\u53E3\u53E5\u67C4\u4E0D\u53EF\u7528"
+    }
+  ],
+  "diagnostics": []
+}
